@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://xml.kishou.go.jp/jmaxml1/" xmlns:jmx="http://xml.kishou.go.jp/jmaxml1/">
+  <Control>
+    <Title>指定河川洪水予報</Title>
+    <DateTime>2025-11-02T06:31:23Z</DateTime>
+    <Status>通常</Status>
+    <EditorialOffice>網走地方気象台</EditorialOffice>
+    <PublishingOffice>網走開発建設部 網走地方気象台</PublishingOffice>
+  </Control>
+  <Head xmlns="http://xml.kishou.go.jp/jmaxml1/informationBasis1/">
+    <Title>常呂川レベル２氾濫注意報解除</Title>
+    <ReportDateTime>2025-11-02T15:30:00+09:00</ReportDateTime>
+    <TargetDateTime>2025-11-02T15:30:00+09:00</TargetDateTime>
+    <EventID>810111000100</EventID>
+    <InfoType>発表</InfoType>
+    <Serial>2</Serial>
+    <InfoKind>指定河川洪水予報</InfoKind>
+    <InfoKindVersion>1.1_1</InfoKindVersion>
+    <Headline>
+      <Text>〔解除〕常呂川では、氾濫注意水位を下回る</Text>
+      <Information type="指定河川洪水予報（予報区域）">
+        <Item>
+          <Kind>
+            <Name>レベル２氾濫注意報解除</Name>
+            <Code>10</Code>
+            <Condition>レベル２氾濫注意報解除</Condition>
+          </Kind>
+          <Areas codeType="指定河川洪水予報（予報区域）">
+            <Area>
+              <Name>常呂川</Name>
+              <Code>810111000100</Code>
+            </Area>
+          </Areas>
+        </Item>
+      </Information>
+      <Information type="指定河川洪水予報（河川）">
+        <Item>
+          <Kind>
+            <Name>レベル２氾濫注意報解除</Name>
+            <Code>10</Code>
+            <Condition>レベル２氾濫注意報解除</Condition>
+          </Kind>
+          <Areas codeType="河川">
+            <Area>
+              <Name>常呂川</Name>
+              <Code>8101110001</Code>
+            </Area>
+          </Areas>
+        </Item>
+      </Information>
+      <Information type="指定河川洪水予報（府県予報区等）">
+        <Item>
+          <Kind>
+            <Name>レベル２氾濫注意報解除</Name>
+            <Code>10</Code>
+            <Condition>レベル２氾濫注意報解除</Condition>
+          </Kind>
+          <Areas codeType="気象情報／府県予報区・細分区域等">
+            <Area>
+              <Name>網走・北見・紋別地方</Name>
+              <Code>013000</Code>
+            </Area>
+          </Areas>
+        </Item>
+      </Information>
+    </Headline>
+  </Head>
+  <Body xmlns="http://xml.kishou.go.jp/jmaxml1/body/meteorology1/" xmlns:jmx_eb="http://xml.kishou.go.jp/jmaxml1/elementBasis1/">
+    <Notice>この電文はテストサンプルです。</Notice>
+    <Warning type="指定河川洪水予報">
+      <Item>
+        <Kind>
+          <Property>
+            <Type>主文</Type>
+            <Text>常呂川の上川沿基準観測所（北見市）では、「氾濫注意水位」を下回りました。</Text>
+          </Property>
+        </Kind>
+        <Areas codeType="河川">
+          <Area>
+            <Name>常呂川</Name>
+            <Code>8101110001</Code>
+          </Area>
+        </Areas>
+        <Stations>
+          <Station>
+            <Name>上川沿</Name>
+            <Code type="水位観測所">81011100010000016</Code>
+            <Location>北見市</Location>
+          </Station>
+        </Stations>
+      </Item>
+      <Item>
+        <Kind>
+          <Name>浸水想定地区</Name>
+          <Code>1</Code>
+          <Status>対象地域</Status>
+          <Property>
+            <Type>浸水想定地区</Type>
+            <Text>氾濫による浸水が想定される地区※</Text>
+          </Property>
+        </Kind>
+        <Areas>
+          <Area codeType="水位観測所">
+            <Name>置戸</Name>
+            <Code>81011100010000013</Code>
+            <Prefecture>北海道</Prefecture>
+            <PrefectureCode>01000</PrefectureCode>
+            <City>訓子府町</City>
+            <CityCode>0154900</CityCode>
+            <SubCityList>旭町 栄町 字高園 字実郷 字清住 字西富 字日出 字穂波 字豊坂 字緑丘 若富町 若葉町 西幸町 大町 仲町 東幸町 東町 末広町</SubCityList>
+          </Area>
+          <Area codeType="水位観測所">
+            <Name>置戸</Name>
+            <Code>81011100010000013</Code>
+            <Prefecture>北海道</Prefecture>
+            <PrefectureCode>01000</PrefectureCode>
+            <City>置戸町</City>
+            <CityCode>0155000</CityCode>
+            <SubCityList>境野 常盤 川南 拓殖 置戸 中里 豊住 北光</SubCityList>
+          </Area>
+          <Area codeType="水位観測所">
+            <Name>置戸</Name>
+            <Code>81011100010000013</Code>
+            <Prefecture>北海道</Prefecture>
+            <PrefectureCode>01000</PrefectureCode>
+            <City>北見市</City>
+            <CityCode>0120800</CityCode>
+            <SubCityList>花園町 開盛 錦町 光葉町 広郷町 広明町 字大谷 上ところ 常川 新生町 川沿町 豊地 北央町 北光 北上 末広町 無加川町</SubCityList>
+          </Area>
+          <Area codeType="水位観測所">
+            <Name>北見</Name>
+            <Code>81011100010000014</Code>
+            <Prefecture>北海道</Prefecture>
+            <PrefectureCode>01000</PrefectureCode>
+            <City>北見市</City>
+            <CityCode>0120800</CityCode>
+            <SubCityList>とん田西町 とん田東町 ひかり野1丁目 ひかり野2丁目 ひかり野3丁目 ひかり野4丁目 ひかり野5丁目 ひかり野6丁目 ひかり野7丁目 ひかり野8丁目 光西町 桜町3丁目 桜町4丁目 桜町5丁目 桜町6丁目 桜町7丁目 春光町3丁目 春光町4丁目 春光町5丁目 春光町6丁目 春光町7丁目 小泉 常盤町1丁目 常盤町4丁目 常盤町5丁目 常盤町6丁目 清月町 川向 川東 泉町4丁目 端野 端野一区 端野三区 端野二区 中ノ島町1丁目 中ノ島町2丁目 中ノ島町3丁目 中ノ島町4丁目 忠志 朝日町 田端町 南仲町3丁目 南町1丁目 南町2丁目 南町3丁目</SubCityList>
+          </Area>
+          <Area codeType="水位観測所">
+            <Name>上川沿</Name>
+            <Code>81011100010000016</Code>
+            <Prefecture>北海道</Prefecture>
+            <PrefectureCode>01000</PrefectureCode>
+            <City>北見市</City>
+            <CityCode>0120800</CityCode>
+            <SubCityList>栄町 開進町 字栄浦 字岐阜 字共立 字日吉 字富丘 字福山 字豊川 西町 端野一区 中央町 忠志 土佐 南町 弁天 北進町 本通 末広</SubCityList>
+          </Area>
+        </Areas>
+      </Item>
+    </Warning>
+    <MeteorologicalInfos type="雨量情報">
+      <MeteorologicalInfo>
+        <DateTime>2025-11-02T14:50:00+09:00</DateTime>
+        <Item>
+          <Kind>
+            <Name>雨量</Name>
+            <Property>
+              <Type>雨量</Type>
+              <Text>現在、雨はやんでいます。</Text>
+            </Property>
+          </Kind>
+        </Item>
+      </MeteorologicalInfo>
+      <TimeSeriesInfo>
+        <TimeDefines>
+          <TimeDefine timeId="1">
+            <DateTime>2025-11-01T02:00:00+09:00</DateTime>
+            <Duration>PT36H50M</Duration>
+            <Name>１日２時００分から２日１４時５０分までの流域平均雨量</Name>
+          </TimeDefine>
+          <TimeDefine timeId="2">
+            <DateTime>2025-11-02T14:50:00+09:00</DateTime>
+            <Duration>PT3H</Duration>
+            <Name>２日１４時５０分から２日１７時５０分までの流域平均雨量の見込み</Name>
+          </TimeDefine>
+        </TimeDefines>
+        <Item>
+          <Kind>
+            <Name>雨量</Name>
+            <Property>
+              <Type>雨量</Type>
+              <PrecipitationPart>
+                <jmx_eb:Precipitation type="流域平均雨量" unit="ミリ" refID="1">70</jmx_eb:Precipitation>
+                <jmx_eb:Precipitation type="流域平均雨量" unit="ミリ" refID="2">0</jmx_eb:Precipitation>
+              </PrecipitationPart>
+            </Property>
+          </Kind>
+          <Area>
+            <Name>常呂川流域</Name>
+          </Area>
+        </Item>
+      </TimeSeriesInfo>
+    </MeteorologicalInfos>
+    <MeteorologicalInfos type="水位・流量情報">
+      <TimeSeriesInfo>
+        <TimeDefines>
+          <TimeDefine timeId="1">
+            <DateTime>2025-11-02T14:50:00+09:00</DateTime>
+            <Name>現況</Name>
+          </TimeDefine>
+          <TimeDefine timeId="2">
+            <DateTime>2025-11-02T15:50:00+09:00</DateTime>
+            <Name>１時間後</Name>
+          </TimeDefine>
+          <TimeDefine timeId="3">
+            <DateTime>2025-11-02T16:50:00+09:00</DateTime>
+            <Name>２時間後</Name>
+          </TimeDefine>
+          <TimeDefine timeId="4">
+            <DateTime>2025-11-02T17:50:00+09:00</DateTime>
+            <Name>３時間後</Name>
+          </TimeDefine>
+          <TimeDefine timeId="5">
+            <DateTime>2025-11-02T18:50:00+09:00</DateTime>
+            <Name>４時間後</Name>
+          </TimeDefine>
+          <TimeDefine timeId="6">
+            <DateTime>2025-11-02T19:50:00+09:00</DateTime>
+            <Name>５時間後</Name>
+          </TimeDefine>
+          <TimeDefine timeId="7">
+            <DateTime>2025-11-02T20:50:00+09:00</DateTime>
+            <Name>６時間後</Name>
+          </TimeDefine>
+        </TimeDefines>
+        <Item>
+          <Kind>
+            <Name>水位</Name>
+            <Property>
+              <Type>水位</Type>
+              <WaterLevelPart>
+                <jmx_eb:WaterLevel type="水位" refID="1" unit="m" condition="正常">210.98</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="レベル" refID="1">0</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="水位" refID="2" unit="m" condition="正常">210.92</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="レベル" refID="2">0</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="水位" refID="3" unit="m" condition="正常">210.86</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="レベル" refID="3">0</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="水位" refID="4" unit="m" condition="正常">210.85</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="レベル" refID="4">0</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="水位" refID="5" unit="m" condition="正常">210.86</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="レベル" refID="5">0</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="水位" refID="6" unit="m" condition="正常">210.81</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="レベル" refID="6">0</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="水位" refID="7" unit="m" condition="正常">210.77</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="レベル" refID="7">0</jmx_eb:WaterLevel>
+              </WaterLevelPart>
+            </Property>
+          </Kind>
+          <Station>
+            <Name>置戸</Name>
+            <Code type="水位観測所">81011100010000013</Code>
+            <Location>常呂郡置戸町</Location>
+          </Station>
+        </Item>
+        <Item>
+          <Kind>
+            <Name>水位</Name>
+            <Property>
+              <Type>水位</Type>
+              <WaterLevelPart>
+                <jmx_eb:WaterLevel type="水位" refID="1" unit="m" condition="正常">54.70</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="レベル" refID="1">0</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="水位" refID="2" unit="m" condition="正常">54.66</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="レベル" refID="2">0</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="水位" refID="3" unit="m" condition="正常">54.63</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="レベル" refID="3">0</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="水位" refID="4" unit="m" condition="正常">54.59</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="レベル" refID="4">0</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="水位" refID="5" unit="m" condition="正常">54.56</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="レベル" refID="5">0</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="水位" refID="6" unit="m" condition="正常">54.53</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="レベル" refID="6">0</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="水位" refID="7" unit="m" condition="正常">54.51</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="レベル" refID="7">0</jmx_eb:WaterLevel>
+              </WaterLevelPart>
+            </Property>
+          </Kind>
+          <Station>
+            <Name>北見</Name>
+            <Code type="水位観測所">81011100010000014</Code>
+            <Location>北見市</Location>
+          </Station>
+        </Item>
+        <Item>
+          <Kind>
+            <Name>水位</Name>
+            <Property>
+              <Type>水位</Type>
+              <WaterLevelPart>
+                <jmx_eb:WaterLevel type="水位" refID="1" unit="m" condition="正常">6.19</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="レベル" refID="1">1</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="水位" refID="2" unit="m" condition="正常">6.06</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="レベル" refID="2">1</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="水位" refID="3" unit="m" condition="正常">5.95</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="レベル" refID="3">1</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="水位" refID="4" unit="m" condition="正常">5.87</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="レベル" refID="4">1</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="水位" refID="5" unit="m" condition="正常">5.81</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="レベル" refID="5">1</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="水位" refID="6" unit="m" condition="正常">5.76</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="レベル" refID="6">1</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="水位" refID="7" unit="m" condition="正常">5.72</jmx_eb:WaterLevel>
+                <jmx_eb:WaterLevel type="レベル" refID="7">1</jmx_eb:WaterLevel>
+              </WaterLevelPart>
+            </Property>
+          </Kind>
+          <Station>
+            <Name>上川沿</Name>
+            <Code type="水位観測所">81011100010000016</Code>
+            <Location>北見市</Location>
+          </Station>
+        </Item>
+      </TimeSeriesInfo>
+    </MeteorologicalInfos>
+    <OfficeInfo>
+      <Office type="水位関係">
+        <Name>網走開発建設部</Name>
+        <Code>23337</Code>
+        <ContactInfo>国土交通省 網走開発建設部　治水課 0152-44-6445</ContactInfo>
+        <URI>https://www.river.go.jp/</URI>
+      </Office>
+      <Office type="気象関係">
+        <Name>網走地方気象台</Name>
+        <Code>47409</Code>
+        <ContactInfo>気象庁 札幌管区気象台 気象防災部 予報課 011-676-5025</ContactInfo>
+        <URI>https://www.jma.go.jp/</URI>
+      </Office>
+    </OfficeInfo>
+    <AdditionalInfo>
+      <FloodForecastAddition>
+        <HydrometricStationPart>
+          <Area codeType="水位観測所">
+            <Name>置戸</Name>
+            <Code>81011100010000013</Code>
+            <SubCityList>北海道常呂郡訓子府町旭町 北海道常呂郡訓子府町栄町 北海道常呂郡訓子府町字高園 北海道常呂郡訓子府町字実郷 北海道常呂郡訓子府町字清住 北海道常呂郡訓子府町字西富 北海道常呂郡訓子府町字日出 北海道常呂郡訓子府町字穂波 北海道常呂郡訓子府町字豊坂 北海道常呂郡訓子府町字緑丘 北海道常呂郡訓子府町若富町 北海道常呂郡訓子府町若葉町 北海道常呂郡訓子府町西幸町 北海道常呂郡訓子府町大町 北海道常呂郡訓子府町仲町 北海道常呂郡訓子府町東幸町 北海道常呂郡訓子府町東町 北海道常呂郡訓子府町末広町 北海道常呂郡置戸町境野 北海道常呂郡置戸町常盤 北海道常呂郡置戸町川南 北海道常呂郡置戸町拓殖 北海道常呂郡置戸町置戸 北海道常呂郡置戸町中里 北海道常呂郡置戸町豊住 北海道常呂郡置戸町北光 北海道北見市花園町 北海道北見市開盛 北海道北見市錦町 北海道北見市光葉町 北海道北見市広郷町 北海道北見市広明町 北海道北見市字大谷 北海道北見市上ところ 北海道北見市常川 北海道北見市新生町 北海道北見市川沿町 北海道北見市豊地 北海道北見市北央町 北海道北見市北光 北海道北見市北上 北海道北見市末広町 北海道北見市無加川町</SubCityList>
+            <Location>常呂郡置戸町</Location>
+          </Area>
+          <ChargeSection>常呂川
+右岸：北見市開成から置戸町拓殖
+左岸：北見市光葉町から置戸町中里</ChargeSection>
+          <Criteria>
+            <jmx_eb:WaterLevel type="レベル１水防団待機水位" unit="m" condition="有効">212.60</jmx_eb:WaterLevel>
+            <jmx_eb:WaterLevel type="レベル２氾濫注意水位" unit="m" condition="有効">212.90</jmx_eb:WaterLevel>
+            <jmx_eb:WaterLevel type="レベル３避難判断水位" unit="m" condition="有効">213.00</jmx_eb:WaterLevel>
+            <jmx_eb:WaterLevel type="レベル４氾濫危険水位" unit="m" condition="有効">213.20</jmx_eb:WaterLevel>
+            <jmx_eb:WaterLevel type="レベル４計画高水位等" unit="m" condition="有効">214.00</jmx_eb:WaterLevel>
+          </Criteria>
+        </HydrometricStationPart>
+        <HydrometricStationPart>
+          <Area codeType="水位観測所">
+            <Name>北見</Name>
+            <Code>81011100010000014</Code>
+            <SubCityList>北海道北見市とん田西町 北海道北見市とん田東町 北海道北見市ひかり野1丁目 北海道北見市ひかり野2丁目 北海道北見市ひかり野3丁目 北海道北見市ひかり野4丁目 北海道北見市ひかり野5丁目 北海道北見市ひかり野6丁目 北海道北見市ひかり野7丁目 北海道北見市ひかり野8丁目 北海道北見市光西町 北海道北見市桜町3丁目 北海道北見市桜町4丁目 北海道北見市桜町5丁目 北海道北見市桜町6丁目 北海道北見市桜町7丁目 北海道北見市春光町3丁目 北海道北見市春光町4丁目 北海道北見市春光町5丁目 北海道北見市春光町6丁目 北海道北見市春光町7丁目 北海道北見市小泉 北海道北見市常盤町1丁目 北海道北見市常盤町4丁目 北海道北見市常盤町5丁目 北海道北見市常盤町6丁目 北海道北見市清月町 北海道北見市川向 北海道北見市川東 北海道北見市泉町4丁目 北海道北見市端野 北海道北見市端野一区 北海道北見市端野三区 北海道北見市端野二区 北海道北見市中ノ島町1丁目 北海道北見市中ノ島町2丁目 北海道北見市中ノ島町3丁目 北海道北見市中ノ島町4丁目 北海道北見市忠志 北海道北見市朝日町 北海道北見市田端町 北海道北見市南仲町3丁目 北海道北見市南町1丁目 北海道北見市南町2丁目 北海道北見市南町3丁目</SubCityList>
+            <Location>北見市</Location>
+          </Area>
+          <ChargeSection>常呂川
+右岸：北見市端野町忠志から川東
+左岸：北見市端野町忠志から光葉町</ChargeSection>
+          <Criteria>
+            <jmx_eb:WaterLevel type="レベル１水防団待機水位" unit="m" condition="有効">57.40</jmx_eb:WaterLevel>
+            <jmx_eb:WaterLevel type="レベル２氾濫注意水位" unit="m" condition="有効">58.00</jmx_eb:WaterLevel>
+            <jmx_eb:WaterLevel type="レベル３避難判断水位" unit="m" condition="有効">58.80</jmx_eb:WaterLevel>
+            <jmx_eb:WaterLevel type="レベル４氾濫危険水位" unit="m" condition="有効">59.00</jmx_eb:WaterLevel>
+            <jmx_eb:WaterLevel type="レベル４計画高水位等" unit="m" condition="有効">59.10</jmx_eb:WaterLevel>
+          </Criteria>
+        </HydrometricStationPart>
+        <HydrometricStationPart>
+          <Area codeType="水位観測所">
+            <Name>上川沿</Name>
+            <Code>81011100010000016</Code>
+            <SubCityList>北海道北見市栄町 北海道北見市開進町 北海道北見市字栄浦 北海道北見市字岐阜 北海道北見市字共立 北海道北見市字日吉 北海道北見市字富丘 北海道北見市字福山 北海道北見市字豊川 北海道北見市西町 北海道北見市端野一区 北海道北見市中央町 北海道北見市忠志 北海道北見市土佐 北海道北見市南町 北海道北見市弁天 北海道北見市北進町 北海道北見市本通 北海道北見市末広</SubCityList>
+            <Location>北見市</Location>
+          </Area>
+          <ChargeSection>常呂川
+右岸：北見市常呂町共立から常呂町日吉
+左岸：北見市常呂町常呂から常呂町日吉</ChargeSection>
+          <Criteria>
+            <jmx_eb:WaterLevel type="レベル１水防団待機水位" unit="m" condition="有効">5.30</jmx_eb:WaterLevel>
+            <jmx_eb:WaterLevel type="レベル２氾濫注意水位" unit="m" condition="有効">6.20</jmx_eb:WaterLevel>
+            <jmx_eb:WaterLevel type="レベル３避難判断水位" unit="m" condition="有効">7.40</jmx_eb:WaterLevel>
+            <jmx_eb:WaterLevel type="レベル４氾濫危険水位" unit="m" condition="有効">7.60</jmx_eb:WaterLevel>
+            <jmx_eb:WaterLevel type="レベル４計画高水位等" unit="m" condition="有効">9.30</jmx_eb:WaterLevel>
+          </Criteria>
+        </HydrometricStationPart>
+      </FloodForecastAddition>
+    </AdditionalInfo>
+  </Body>
+</Report>

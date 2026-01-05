@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://xml.kishou.go.jp/jmaxml1/" xmlns:jmx="http://xml.kishou.go.jp/jmaxml1/">
+  <Control>
+    <Title>指定河川洪水予報</Title>
+    <DateTime>2025-11-18T06:45:00Z</DateTime>
+    <Status>通常</Status>
+    <EditorialOffice>気象庁本庁</EditorialOffice>
+    <PublishingOffice>関東地方整備局 気象庁</PublishingOffice>
+  </Control>
+  <Head xmlns="http://xml.kishou.go.jp/jmaxml1/informationBasis1/">
+    <Title>利根川中流部レベル３氾濫警報</Title>
+    <ReportDateTime>2025-11-18T15:45:00+09:00</ReportDateTime>
+    <TargetDateTime>2025-11-18T15:45:00+09:00</TargetDateTime>
+    <EventID>830303000103</EventID>
+    <InfoType>発表</InfoType>
+    <Serial>1</Serial>
+    <InfoKind>指定河川洪水予報</InfoKind>
+    <InfoKindVersion>1.1_1</InfoKindVersion>
+    <Headline>
+      <Text>【警戒レベル３相当情報［洪水］】〔新規〕利根川中流部では、避難判断水位に到達し、今後、水位はさらに上昇する見込み</Text>
+      <Information type="指定河川洪水予報（予報区域）">
+        <Item>
+          <Kind>
+            <Name>レベル３氾濫警報</Name>
+            <Code>30</Code>
+            <Condition>レベル３氾濫警報（発表）</Condition>
+          </Kind>
+          <Areas codeType="指定河川洪水予報（予報区域）">
+            <Area>
+              <Name>利根川中流部</Name>
+              <Code>830303000103</Code>
+            </Area>
+          </Areas>
+        </Item>
+      </Information>
+      <Information type="指定河川洪水予報（河川）">
+        <Item>
+          <Kind>
+            <Name>レベル３氾濫警報</Name>
+            <Code>30</Code>
+            <Condition>レベル３氾濫警報（発表）</Condition>
+          </Kind>
+          <Areas codeType="河川">
+            <Area>
+              <Name>利根川</Name>
+              <Code>8303030001</Code>
+            </Area>
+            <Area>
+              <Name>小貝川</Name>
+              <Code>8303030152</Code>
+            </Area>
+          </Areas>
+        </Item>
+      </Information>
+      <Information type="指定河川洪水予報（府県予報区等）">
+        <Item>
+          <Kind>
+            <Name>レベル３氾濫警報</Name>
+            <Code>30</Code>
+            <Condition>レベル３氾濫警報（発表）</Condition>
+          </Kind>
+          <Areas codeType="気象情報／府県予報区・細分区域等">
+            <Area>
+              <Name>茨城県</Name>
+              <Code>080000</Code>
+            </Area>
+            <Area>
+              <Name>千葉県</Name>
+              <Code>120000</Code>
+            </Area>
+          </Areas>
+        </Item>
+      </Information>
+    </Headline>
+  </Head>
+  <Body xmlns="http://xml.kishou.go.jp/jmaxml1/body/meteorology1/" xmlns:jmx_eb="http://xml.kishou.go.jp/jmaxml1/elementBasis1/" />
+</Report>

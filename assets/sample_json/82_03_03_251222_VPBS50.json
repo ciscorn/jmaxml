@@ -1,0 +1,209 @@
+{
+  "control": {
+    "title": "府県気象防災速報",
+    "dateTime": "2023-07-09T18:28:55Z",
+    "status": "通常",
+    "editorialOffice": "福岡管区気象台",
+    "publishingOffices": [
+      "福岡管区気象台"
+    ]
+  },
+  "head": {
+    "title": "福岡県気象防災速報（線状降水帯直前予測）",
+    "reportDateTime": "2023-07-09T18:29:00Z",
+    "targetDateTime": "2023-07-09T18:29:00Z",
+    "eventID": "JPFK202307100159_202307100329",
+    "infoType": "発表",
+    "serial": "3",
+    "infoKind": "気象解説情報",
+    "infoKindVersion": "1.5_0",
+    "headline": {
+      "text": "福岡県福岡地方、北九州地方、筑豊地方、筑後地方では、今後３時間以内に線状降水帯が発生し、非常に激しい雨が同じ場所で降り続く可能性が高まっています。命に危険が及ぶ災害発生の危険度が急激に高まるおそれがあります。",
+      "informations": [
+        {
+          "type": "情報タグ",
+          "items": [
+            {
+              "kinds": [
+                {
+                  "name": "情報タグ",
+                  "condition": "線状降水帯直前"
+                }
+              ],
+              "areas": {
+                "codeType": "気象情報／府県予報区・細分区域等",
+                "areas": [
+                  {
+                    "name": "福岡地方",
+                    "code": "400010"
+                  },
+                  {
+                    "name": "北九州地方",
+                    "code": "400020"
+                  },
+                  {
+                    "name": "筑豊地方",
+                    "code": "400030"
+                  },
+                  {
+                    "name": "筑後地方",
+                    "code": "400040"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "body": {
+    "type": "meteorology",
+    "meteorologicalInfos": [
+      {
+        "type": "観測実況",
+        "meteorologicalInfos": [
+          {
+            "dateTime": {
+              "value": "2023-07-09T18:29:00Z"
+            },
+            "items": [
+              {
+                "kinds": [
+                  {
+                    "properties": [
+                      {
+                        "type": "気象現象の実況",
+                        "eventParts": [
+                          {
+                            "events": [
+                              {
+                                "type": "線状降水帯",
+                                "eventNames": [
+                                  "線状降水帯予想"
+                                ],
+                                "times": [
+                                  {
+                                    "value": "2023-07-09T16:50:00Z"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "codeType": "気象情報／府県予報区・細分区域等",
+                  "name": "福岡地方",
+                  "code": "400010"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "properties": [
+                      {
+                        "type": "気象現象の実況",
+                        "eventParts": [
+                          {
+                            "events": [
+                              {
+                                "type": "線状降水帯",
+                                "eventNames": [
+                                  "線状降水帯予想"
+                                ],
+                                "times": [
+                                  {
+                                    "value": "2023-07-09T18:20:00Z"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "codeType": "気象情報／府県予報区・細分区域等",
+                  "name": "北九州地方",
+                  "code": "400020"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "properties": [
+                      {
+                        "type": "気象現象の実況",
+                        "eventParts": [
+                          {
+                            "events": [
+                              {
+                                "type": "線状降水帯",
+                                "eventNames": [
+                                  "線状降水帯予想"
+                                ],
+                                "times": [
+                                  {
+                                    "value": "2023-07-09T17:00:00Z"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "codeType": "気象情報／府県予報区・細分区域等",
+                  "name": "筑豊地方",
+                  "code": "400030"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "properties": [
+                      {
+                        "type": "気象現象の実況",
+                        "eventParts": [
+                          {
+                            "events": [
+                              {
+                                "type": "線状降水帯",
+                                "eventNames": [
+                                  "線状降水帯予想"
+                                ],
+                                "times": [
+                                  {
+                                    "value": "2023-07-09T17:00:00Z"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "codeType": "気象情報／府県予報区・細分区域等",
+                  "name": "筑後地方",
+                  "code": "400040"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
