@@ -1,0 +1,1653 @@
+{
+  "control": {
+    "title": "指定河川洪水予報",
+    "dateTime": "2025-08-10T19:40:00Z",
+    "status": "通常",
+    "editorialOffice": "熊本地方気象台",
+    "publishingOffices": [
+      "熊本河川国道事務所",
+      "熊本地方気象台"
+    ]
+  },
+  "head": {
+    "title": "緑川水系レベル４氾濫危険警報",
+    "reportDateTime": "2025-08-10T19:40:00Z",
+    "targetDateTime": "2025-08-10T19:40:00Z",
+    "eventID": "890910000100",
+    "infoType": "発表",
+    "serial": "4",
+    "infoKind": "指定河川洪水予報",
+    "infoKindVersion": "1.1_1",
+    "headline": {
+      "text": "【警戒レベル４相当情報［洪水］】〔継続〕緑川水系では、氾濫危険水位に到達し、氾濫のおそれあり",
+      "informations": [
+        {
+          "type": "指定河川洪水予報（予報区域）",
+          "items": [
+            {
+              "kinds": [
+                {
+                  "name": "レベル４氾濫危険警報",
+                  "code": "41",
+                  "condition": "レベル４氾濫危険警報"
+                }
+              ],
+              "areas": {
+                "codeType": "指定河川洪水予報（予報区域）",
+                "areas": [
+                  {
+                    "name": "緑川水系",
+                    "code": "890910000100"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "指定河川洪水予報（河川）",
+          "items": [
+            {
+              "kinds": [
+                {
+                  "name": "レベル４氾濫危険警報",
+                  "code": "41",
+                  "condition": "レベル４氾濫危険警報"
+                }
+              ],
+              "areas": {
+                "codeType": "河川",
+                "areas": [
+                  {
+                    "name": "緑川",
+                    "code": "8909100001"
+                  },
+                  {
+                    "name": "浜戸川",
+                    "code": "8909100007"
+                  },
+                  {
+                    "name": "加勢川",
+                    "code": "8909100051"
+                  },
+                  {
+                    "name": "御船川",
+                    "code": "8909100068"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "指定河川洪水予報（府県予報区等）",
+          "items": [
+            {
+              "kinds": [
+                {
+                  "name": "レベル４氾濫危険警報",
+                  "code": "41",
+                  "condition": "レベル４氾濫危険警報"
+                }
+              ],
+              "areas": {
+                "codeType": "気象情報／府県予報区・細分区域等",
+                "areas": [
+                  {
+                    "name": "熊本県",
+                    "code": "430000"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "body": {
+    "type": "meteorology",
+    "notices": [
+      "この電文はテストサンプルです。"
+    ],
+    "warnings": [
+      {
+        "type": "指定河川洪水予報",
+        "items": [
+          {
+            "kinds": [
+              {
+                "properties": [
+                  {
+                    "type": "主文",
+                    "texts": [
+                      {
+                        "value": "【警戒レベル４相当】これは、避難指示の発令の目安です。緑川の城南基準観測所（熊本市）では、当分の間、「氾濫危険水位」付近の水位が続く見込みです。緑川では堤防決壊等による氾濫のおそれがあり、熊本市、宇土市、宇城市、上益城郡御船町、上益城郡嘉島町、上益城郡甲佐町では浸水するおそれがあります。市町村からの避難情報を確認するとともに、各自安全確保を図るなど、適切な防災行動をとってください。"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "areas": {
+              "codeType": "河川",
+              "areas": [
+                {
+                  "name": "緑川",
+                  "code": "8909100001"
+                }
+              ]
+            },
+            "stations": {
+              "stations": [
+                {
+                  "name": "城南",
+                  "codes": [
+                    {
+                      "value": "89091000010000003",
+                      "type": "水位観測所"
+                    }
+                  ],
+                  "location": "熊本市"
+                }
+              ]
+            }
+          },
+          {
+            "kinds": [
+              {
+                "properties": [
+                  {
+                    "type": "主文",
+                    "texts": [
+                      {
+                        "value": "【警戒レベル４相当】これは、避難指示の発令の目安です。緑川の中甲橋基準観測所（下益城郡美里町）では、当分の間、「氾濫危険水位」付近の水位が続く見込みです。緑川では堤防決壊等による氾濫のおそれがあり、熊本市、下益城郡美里町、上益城郡御船町、上益城郡甲佐町では浸水するおそれがあります。市町村からの避難情報を確認するとともに、各自安全確保を図るなど、適切な防災行動をとってください。"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "areas": {
+              "codeType": "河川",
+              "areas": [
+                {
+                  "name": "緑川",
+                  "code": "8909100001"
+                }
+              ]
+            },
+            "stations": {
+              "stations": [
+                {
+                  "name": "中甲橋",
+                  "codes": [
+                    {
+                      "value": "89091000010000002",
+                      "type": "水位観測所"
+                    }
+                  ],
+                  "location": "下益城郡美里町"
+                }
+              ]
+            }
+          },
+          {
+            "kinds": [
+              {
+                "properties": [
+                  {
+                    "type": "主文",
+                    "texts": [
+                      {
+                        "value": "【警戒レベル３相当】これは、高齢者等避難の発令の目安です。加勢川の大六橋基準観測所（上益城郡嘉島町）では、「避難判断水位」に到達しました。今後、「氾濫危険水位」に到達する見込みで、避難指示の発令の目安である警戒レベル4相当となる可能性があります。加勢川では堤防決壊等による氾濫のおそれがあり、熊本市、上益城郡御船町、上益城郡嘉島町では浸水するおそれがあります。市町村からの避難情報に十分注意するとともに、適切な防災行動をとってください。"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "areas": {
+              "codeType": "河川",
+              "areas": [
+                {
+                  "name": "加勢川",
+                  "code": "8909100051"
+                }
+              ]
+            },
+            "stations": {
+              "stations": [
+                {
+                  "name": "大六橋",
+                  "codes": [
+                    {
+                      "value": "89091000010000006",
+                      "type": "水位観測所"
+                    }
+                  ],
+                  "location": "上益城郡嘉島町"
+                }
+              ]
+            }
+          },
+          {
+            "kinds": [
+              {
+                "properties": [
+                  {
+                    "type": "主文",
+                    "texts": [
+                      {
+                        "value": "【警戒レベル４相当】これは、避難指示の発令の目安です。御船川の御船基準観測所（上益城郡御船町）では、「氾濫危険水位」に到達しました。御船川では堤防決壊等による氾濫のおそれがあり、熊本市、上益城郡御船町、上益城郡嘉島町では浸水するおそれがあります。直ちに、市町村からの避難情報を確認するとともに、各自安全確保を図るなど、適切な防災行動をとってください。"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "areas": {
+              "codeType": "河川",
+              "areas": [
+                {
+                  "name": "御船川",
+                  "code": "8909100068"
+                }
+              ]
+            },
+            "stations": {
+              "stations": [
+                {
+                  "name": "御船",
+                  "codes": [
+                    {
+                      "value": "89091000010000005",
+                      "type": "水位観測所"
+                    }
+                  ],
+                  "location": "上益城郡御船町"
+                }
+              ]
+            }
+          },
+          {
+            "kinds": [
+              {
+                "name": "浸水想定地区",
+                "code": "1",
+                "status": "対象地域",
+                "properties": [
+                  {
+                    "type": "浸水想定地区",
+                    "texts": [
+                      {
+                        "value": "氾濫による浸水が想定される地区※"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "areas": {
+              "areas": [
+                {
+                  "codeType": "水位観測所",
+                  "name": "城南",
+                  "code": "89091000010000003",
+                  "prefecture": {
+                    "value": "熊本県"
+                  },
+                  "prefectureCode": "43000",
+                  "city": {
+                    "value": "熊本市"
+                  },
+                  "cityCode": "4310000",
+                  "subCityList": [
+                    "奥古閑校区",
+                    "隈庄校区",
+                    "秋津校区",
+                    "杉上校区",
+                    "川口校区",
+                    "川尻校区",
+                    "銭塘校区",
+                    "中島校区",
+                    "中緑校区",
+                    "富合校区",
+                    "飽田西校区",
+                    "飽田南校区"
+                  ]
+                },
+                {
+                  "codeType": "水位観測所",
+                  "name": "城南",
+                  "code": "89091000010000003",
+                  "prefecture": {
+                    "value": "熊本県"
+                  },
+                  "prefectureCode": "43000",
+                  "city": {
+                    "value": "宇土市"
+                  },
+                  "cityCode": "4321100",
+                  "subCityList": [
+                    "宇土校区",
+                    "宇土東校区",
+                    "花園校区",
+                    "走潟校区",
+                    "網津校区",
+                    "緑川校区"
+                  ]
+                },
+                {
+                  "codeType": "水位観測所",
+                  "name": "城南",
+                  "code": "89091000010000003",
+                  "prefecture": {
+                    "value": "熊本県"
+                  },
+                  "prefectureCode": "43000",
+                  "city": {
+                    "value": "宇城市"
+                  },
+                  "cityCode": "4321300",
+                  "subCityList": [
+                    "松橋校区",
+                    "不知火校区"
+                  ]
+                },
+                {
+                  "codeType": "水位観測所",
+                  "name": "城南",
+                  "code": "89091000010000003",
+                  "prefecture": {
+                    "value": "熊本県"
+                  },
+                  "prefectureCode": "43000",
+                  "city": {
+                    "value": "嘉島町"
+                  },
+                  "cityCode": "4344200",
+                  "subCityList": [
+                    "嘉島西校区",
+                    "嘉島東校区"
+                  ]
+                },
+                {
+                  "codeType": "水位観測所",
+                  "name": "城南",
+                  "code": "89091000010000003",
+                  "prefecture": {
+                    "value": "熊本県"
+                  },
+                  "prefectureCode": "43000",
+                  "city": {
+                    "value": "御船町"
+                  },
+                  "cityCode": "4344100",
+                  "subCityList": [
+                    "御船校区",
+                    "高木校区",
+                    "小坂校区"
+                  ]
+                },
+                {
+                  "codeType": "水位観測所",
+                  "name": "城南",
+                  "code": "89091000010000003",
+                  "prefecture": {
+                    "value": "熊本県"
+                  },
+                  "prefectureCode": "43000",
+                  "city": {
+                    "value": "甲佐町"
+                  },
+                  "cityCode": "4344400",
+                  "subCityList": [
+                    "乙女校区",
+                    "白旗校区"
+                  ]
+                },
+                {
+                  "codeType": "水位観測所",
+                  "name": "中甲橋",
+                  "code": "89091000010000002",
+                  "prefecture": {
+                    "value": "熊本県"
+                  },
+                  "prefectureCode": "43000",
+                  "city": {
+                    "value": "熊本市"
+                  },
+                  "cityCode": "4310000",
+                  "subCityList": [
+                    "杉上校区"
+                  ]
+                },
+                {
+                  "codeType": "水位観測所",
+                  "name": "中甲橋",
+                  "code": "89091000010000002",
+                  "prefecture": {
+                    "value": "熊本県"
+                  },
+                  "prefectureCode": "43000",
+                  "city": {
+                    "value": "御船町"
+                  },
+                  "cityCode": "4344100",
+                  "subCityList": [
+                    "小坂校区"
+                  ]
+                },
+                {
+                  "codeType": "水位観測所",
+                  "name": "中甲橋",
+                  "code": "89091000010000002",
+                  "prefecture": {
+                    "value": "熊本県"
+                  },
+                  "prefectureCode": "43000",
+                  "city": {
+                    "value": "甲佐町"
+                  },
+                  "cityCode": "4344400",
+                  "subCityList": [
+                    "乙女校区",
+                    "甲佐校区",
+                    "白旗校区",
+                    "龍野校区"
+                  ]
+                },
+                {
+                  "codeType": "水位観測所",
+                  "name": "中甲橋",
+                  "code": "89091000010000002",
+                  "prefecture": {
+                    "value": "熊本県"
+                  },
+                  "prefectureCode": "43000",
+                  "city": {
+                    "value": "美里町"
+                  },
+                  "cityCode": "4334800",
+                  "subCityList": [
+                    "中央校区"
+                  ]
+                },
+                {
+                  "codeType": "水位観測所",
+                  "name": "大六橋",
+                  "code": "89091000010000006",
+                  "prefecture": {
+                    "value": "熊本県"
+                  },
+                  "prefectureCode": "43000",
+                  "city": {
+                    "value": "熊本市"
+                  },
+                  "cityCode": "4310000",
+                  "subCityList": [
+                    "奥古閑校区",
+                    "画図校区",
+                    "御幸校区",
+                    "砂取校区",
+                    "春竹校区",
+                    "城南校区",
+                    "川口校区",
+                    "川尻校区",
+                    "銭塘校区",
+                    "中島校区",
+                    "中緑校区",
+                    "田迎校区",
+                    "田迎南校区",
+                    "日吉校区",
+                    "日吉東校区",
+                    "富合校区",
+                    "飽田西校区",
+                    "飽田東校区",
+                    "飽田南校区",
+                    "力合校区"
+                  ]
+                },
+                {
+                  "codeType": "水位観測所",
+                  "name": "大六橋",
+                  "code": "89091000010000006",
+                  "prefecture": {
+                    "value": "熊本県"
+                  },
+                  "prefectureCode": "43000",
+                  "city": {
+                    "value": "嘉島町"
+                  },
+                  "cityCode": "4344200",
+                  "subCityList": [
+                    "嘉島西校区",
+                    "嘉島東校区"
+                  ]
+                },
+                {
+                  "codeType": "水位観測所",
+                  "name": "大六橋",
+                  "code": "89091000010000006",
+                  "prefecture": {
+                    "value": "熊本県"
+                  },
+                  "prefectureCode": "43000",
+                  "city": {
+                    "value": "御船町"
+                  },
+                  "cityCode": "4344100",
+                  "subCityList": [
+                    "御船校区",
+                    "高木校区",
+                    "小坂校区",
+                    "木倉校区"
+                  ]
+                },
+                {
+                  "codeType": "水位観測所",
+                  "name": "御船",
+                  "code": "89091000010000005",
+                  "prefecture": {
+                    "value": "熊本県"
+                  },
+                  "prefectureCode": "43000",
+                  "city": {
+                    "value": "熊本市"
+                  },
+                  "cityCode": "4310000",
+                  "subCityList": [
+                    "画図校区",
+                    "御幸校区",
+                    "秋津校区"
+                  ]
+                },
+                {
+                  "codeType": "水位観測所",
+                  "name": "御船",
+                  "code": "89091000010000005",
+                  "prefecture": {
+                    "value": "熊本県"
+                  },
+                  "prefectureCode": "43000",
+                  "city": {
+                    "value": "嘉島町"
+                  },
+                  "cityCode": "4344200",
+                  "subCityList": [
+                    "嘉島西校区",
+                    "嘉島東校区"
+                  ]
+                },
+                {
+                  "codeType": "水位観測所",
+                  "name": "御船",
+                  "code": "89091000010000005",
+                  "prefecture": {
+                    "value": "熊本県"
+                  },
+                  "prefectureCode": "43000",
+                  "city": {
+                    "value": "御船町"
+                  },
+                  "cityCode": "4344100",
+                  "subCityList": [
+                    "御船校区",
+                    "高木校区",
+                    "小坂校区",
+                    "木倉校区"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "meteorologicalInfos": [
+      {
+        "type": "雨量情報",
+        "meteorologicalInfos": [
+          {
+            "dateTime": {
+              "value": "2025-08-10T19:10:00Z"
+            },
+            "items": [
+              {
+                "kinds": [
+                  {
+                    "name": "雨量",
+                    "properties": [
+                      {
+                        "type": "雨量",
+                        "texts": [
+                          {
+                            "value": "多いところで1時間に100ミリの雨が降っています。\nこの雨は当分この状態が続くでしょう。"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "timeSeriesInfos": [
+          {
+            "timeDefines": {
+              "timeDefines": [
+                {
+                  "timeId": 1,
+                  "dateTime": {
+                    "value": "2025-08-10T05:00:00Z"
+                  },
+                  "duration": "PT14H10M",
+                  "name": "１０日１４時００分から１１日４時１０分までの流域平均雨量"
+                },
+                {
+                  "timeId": 2,
+                  "dateTime": {
+                    "value": "2025-08-10T19:10:00Z"
+                  },
+                  "duration": "PT3H",
+                  "name": "１１日４時１０分から１１日７時１０分までの流域平均雨量の見込み"
+                }
+              ]
+            },
+            "items": [
+              {
+                "kinds": [
+                  {
+                    "name": "雨量",
+                    "properties": [
+                      {
+                        "type": "雨量",
+                        "precipitationParts": [
+                          {
+                            "precipitations": [
+                              {
+                                "value": 204.0,
+                                "type": "流域平均雨量",
+                                "unit": "ミリ",
+                                "refID": 1
+                              },
+                              {
+                                "value": 90.0,
+                                "type": "流域平均雨量",
+                                "unit": "ミリ",
+                                "refID": 2
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "緑川上流域"
+                }
+              }
+            ]
+          },
+          {
+            "timeDefines": {
+              "timeDefines": [
+                {
+                  "timeId": 1,
+                  "dateTime": {
+                    "value": "2025-08-10T05:00:00Z"
+                  },
+                  "duration": "PT14H10M",
+                  "name": "１０日１４時００分から１１日４時１０分までの流域平均雨量"
+                },
+                {
+                  "timeId": 2,
+                  "dateTime": {
+                    "value": "2025-08-10T19:10:00Z"
+                  },
+                  "duration": "PT3H",
+                  "name": "１１日４時１０分から１１日７時１０分までの流域平均雨量の見込み"
+                }
+              ]
+            },
+            "items": [
+              {
+                "kinds": [
+                  {
+                    "name": "雨量",
+                    "properties": [
+                      {
+                        "type": "雨量",
+                        "precipitationParts": [
+                          {
+                            "precipitations": [
+                              {
+                                "value": 212.0,
+                                "type": "流域平均雨量",
+                                "unit": "ミリ",
+                                "refID": 1
+                              },
+                              {
+                                "value": 80.0,
+                                "type": "流域平均雨量",
+                                "unit": "ミリ",
+                                "refID": 2
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "緑川中流域"
+                }
+              }
+            ]
+          },
+          {
+            "timeDefines": {
+              "timeDefines": [
+                {
+                  "timeId": 1,
+                  "dateTime": {
+                    "value": "2025-08-10T04:00:00Z"
+                  },
+                  "duration": "PT15H10M",
+                  "name": "１０日１３時００分から１１日４時１０分までの流域平均雨量"
+                },
+                {
+                  "timeId": 2,
+                  "dateTime": {
+                    "value": "2025-08-10T19:10:00Z"
+                  },
+                  "duration": "PT3H",
+                  "name": "１１日４時１０分から１１日７時１０分までの流域平均雨量の見込み"
+                }
+              ]
+            },
+            "items": [
+              {
+                "kinds": [
+                  {
+                    "name": "雨量",
+                    "properties": [
+                      {
+                        "type": "雨量",
+                        "precipitationParts": [
+                          {
+                            "precipitations": [
+                              {
+                                "value": 260.0,
+                                "type": "流域平均雨量",
+                                "unit": "ミリ",
+                                "refID": 1
+                              },
+                              {
+                                "value": 70.0,
+                                "type": "流域平均雨量",
+                                "unit": "ミリ",
+                                "refID": 2
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "加勢川流域"
+                }
+              }
+            ]
+          },
+          {
+            "timeDefines": {
+              "timeDefines": [
+                {
+                  "timeId": 1,
+                  "dateTime": {
+                    "value": "2025-08-10T05:00:00Z"
+                  },
+                  "duration": "PT14H10M",
+                  "name": "１０日１４時００分から１１日４時１０分までの流域平均雨量"
+                },
+                {
+                  "timeId": 2,
+                  "dateTime": {
+                    "value": "2025-08-10T19:10:00Z"
+                  },
+                  "duration": "PT3H",
+                  "name": "１１日４時１０分から１１日７時１０分までの流域平均雨量の見込み"
+                }
+              ]
+            },
+            "items": [
+              {
+                "kinds": [
+                  {
+                    "name": "雨量",
+                    "properties": [
+                      {
+                        "type": "雨量",
+                        "precipitationParts": [
+                          {
+                            "precipitations": [
+                              {
+                                "value": 268.0,
+                                "type": "流域平均雨量",
+                                "unit": "ミリ",
+                                "refID": 1
+                              },
+                              {
+                                "value": 90.0,
+                                "type": "流域平均雨量",
+                                "unit": "ミリ",
+                                "refID": 2
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "御船川流域"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "水位・流量情報",
+        "timeSeriesInfos": [
+          {
+            "timeDefines": {
+              "timeDefines": [
+                {
+                  "timeId": 1,
+                  "dateTime": {
+                    "value": "2025-08-10T19:20:00Z"
+                  },
+                  "name": "現況"
+                },
+                {
+                  "timeId": 2,
+                  "dateTime": {
+                    "value": "2025-08-10T20:20:00Z"
+                  },
+                  "name": "１時間後"
+                },
+                {
+                  "timeId": 3,
+                  "dateTime": {
+                    "value": "2025-08-10T21:20:00Z"
+                  },
+                  "name": "２時間後"
+                },
+                {
+                  "timeId": 4,
+                  "dateTime": {
+                    "value": "2025-08-10T22:20:00Z"
+                  },
+                  "name": "３時間後"
+                },
+                {
+                  "timeId": 5,
+                  "dateTime": {
+                    "value": "2025-08-10T23:20:00Z"
+                  },
+                  "name": "４時間後"
+                },
+                {
+                  "timeId": 6,
+                  "dateTime": {
+                    "value": "2025-08-11T00:20:00Z"
+                  },
+                  "name": "５時間後"
+                },
+                {
+                  "timeId": 7,
+                  "dateTime": {
+                    "value": "2025-08-11T01:20:00Z"
+                  },
+                  "name": "６時間後"
+                }
+              ]
+            },
+            "items": [
+              {
+                "kinds": [
+                  {
+                    "name": "水位",
+                    "properties": [
+                      {
+                        "type": "水位",
+                        "waterLevelPart": {
+                          "waterLevels": [
+                            {
+                              "value": 4.97,
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 1,
+                              "condition": "正常"
+                            },
+                            {
+                              "value": 4.0,
+                              "type": "レベル",
+                              "refID": 1
+                            },
+                            {
+                              "value": 6.0,
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 2,
+                              "condition": "正常"
+                            },
+                            {
+                              "value": 5.0,
+                              "type": "レベル",
+                              "refID": 2
+                            },
+                            {
+                              "value": 6.19,
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 3,
+                              "condition": "正常"
+                            },
+                            {
+                              "value": 5.0,
+                              "type": "レベル",
+                              "refID": 3
+                            },
+                            {
+                              "value": 5.58,
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 4,
+                              "condition": "正常"
+                            },
+                            {
+                              "value": 5.0,
+                              "type": "レベル",
+                              "refID": 4
+                            },
+                            {
+                              "value": 5.34,
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 5,
+                              "condition": "正常"
+                            },
+                            {
+                              "value": 5.0,
+                              "type": "レベル",
+                              "refID": 5
+                            },
+                            {
+                              "value": 5.31,
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 6,
+                              "condition": "正常"
+                            },
+                            {
+                              "value": 5.0,
+                              "type": "レベル",
+                              "refID": 6
+                            },
+                            {
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 7,
+                              "condition": "欠測"
+                            },
+                            {
+                              "type": "レベル",
+                              "refID": 7
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "station": {
+                  "name": "中甲橋",
+                  "codes": [
+                    {
+                      "value": "89091000010000002",
+                      "type": "水位観測所"
+                    }
+                  ],
+                  "location": "下益城郡美里町"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "name": "水位",
+                    "properties": [
+                      {
+                        "type": "水位",
+                        "waterLevelPart": {
+                          "waterLevels": [
+                            {
+                              "value": 6.46,
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 1,
+                              "condition": "正常"
+                            },
+                            {
+                              "value": 4.0,
+                              "type": "レベル",
+                              "refID": 1
+                            },
+                            {
+                              "value": 6.37,
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 2,
+                              "condition": "正常"
+                            },
+                            {
+                              "value": 4.0,
+                              "type": "レベル",
+                              "refID": 2
+                            },
+                            {
+                              "value": 7.16,
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 3,
+                              "condition": "正常"
+                            },
+                            {
+                              "value": 4.0,
+                              "type": "レベル",
+                              "refID": 3
+                            },
+                            {
+                              "value": 7.1,
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 4,
+                              "condition": "正常"
+                            },
+                            {
+                              "value": 4.0,
+                              "type": "レベル",
+                              "refID": 4
+                            },
+                            {
+                              "value": 6.61,
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 5,
+                              "condition": "正常"
+                            },
+                            {
+                              "value": 4.0,
+                              "type": "レベル",
+                              "refID": 5
+                            },
+                            {
+                              "value": 6.36,
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 6,
+                              "condition": "正常"
+                            },
+                            {
+                              "value": 4.0,
+                              "type": "レベル",
+                              "refID": 6
+                            },
+                            {
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 7,
+                              "condition": "欠測"
+                            },
+                            {
+                              "type": "レベル",
+                              "refID": 7
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "station": {
+                  "name": "城南",
+                  "codes": [
+                    {
+                      "value": "89091000010000003",
+                      "type": "水位観測所"
+                    }
+                  ],
+                  "location": "熊本市"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "name": "水位",
+                    "properties": [
+                      {
+                        "type": "水位",
+                        "waterLevelPart": {
+                          "waterLevels": [
+                            {
+                              "value": 4.39,
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 1,
+                              "condition": "正常"
+                            },
+                            {
+                              "value": 4.0,
+                              "type": "レベル",
+                              "refID": 1
+                            },
+                            {
+                              "value": 4.51,
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 2,
+                              "condition": "正常"
+                            },
+                            {
+                              "value": 4.0,
+                              "type": "レベル",
+                              "refID": 2
+                            },
+                            {
+                              "value": 4.35,
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 3,
+                              "condition": "正常"
+                            },
+                            {
+                              "value": 4.0,
+                              "type": "レベル",
+                              "refID": 3
+                            },
+                            {
+                              "value": 4.1,
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 4,
+                              "condition": "正常"
+                            },
+                            {
+                              "value": 3.0,
+                              "type": "レベル",
+                              "refID": 4
+                            },
+                            {
+                              "value": 3.88,
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 5,
+                              "condition": "正常"
+                            },
+                            {
+                              "value": 3.0,
+                              "type": "レベル",
+                              "refID": 5
+                            },
+                            {
+                              "value": 3.8,
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 6,
+                              "condition": "正常"
+                            },
+                            {
+                              "value": 3.0,
+                              "type": "レベル",
+                              "refID": 6
+                            },
+                            {
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 7,
+                              "condition": "欠測"
+                            },
+                            {
+                              "type": "レベル",
+                              "refID": 7
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "station": {
+                  "name": "御船",
+                  "codes": [
+                    {
+                      "value": "89091000010000005",
+                      "type": "水位観測所"
+                    }
+                  ],
+                  "location": "上益城郡御船町"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "name": "水位",
+                    "properties": [
+                      {
+                        "type": "水位",
+                        "waterLevelPart": {
+                          "waterLevels": [
+                            {
+                              "value": 4.16,
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 1,
+                              "condition": "正常"
+                            },
+                            {
+                              "value": 3.0,
+                              "type": "レベル",
+                              "refID": 1
+                            },
+                            {
+                              "value": 4.46,
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 2,
+                              "condition": "正常"
+                            },
+                            {
+                              "value": 4.0,
+                              "type": "レベル",
+                              "refID": 2
+                            },
+                            {
+                              "value": 4.63,
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 3,
+                              "condition": "正常"
+                            },
+                            {
+                              "value": 4.0,
+                              "type": "レベル",
+                              "refID": 3
+                            },
+                            {
+                              "value": 4.74,
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 4,
+                              "condition": "正常"
+                            },
+                            {
+                              "value": 4.0,
+                              "type": "レベル",
+                              "refID": 4
+                            },
+                            {
+                              "value": 4.81,
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 5,
+                              "condition": "正常"
+                            },
+                            {
+                              "value": 4.0,
+                              "type": "レベル",
+                              "refID": 5
+                            },
+                            {
+                              "value": 4.94,
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 6,
+                              "condition": "正常"
+                            },
+                            {
+                              "value": 4.0,
+                              "type": "レベル",
+                              "refID": 6
+                            },
+                            {
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 7,
+                              "condition": "欠測"
+                            },
+                            {
+                              "type": "レベル",
+                              "refID": 7
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "station": {
+                  "name": "大六橋",
+                  "codes": [
+                    {
+                      "value": "89091000010000006",
+                      "type": "水位観測所"
+                    }
+                  ],
+                  "location": "上益城郡嘉島町"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "officeInfo": {
+      "offices": [
+        {
+          "type": "水位関係",
+          "name": "熊本河川国道事務所",
+          "code": "22825",
+          "contactInfo": "国土交通省 熊本河川国道事務所　流域治水課 水防企画係 096-382-1111",
+          "uRI": "https://www.river.go.jp/"
+        },
+        {
+          "type": "気象関係",
+          "name": "熊本地方気象台",
+          "code": "47819",
+          "contactInfo": "気象庁 福岡管区気象台 気象防災部 予報課 092-401-0950",
+          "uRI": "https://www.jma.go.jp/"
+        }
+      ]
+    },
+    "additionalInfo": {
+      "floodForecastAddition": {
+        "hydrometricStationParts": [
+          {
+            "area": {
+              "codeType": "水位観測所",
+              "name": "城南",
+              "code": "89091000010000003",
+              "subCityList": [
+                "熊本県熊本市奥古閑校区",
+                "熊本県熊本市隈庄校区",
+                "熊本県熊本市秋津校区",
+                "熊本県熊本市杉上校区",
+                "熊本県熊本市川口校区",
+                "熊本県熊本市川尻校区",
+                "熊本県熊本市銭塘校区",
+                "熊本県熊本市中島校区",
+                "熊本県熊本市中緑校区",
+                "熊本県熊本市富合校区",
+                "熊本県熊本市飽田西校区",
+                "熊本県熊本市飽田南校区",
+                "熊本県宇土市宇土校区",
+                "熊本県宇土市宇土東校区",
+                "熊本県宇土市花園校区",
+                "熊本県宇土市走潟校区",
+                "熊本県宇土市網津校区",
+                "熊本県宇土市緑川校区",
+                "熊本県宇城市松橋校区",
+                "熊本県宇城市不知火校区",
+                "熊本県上益城郡嘉島町嘉島西校区",
+                "熊本県上益城郡嘉島町嘉島東校区",
+                "熊本県上益城郡御船町御船校区",
+                "熊本県上益城郡御船町高木校区",
+                "熊本県上益城郡御船町小坂校区",
+                "熊本県上益城郡甲佐町乙女校区",
+                "熊本県上益城郡甲佐町白旗校区"
+              ],
+              "location": "熊本市"
+            },
+            "chargeSections": [
+              "緑川\n右岸：熊本県甲佐町から熊本県熊本市\n左岸：熊本県熊本市から熊本県宇土市"
+            ],
+            "criterias": [
+              {
+                "waterLevels": [
+                  {
+                    "value": 3.3,
+                    "type": "レベル１水防団待機水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 4.3,
+                    "type": "レベル２氾濫注意水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 5.8,
+                    "type": "レベル３避難判断水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 6.2,
+                    "type": "レベル４氾濫危険水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 7.67,
+                    "type": "レベル４計画高水位等",
+                    "unit": "m",
+                    "condition": "有効"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "area": {
+              "codeType": "水位観測所",
+              "name": "中甲橋",
+              "code": "89091000010000002",
+              "subCityList": [
+                "熊本県熊本市杉上校区",
+                "熊本県上益城郡御船町小坂校区",
+                "熊本県上益城郡甲佐町乙女校区",
+                "熊本県上益城郡甲佐町甲佐校区",
+                "熊本県上益城郡甲佐町白旗校区",
+                "熊本県上益城郡甲佐町龍野校区",
+                "熊本県下益城郡美里町中央校区"
+              ],
+              "location": "下益城郡美里町"
+            },
+            "chargeSections": [
+              "緑川\n右岸：熊本県甲佐町\n左岸：熊本県甲佐町"
+            ],
+            "criterias": [
+              {
+                "waterLevels": [
+                  {
+                    "value": 2.0,
+                    "type": "レベル１水防団待機水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 3.0,
+                    "type": "レベル２氾濫注意水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 4.1,
+                    "type": "レベル３避難判断水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 4.6,
+                    "type": "レベル４氾濫危険水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 5.09,
+                    "type": "レベル４計画高水位等",
+                    "unit": "m",
+                    "condition": "有効"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "area": {
+              "codeType": "水位観測所",
+              "name": "大六橋",
+              "code": "89091000010000006",
+              "subCityList": [
+                "熊本県熊本市奥古閑校区",
+                "熊本県熊本市画図校区",
+                "熊本県熊本市御幸校区",
+                "熊本県熊本市砂取校区",
+                "熊本県熊本市春竹校区",
+                "熊本県熊本市城南校区",
+                "熊本県熊本市川口校区",
+                "熊本県熊本市川尻校区",
+                "熊本県熊本市銭塘校区",
+                "熊本県熊本市中島校区",
+                "熊本県熊本市中緑校区",
+                "熊本県熊本市田迎校区",
+                "熊本県熊本市田迎南校区",
+                "熊本県熊本市日吉校区",
+                "熊本県熊本市日吉東校区",
+                "熊本県熊本市富合校区",
+                "熊本県熊本市飽田西校区",
+                "熊本県熊本市飽田東校区",
+                "熊本県熊本市飽田南校区",
+                "熊本県熊本市力合校区",
+                "熊本県上益城郡嘉島町嘉島西校区",
+                "熊本県上益城郡嘉島町嘉島東校区",
+                "熊本県上益城郡御船町御船校区",
+                "熊本県上益城郡御船町高木校区",
+                "熊本県上益城郡御船町小坂校区",
+                "熊本県上益城郡御船町木倉校区"
+              ],
+              "location": "上益城郡嘉島町"
+            },
+            "chargeSections": [
+              "加勢川\n右岸：熊本県熊本市\n左岸：熊本県嘉島町から熊本県熊本市"
+            ],
+            "criterias": [
+              {
+                "waterLevels": [
+                  {
+                    "value": 2.5,
+                    "type": "レベル１水防団待機水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 3.2,
+                    "type": "レベル２氾濫注意水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 3.9,
+                    "type": "レベル３避難判断水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 4.4,
+                    "type": "レベル４氾濫危険水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 5.84,
+                    "type": "レベル４計画高水位等",
+                    "unit": "m",
+                    "condition": "有効"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "area": {
+              "codeType": "水位観測所",
+              "name": "御船",
+              "code": "89091000010000005",
+              "subCityList": [
+                "熊本県熊本市画図校区",
+                "熊本県熊本市御幸校区",
+                "熊本県熊本市秋津校区",
+                "熊本県上益城郡嘉島町嘉島西校区",
+                "熊本県上益城郡嘉島町嘉島東校区",
+                "熊本県上益城郡御船町御船校区",
+                "熊本県上益城郡御船町高木校区",
+                "熊本県上益城郡御船町小坂校区",
+                "熊本県上益城郡御船町木倉校区"
+              ],
+              "location": "上益城郡御船町"
+            },
+            "chargeSections": [
+              "御船川\n右岸：熊本県御船町から熊本県嘉島町\n左岸：熊本県御船町"
+            ],
+            "criterias": [
+              {
+                "waterLevels": [
+                  {
+                    "value": 2.0,
+                    "type": "レベル１水防団待機水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 3.0,
+                    "type": "レベル２氾濫注意水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 3.6,
+                    "type": "レベル３避難判断水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 4.3,
+                    "type": "レベル４氾濫危険水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 5.39,
+                    "type": "レベル４計画高水位等",
+                    "unit": "m",
+                    "condition": "有効"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

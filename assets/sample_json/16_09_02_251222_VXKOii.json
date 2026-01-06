@@ -1,0 +1,1588 @@
+{
+  "control": {
+    "title": "指定河川洪水予報",
+    "dateTime": "2024-07-27T00:53:45Z",
+    "status": "通常",
+    "editorialOffice": "山形地方気象台",
+    "publishingOffices": [
+      "新庄河川事務所",
+      "山形地方気象台"
+    ]
+  },
+  "head": {
+    "title": "最上川中流レベル３氾濫警報",
+    "reportDateTime": "2024-07-27T00:50:00Z",
+    "targetDateTime": "2024-07-27T00:50:00Z",
+    "eventID": "820211000103",
+    "infoType": "発表",
+    "serial": "6",
+    "infoKind": "指定河川洪水予報",
+    "infoKindVersion": "1.1_1",
+    "headline": {
+      "text": "【警戒レベル３相当情報［洪水］】〔警戒レベル５相当から３相当に切替〕最上川中流では、避難判断水位を上回る水位が続く見込み",
+      "informations": [
+        {
+          "type": "指定河川洪水予報（予報区域）",
+          "items": [
+            {
+              "kinds": [
+                {
+                  "name": "レベル３氾濫警報",
+                  "code": "31",
+                  "condition": "レベル３氾濫警報"
+                }
+              ],
+              "areas": {
+                "codeType": "指定河川洪水予報（予報区域）",
+                "areas": [
+                  {
+                    "name": "最上川中流",
+                    "code": "820211000103"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "指定河川洪水予報（河川）",
+          "items": [
+            {
+              "kinds": [
+                {
+                  "name": "レベル３氾濫警報",
+                  "code": "31",
+                  "condition": "レベル３氾濫警報"
+                }
+              ],
+              "areas": {
+                "codeType": "河川",
+                "areas": [
+                  {
+                    "name": "最上川",
+                    "code": "8202110001"
+                  },
+                  {
+                    "name": "最上小国川",
+                    "code": "8202110170"
+                  },
+                  {
+                    "name": "丹生川",
+                    "code": "8202110221"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "指定河川洪水予報（府県予報区等）",
+          "items": [
+            {
+              "kinds": [
+                {
+                  "name": "レベル３氾濫警報",
+                  "code": "31",
+                  "condition": "レベル３氾濫警報"
+                }
+              ],
+              "areas": {
+                "codeType": "気象情報／府県予報区・細分区域等",
+                "areas": [
+                  {
+                    "name": "山形県",
+                    "code": "060000"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "body": {
+    "type": "meteorology",
+    "notices": [
+      "この電文はテストサンプルです。\n現在、システムの不具合により実況水位のみを発表しています。"
+    ],
+    "warnings": [
+      {
+        "type": "指定河川洪水予報",
+        "items": [
+          {
+            "kinds": [
+              {
+                "properties": [
+                  {
+                    "type": "主文",
+                    "texts": [
+                      {
+                        "value": "最上川の堀内基準観測所（最上郡舟形町）では、「氾濫注意水位」を下回りました。"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "areas": {
+              "codeType": "河川",
+              "areas": [
+                {
+                  "name": "最上川",
+                  "code": "8202110001"
+                }
+              ]
+            },
+            "stations": {
+              "stations": [
+                {
+                  "name": "堀内",
+                  "codes": [
+                    {
+                      "value": "82021100010300001",
+                      "type": "水位観測所"
+                    }
+                  ],
+                  "location": "最上郡舟形町"
+                }
+              ]
+            }
+          },
+          {
+            "kinds": [
+              {
+                "properties": [
+                  {
+                    "type": "主文",
+                    "texts": [
+                      {
+                        "value": "【警戒レベル３相当】高齢者等避難の発令の目安に引下げます。最上川の古口基準観測所（最上郡戸沢村）では、「避難判断水位」を上回る水位が続く見込みです。引き続き、市町村からの避難情報を確認するとともに、各自安全確保を図るなど、適切な防災行動をとってください。"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "areas": {
+              "codeType": "河川",
+              "areas": [
+                {
+                  "name": "最上川",
+                  "code": "8202110001"
+                }
+              ]
+            },
+            "stations": {
+              "stations": [
+                {
+                  "name": "古口",
+                  "codes": [
+                    {
+                      "value": "82021100010300017",
+                      "type": "水位観測所"
+                    }
+                  ],
+                  "location": "最上郡戸沢村"
+                }
+              ]
+            }
+          },
+          {
+            "kinds": [
+              {
+                "name": "浸水想定地区",
+                "code": "1",
+                "status": "対象地域",
+                "properties": [
+                  {
+                    "type": "浸水想定地区",
+                    "texts": [
+                      {
+                        "value": "氾濫による浸水が想定される地区※"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "areas": {
+              "areas": [
+                {
+                  "codeType": "水位観測所",
+                  "name": "大石田",
+                  "code": "82021100010300024",
+                  "prefecture": {
+                    "value": "山形県"
+                  },
+                  "prefectureCode": "06000",
+                  "city": {
+                    "value": "大石田町"
+                  },
+                  "cityCode": "0634100",
+                  "subCityList": [
+                    "来迎寺",
+                    "上宿",
+                    "下宿",
+                    "坂ノ上",
+                    "上ノ原",
+                    "黒滝",
+                    "今宿",
+                    "新町",
+                    "川端",
+                    "二丁目",
+                    "東町",
+                    "愛宕町",
+                    "本町",
+                    "佐田町",
+                    "四日町",
+                    "横町",
+                    "緑町",
+                    "桂木町",
+                    "井出",
+                    "豊田",
+                    "川前",
+                    "大浦",
+                    "駒籠",
+                    "鷹巣",
+                    "西畑",
+                    "岩ヶ袋",
+                    "海谷"
+                  ]
+                },
+                {
+                  "codeType": "水位観測所",
+                  "name": "大石田",
+                  "code": "82021100010300024",
+                  "prefecture": {
+                    "value": "山形県"
+                  },
+                  "prefectureCode": "06000",
+                  "city": {
+                    "value": "村山市"
+                  },
+                  "cityCode": "0620800",
+                  "subCityList": [
+                    "土生田"
+                  ]
+                },
+                {
+                  "codeType": "水位観測所",
+                  "name": "堀内",
+                  "code": "82021100010300001",
+                  "prefecture": {
+                    "value": "山形県"
+                  },
+                  "prefectureCode": "06000",
+                  "city": {
+                    "value": "大石田町"
+                  },
+                  "cityCode": "0634100",
+                  "subCityList": [
+                    "豊田",
+                    "川前",
+                    "大浦",
+                    "駒籠",
+                    "鷹巣",
+                    "西畑"
+                  ]
+                },
+                {
+                  "codeType": "水位観測所",
+                  "name": "堀内",
+                  "code": "82021100010300001",
+                  "prefecture": {
+                    "value": "山形県"
+                  },
+                  "prefectureCode": "06000",
+                  "city": {
+                    "value": "尾花沢市"
+                  },
+                  "cityCode": "0621200",
+                  "subCityList": [
+                    "名木沢",
+                    "毒沢"
+                  ]
+                },
+                {
+                  "codeType": "水位観測所",
+                  "name": "堀内",
+                  "code": "82021100010300001",
+                  "prefecture": {
+                    "value": "山形県"
+                  },
+                  "prefectureCode": "06000",
+                  "city": {
+                    "value": "舟形町"
+                  },
+                  "cityCode": "0636300",
+                  "subCityList": [
+                    "堀内",
+                    "瀬脇",
+                    "実栗屋",
+                    "本堀内",
+                    "太折",
+                    "富田"
+                  ]
+                },
+                {
+                  "codeType": "水位観測所",
+                  "name": "堀内",
+                  "code": "82021100010300001",
+                  "prefecture": {
+                    "value": "山形県"
+                  },
+                  "prefectureCode": "06000",
+                  "city": {
+                    "value": "大蔵村"
+                  },
+                  "cityCode": "0636500",
+                  "subCityList": [
+                    "烏川",
+                    "白須賀",
+                    "比良稲沢",
+                    "作の巻",
+                    "清水１",
+                    "清水２",
+                    "清水３",
+                    "合海"
+                  ]
+                },
+                {
+                  "codeType": "水位観測所",
+                  "name": "堀内",
+                  "code": "82021100010300001",
+                  "prefecture": {
+                    "value": "山形県"
+                  },
+                  "prefectureCode": "06000",
+                  "city": {
+                    "value": "新庄市"
+                  },
+                  "cityCode": "0620500",
+                  "subCityList": [
+                    "畑",
+                    "本合海"
+                  ]
+                },
+                {
+                  "codeType": "水位観測所",
+                  "name": "堀内",
+                  "code": "82021100010300001",
+                  "prefecture": {
+                    "value": "山形県"
+                  },
+                  "prefectureCode": "06000",
+                  "city": {
+                    "value": "戸沢村"
+                  },
+                  "cityCode": "0636700",
+                  "subCityList": [
+                    "金打坊",
+                    "津谷",
+                    "岩花",
+                    "蔵岡",
+                    "出舟",
+                    "皿嶋",
+                    "真柄"
+                  ]
+                },
+                {
+                  "codeType": "水位観測所",
+                  "name": "古口",
+                  "code": "82021100010300017",
+                  "prefecture": {
+                    "value": "山形県"
+                  },
+                  "prefectureCode": "06000",
+                  "city": {
+                    "value": "戸沢村"
+                  },
+                  "cityCode": "0636700",
+                  "subCityList": [
+                    "古口",
+                    "上台",
+                    "猪之鼻",
+                    "岩花",
+                    "蔵岡",
+                    "出舟",
+                    "皿嶋",
+                    "真柄",
+                    "津谷",
+                    "高屋",
+                    "土湯",
+                    "草薙",
+                    "柏沢"
+                  ]
+                },
+                {
+                  "codeType": "水位観測所",
+                  "name": "岩ヶ袋",
+                  "code": "82021100010300038",
+                  "prefecture": {
+                    "value": "山形県"
+                  },
+                  "prefectureCode": "06000",
+                  "city": {
+                    "value": "大石田町"
+                  },
+                  "cityCode": "0634100",
+                  "subCityList": [
+                    "岩ヶ袋",
+                    "海谷",
+                    "豊田",
+                    "井出",
+                    "桂木町",
+                    "緑町",
+                    "四日町",
+                    "横町",
+                    "佐田町",
+                    "本町",
+                    "愛宕町",
+                    "二町目",
+                    "川端",
+                    "新町",
+                    "東町"
+                  ]
+                },
+                {
+                  "codeType": "水位観測所",
+                  "name": "長者原",
+                  "code": "82021100010300004",
+                  "prefecture": {
+                    "value": "山形県"
+                  },
+                  "prefectureCode": "06000",
+                  "city": {
+                    "value": "舟形町"
+                  },
+                  "cityCode": "0636300",
+                  "subCityList": [
+                    "長者原",
+                    "富田"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "meteorologicalInfos": [
+      {
+        "type": "雨量情報",
+        "meteorologicalInfos": [
+          {
+            "dateTime": {
+              "value": "2024-07-27T00:30:00Z"
+            },
+            "items": [
+              {
+                "kinds": [
+                  {
+                    "name": "雨量",
+                    "properties": [
+                      {
+                        "type": "雨量",
+                        "texts": [
+                          {
+                            "value": "多いところで1時間に14ミリの雨が降っています。"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "timeSeriesInfos": [
+          {
+            "timeDefines": {
+              "timeDefines": [
+                {
+                  "timeId": 1,
+                  "dateTime": {
+                    "value": "2024-07-25T00:20:00Z"
+                  },
+                  "duration": "PT48H",
+                  "name": "２５日９時２０分から２７日９時２０分までの流域平均雨量"
+                },
+                {
+                  "timeId": 2,
+                  "dateTime": {
+                    "value": "2024-07-27T00:20:00Z"
+                  },
+                  "duration": "PT3H",
+                  "name": "２７日９時２０分から２７日１２時２０分までの流域平均雨量の見込み"
+                }
+              ]
+            },
+            "items": [
+              {
+                "kinds": [
+                  {
+                    "name": "雨量",
+                    "properties": [
+                      {
+                        "type": "雨量",
+                        "precipitationParts": [
+                          {
+                            "precipitations": [
+                              {
+                                "value": 135.0,
+                                "type": "流域平均雨量",
+                                "unit": "ミリ",
+                                "refID": 1
+                              },
+                              {
+                                "value": 0.0,
+                                "type": "流域平均雨量",
+                                "unit": "ミリ",
+                                "refID": 2
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "最上川上・中流域"
+                }
+              }
+            ]
+          },
+          {
+            "timeDefines": {
+              "timeDefines": [
+                {
+                  "timeId": 1,
+                  "dateTime": {
+                    "value": "2024-07-25T00:20:00Z"
+                  },
+                  "duration": "PT48H",
+                  "name": "２５日９時２０分から２７日９時２０分までの流域平均雨量"
+                },
+                {
+                  "timeId": 2,
+                  "dateTime": {
+                    "value": "2024-07-27T00:20:00Z"
+                  },
+                  "duration": "PT3H",
+                  "name": "２７日９時２０分から２７日１２時２０分までの流域平均雨量の見込み"
+                }
+              ]
+            },
+            "items": [
+              {
+                "kinds": [
+                  {
+                    "name": "雨量",
+                    "properties": [
+                      {
+                        "type": "雨量",
+                        "precipitationParts": [
+                          {
+                            "precipitations": [
+                              {
+                                "value": 146.0,
+                                "type": "流域平均雨量",
+                                "unit": "ミリ",
+                                "refID": 1
+                              },
+                              {
+                                "value": 0.0,
+                                "type": "流域平均雨量",
+                                "unit": "ミリ",
+                                "refID": 2
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "丹生川流域"
+                }
+              }
+            ]
+          },
+          {
+            "timeDefines": {
+              "timeDefines": [
+                {
+                  "timeId": 1,
+                  "dateTime": {
+                    "value": "2024-07-25T00:20:00Z"
+                  },
+                  "duration": "PT48H",
+                  "name": "２５日９時２０分から２７日９時２０分までの流域平均雨量"
+                },
+                {
+                  "timeId": 2,
+                  "dateTime": {
+                    "value": "2024-07-27T00:20:00Z"
+                  },
+                  "duration": "PT3H",
+                  "name": "２７日９時２０分から２７日１２時２０分までの流域平均雨量の見込み"
+                }
+              ]
+            },
+            "items": [
+              {
+                "kinds": [
+                  {
+                    "name": "雨量",
+                    "properties": [
+                      {
+                        "type": "雨量",
+                        "precipitationParts": [
+                          {
+                            "precipitations": [
+                              {
+                                "value": 236.0,
+                                "type": "流域平均雨量",
+                                "unit": "ミリ",
+                                "refID": 1
+                              },
+                              {
+                                "value": 2.0,
+                                "type": "流域平均雨量",
+                                "unit": "ミリ",
+                                "refID": 2
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "最上小国川流域"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "水位・流量情報",
+        "timeSeriesInfos": [
+          {
+            "timeDefines": {
+              "timeDefines": [
+                {
+                  "timeId": 1,
+                  "dateTime": {
+                    "value": "2024-07-27T00:20:00Z"
+                  },
+                  "name": "現況"
+                },
+                {
+                  "timeId": 2,
+                  "dateTime": {
+                    "value": "2024-07-27T01:30:00Z"
+                  },
+                  "name": "１時間後"
+                },
+                {
+                  "timeId": 3,
+                  "dateTime": {
+                    "value": "2024-07-27T02:30:00Z"
+                  },
+                  "name": "２時間後"
+                },
+                {
+                  "timeId": 4,
+                  "dateTime": {
+                    "value": "2024-07-27T03:30:00Z"
+                  },
+                  "name": "３時間後"
+                },
+                {
+                  "timeId": 5,
+                  "dateTime": {
+                    "value": "2024-07-27T04:30:00Z"
+                  },
+                  "name": "４時間後"
+                },
+                {
+                  "timeId": 6,
+                  "dateTime": {
+                    "value": "2024-07-27T05:30:00Z"
+                  },
+                  "name": "５時間後"
+                },
+                {
+                  "timeId": 7,
+                  "dateTime": {
+                    "value": "2024-07-27T06:30:00Z"
+                  },
+                  "name": "６時間後"
+                }
+              ]
+            },
+            "items": [
+              {
+                "kinds": [
+                  {
+                    "name": "水位",
+                    "properties": [
+                      {
+                        "type": "水位",
+                        "waterLevelPart": {
+                          "waterLevels": [
+                            {
+                              "value": 11.86,
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 1,
+                              "condition": "正常"
+                            },
+                            {
+                              "value": 0.0,
+                              "type": "レベル",
+                              "refID": 1
+                            },
+                            {
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 2,
+                              "condition": "欠測"
+                            },
+                            {
+                              "type": "レベル",
+                              "refID": 2
+                            },
+                            {
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 3,
+                              "condition": "欠測"
+                            },
+                            {
+                              "type": "レベル",
+                              "refID": 3
+                            },
+                            {
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 4,
+                              "condition": "欠測"
+                            },
+                            {
+                              "type": "レベル",
+                              "refID": 4
+                            },
+                            {
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 5,
+                              "condition": "欠測"
+                            },
+                            {
+                              "type": "レベル",
+                              "refID": 5
+                            },
+                            {
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 6,
+                              "condition": "欠測"
+                            },
+                            {
+                              "type": "レベル",
+                              "refID": 6
+                            },
+                            {
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 7,
+                              "condition": "欠測"
+                            },
+                            {
+                              "type": "レベル",
+                              "refID": 7
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "station": {
+                  "name": "大石田",
+                  "codes": [
+                    {
+                      "value": "82021100010300024",
+                      "type": "水位観測所"
+                    }
+                  ],
+                  "location": "北村山郡大石田町"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "name": "水位",
+                    "properties": [
+                      {
+                        "type": "水位",
+                        "waterLevelPart": {
+                          "waterLevels": [
+                            {
+                              "value": 2.81,
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 1,
+                              "condition": "正常"
+                            },
+                            {
+                              "value": 0.0,
+                              "type": "レベル",
+                              "refID": 1
+                            },
+                            {
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 2,
+                              "condition": "欠測"
+                            },
+                            {
+                              "type": "レベル",
+                              "refID": 2
+                            },
+                            {
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 3,
+                              "condition": "欠測"
+                            },
+                            {
+                              "type": "レベル",
+                              "refID": 3
+                            },
+                            {
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 4,
+                              "condition": "欠測"
+                            },
+                            {
+                              "type": "レベル",
+                              "refID": 4
+                            },
+                            {
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 5,
+                              "condition": "欠測"
+                            },
+                            {
+                              "type": "レベル",
+                              "refID": 5
+                            },
+                            {
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 6,
+                              "condition": "欠測"
+                            },
+                            {
+                              "type": "レベル",
+                              "refID": 6
+                            },
+                            {
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 7,
+                              "condition": "欠測"
+                            },
+                            {
+                              "type": "レベル",
+                              "refID": 7
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "station": {
+                  "name": "堀内",
+                  "codes": [
+                    {
+                      "value": "82021100010300001",
+                      "type": "水位観測所"
+                    }
+                  ],
+                  "location": "最上郡舟形町"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "name": "水位",
+                    "properties": [
+                      {
+                        "type": "水位",
+                        "waterLevelPart": {
+                          "waterLevels": [
+                            {
+                              "value": 8.1,
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 1,
+                              "condition": "正常"
+                            },
+                            {
+                              "value": 3.0,
+                              "type": "レベル",
+                              "refID": 1
+                            },
+                            {
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 2,
+                              "condition": "欠測"
+                            },
+                            {
+                              "type": "レベル",
+                              "refID": 2
+                            },
+                            {
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 3,
+                              "condition": "欠測"
+                            },
+                            {
+                              "type": "レベル",
+                              "refID": 3
+                            },
+                            {
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 4,
+                              "condition": "欠測"
+                            },
+                            {
+                              "type": "レベル",
+                              "refID": 4
+                            },
+                            {
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 5,
+                              "condition": "欠測"
+                            },
+                            {
+                              "type": "レベル",
+                              "refID": 5
+                            },
+                            {
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 6,
+                              "condition": "欠測"
+                            },
+                            {
+                              "type": "レベル",
+                              "refID": 6
+                            },
+                            {
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 7,
+                              "condition": "欠測"
+                            },
+                            {
+                              "type": "レベル",
+                              "refID": 7
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "station": {
+                  "name": "古口",
+                  "codes": [
+                    {
+                      "value": "82021100010300017",
+                      "type": "水位観測所"
+                    }
+                  ],
+                  "location": "最上郡戸沢村"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "name": "水位",
+                    "properties": [
+                      {
+                        "type": "水位",
+                        "waterLevelPart": {
+                          "waterLevels": [
+                            {
+                              "value": 1.23,
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 1,
+                              "condition": "正常"
+                            },
+                            {
+                              "value": 0.0,
+                              "type": "レベル",
+                              "refID": 1
+                            },
+                            {
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 2,
+                              "condition": "欠測"
+                            },
+                            {
+                              "type": "レベル",
+                              "refID": 2
+                            },
+                            {
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 3,
+                              "condition": "欠測"
+                            },
+                            {
+                              "type": "レベル",
+                              "refID": 3
+                            },
+                            {
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 4,
+                              "condition": "欠測"
+                            },
+                            {
+                              "type": "レベル",
+                              "refID": 4
+                            },
+                            {
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 5,
+                              "condition": "欠測"
+                            },
+                            {
+                              "type": "レベル",
+                              "refID": 5
+                            },
+                            {
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 6,
+                              "condition": "欠測"
+                            },
+                            {
+                              "type": "レベル",
+                              "refID": 6
+                            },
+                            {
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 7,
+                              "condition": "欠測"
+                            },
+                            {
+                              "type": "レベル",
+                              "refID": 7
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "station": {
+                  "name": "岩ヶ袋",
+                  "codes": [
+                    {
+                      "value": "82021100010300038",
+                      "type": "水位観測所"
+                    }
+                  ],
+                  "location": "北村山郡大石田町"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "name": "水位",
+                    "properties": [
+                      {
+                        "type": "水位",
+                        "waterLevelPart": {
+                          "waterLevels": [
+                            {
+                              "value": -0.04,
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 1,
+                              "condition": "正常"
+                            },
+                            {
+                              "value": 0.0,
+                              "type": "レベル",
+                              "refID": 1
+                            },
+                            {
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 2,
+                              "condition": "欠測"
+                            },
+                            {
+                              "type": "レベル",
+                              "refID": 2
+                            },
+                            {
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 3,
+                              "condition": "欠測"
+                            },
+                            {
+                              "type": "レベル",
+                              "refID": 3
+                            },
+                            {
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 4,
+                              "condition": "欠測"
+                            },
+                            {
+                              "type": "レベル",
+                              "refID": 4
+                            },
+                            {
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 5,
+                              "condition": "欠測"
+                            },
+                            {
+                              "type": "レベル",
+                              "refID": 5
+                            },
+                            {
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 6,
+                              "condition": "欠測"
+                            },
+                            {
+                              "type": "レベル",
+                              "refID": 6
+                            },
+                            {
+                              "type": "水位",
+                              "unit": "m",
+                              "refID": 7,
+                              "condition": "欠測"
+                            },
+                            {
+                              "type": "レベル",
+                              "refID": 7
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "station": {
+                  "name": "長者原",
+                  "codes": [
+                    {
+                      "value": "82021100010300004",
+                      "type": "水位観測所"
+                    }
+                  ],
+                  "location": "最上郡舟形町"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "officeInfo": {
+      "offices": [
+        {
+          "type": "水位関係",
+          "name": "新庄河川事務所",
+          "code": "21054",
+          "contactInfo": "国土交通省 新庄河川事務所 流域治水課　0233-22-0262",
+          "uRI": "https://www.river.go.jp/"
+        },
+        {
+          "type": "気象関係",
+          "name": "山形地方気象台",
+          "code": "47588",
+          "contactInfo": "気象庁 仙台管区気象台 気象防災部予報課 022-297-8003",
+          "uRI": "https://www.jma.go.jp/"
+        }
+      ]
+    },
+    "additionalInfo": {
+      "floodForecastAddition": {
+        "hydrometricStationParts": [
+          {
+            "area": {
+              "codeType": "水位観測所",
+              "name": "大石田",
+              "code": "82021100010300024",
+              "subCityList": [
+                "山形県北村山郡大石田町来迎寺",
+                "山形県北村山郡大石田町上宿",
+                "山形県北村山郡大石田町下宿",
+                "山形県北村山郡大石田町坂ノ上",
+                "山形県北村山郡大石田町上ノ原",
+                "山形県北村山郡大石田町黒滝",
+                "山形県北村山郡大石田町今宿",
+                "山形県北村山郡大石田町新町",
+                "山形県北村山郡大石田町川端",
+                "山形県北村山郡大石田町二丁目",
+                "山形県北村山郡大石田町東町",
+                "山形県北村山郡大石田町愛宕町",
+                "山形県北村山郡大石田町本町",
+                "山形県北村山郡大石田町佐田町",
+                "山形県北村山郡大石田町四日町",
+                "山形県北村山郡大石田町横町",
+                "山形県北村山郡大石田町緑町",
+                "山形県北村山郡大石田町桂木町",
+                "山形県北村山郡大石田町井出",
+                "山形県北村山郡大石田町豊田",
+                "山形県北村山郡大石田町川前",
+                "山形県北村山郡大石田町大浦",
+                "山形県北村山郡大石田町駒籠",
+                "山形県北村山郡大石田町鷹巣",
+                "山形県北村山郡大石田町西畑",
+                "山形県北村山郡大石田町岩ヶ袋",
+                "山形県北村山郡大石田町海谷",
+                "山形県村山市土生田"
+              ],
+              "location": "北村山郡大石田町"
+            },
+            "chargeSections": [
+              "最上川\n　右岸：沢の目川合流点から丹生川合流点まで\n　左岸：沢の目川合流点から丹生川合流点まで",
+              "丹生川\n　右岸：すいか橋から最上川への合流点まで\n　左岸：すいか橋から最上川への合流点まで"
+            ],
+            "criterias": [
+              {
+                "waterLevels": [
+                  {
+                    "value": 12.5,
+                    "type": "レベル１水防団待機水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 13.8,
+                    "type": "レベル２氾濫注意水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 16.5,
+                    "type": "レベル３避難判断水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 16.9,
+                    "type": "レベル４氾濫危険水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 17.9,
+                    "type": "レベル４計画高水位等",
+                    "unit": "m",
+                    "condition": "有効"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "area": {
+              "codeType": "水位観測所",
+              "name": "堀内",
+              "code": "82021100010300001",
+              "subCityList": [
+                "山形県北村山郡大石田町豊田",
+                "山形県北村山郡大石田町川前",
+                "山形県北村山郡大石田町大浦",
+                "山形県北村山郡大石田町駒籠",
+                "山形県北村山郡大石田町鷹巣",
+                "山形県北村山郡大石田町西畑",
+                "山形県尾花沢市名木沢",
+                "山形県尾花沢市毒沢",
+                "山形県最上郡舟形町堀内",
+                "山形県最上郡舟形町瀬脇",
+                "山形県最上郡舟形町実栗屋",
+                "山形県最上郡舟形町本堀内",
+                "山形県最上郡舟形町太折",
+                "山形県最上郡舟形町富田",
+                "山形県最上郡大蔵村烏川",
+                "山形県最上郡大蔵村白須賀",
+                "山形県最上郡大蔵村比良稲沢",
+                "山形県最上郡大蔵村作の巻",
+                "山形県最上郡大蔵村清水１",
+                "山形県最上郡大蔵村清水２",
+                "山形県最上郡大蔵村清水３",
+                "山形県最上郡大蔵村合海",
+                "山形県新庄市畑",
+                "山形県新庄市本合海",
+                "山形県最上郡戸沢村金打坊",
+                "山形県最上郡戸沢村津谷",
+                "山形県最上郡戸沢村岩花",
+                "山形県最上郡戸沢村蔵岡",
+                "山形県最上郡戸沢村出舟",
+                "山形県最上郡戸沢村皿嶋",
+                "山形県最上郡戸沢村真柄"
+              ],
+              "location": "最上郡舟形町"
+            },
+            "chargeSections": [
+              "最上川\n　右岸：丹生川合流点から鮭川合流点まで\n　左岸：丹生川合流点から鮭川合流点まで",
+              "最上小国川\n　右岸：山形県最上郡舟形町長者原（1.0km）から最上川への合流点まで\n　左岸：山形県最上郡舟形町富田（1.0km）から最上川への合流点まで"
+            ],
+            "criterias": [
+              {
+                "waterLevels": [
+                  {
+                    "value": 3.4,
+                    "type": "レベル１水防団待機水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 4.4,
+                    "type": "レベル２氾濫注意水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 7.6,
+                    "type": "レベル３避難判断水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 7.8,
+                    "type": "レベル４氾濫危険水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 8.4,
+                    "type": "レベル４計画高水位等",
+                    "unit": "m",
+                    "condition": "有効"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "area": {
+              "codeType": "水位観測所",
+              "name": "古口",
+              "code": "82021100010300017",
+              "subCityList": [
+                "山形県最上郡戸沢村古口",
+                "山形県最上郡戸沢村上台",
+                "山形県最上郡戸沢村猪之鼻",
+                "山形県最上郡戸沢村岩花",
+                "山形県最上郡戸沢村蔵岡",
+                "山形県最上郡戸沢村出舟",
+                "山形県最上郡戸沢村皿嶋",
+                "山形県最上郡戸沢村真柄",
+                "山形県最上郡戸沢村津谷",
+                "山形県最上郡戸沢村高屋",
+                "山形県最上郡戸沢村土湯",
+                "山形県最上郡戸沢村草薙",
+                "山形県最上郡戸沢村柏沢"
+              ],
+              "location": "最上郡戸沢村"
+            },
+            "chargeSections": [
+              "最上川\n　右岸：鮭川合流点から戸沢村古口（30.8km）まで\n　左岸：鮭川合流点から戸沢村古口（30.8km）まで"
+            ],
+            "criterias": [
+              {
+                "waterLevels": [
+                  {
+                    "value": 3.3,
+                    "type": "レベル１水防団待機水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 5.5,
+                    "type": "レベル２氾濫注意水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 8.0,
+                    "type": "レベル３避難判断水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 8.2,
+                    "type": "レベル４氾濫危険水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 8.7,
+                    "type": "レベル４計画高水位等",
+                    "unit": "m",
+                    "condition": "有効"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "area": {
+              "codeType": "水位観測所",
+              "name": "岩ヶ袋",
+              "code": "82021100010300038",
+              "subCityList": [
+                "山形県北村山郡大石田町岩ヶ袋",
+                "山形県北村山郡大石田町海谷",
+                "山形県北村山郡大石田町豊田",
+                "山形県北村山郡大石田町井出",
+                "山形県北村山郡大石田町桂木町",
+                "山形県北村山郡大石田町緑町",
+                "山形県北村山郡大石田町四日町",
+                "山形県北村山郡大石田町横町",
+                "山形県北村山郡大石田町佐田町",
+                "山形県北村山郡大石田町本町",
+                "山形県北村山郡大石田町愛宕町",
+                "山形県北村山郡大石田町二町目",
+                "山形県北村山郡大石田町川端",
+                "山形県北村山郡大石田町新町",
+                "山形県北村山郡大石田町東町"
+              ],
+              "location": "北村山郡大石田町"
+            },
+            "chargeSections": [
+              "丹生川\n　右岸：ＪＲ奥羽本線丹生川橋梁からすいか橋まで\n　左岸：ＪＲ奥羽本線丹生川橋梁からすいか橋まで"
+            ],
+            "criterias": [
+              {
+                "waterLevels": [
+                  {
+                    "value": 2.1,
+                    "type": "レベル１水防団待機水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 2.4,
+                    "type": "レベル２氾濫注意水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 2.8,
+                    "type": "レベル３避難判断水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 2.9,
+                    "type": "レベル４氾濫危険水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 4.3,
+                    "type": "レベル４計画高水位等",
+                    "unit": "m",
+                    "condition": "有効"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "area": {
+              "codeType": "水位観測所",
+              "name": "長者原",
+              "code": "82021100010300004",
+              "subCityList": [
+                "山形県最上郡舟形町長者原",
+                "山形県最上郡舟形町富田"
+              ],
+              "location": "最上郡舟形町"
+            },
+            "chargeSections": [
+              "最上小国川\n　右岸：富長橋から山形県最上郡舟形町長者原（1.0km）まで\n　左岸：富長橋から山形県最上郡舟形町富田（1.0km）まで"
+            ],
+            "criterias": [
+              {
+                "waterLevels": [
+                  {
+                    "value": 1.5,
+                    "type": "レベル１水防団待機水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 2.1,
+                    "type": "レベル２氾濫注意水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 3.3,
+                    "type": "レベル３避難判断水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 3.95,
+                    "type": "レベル４氾濫危険水位",
+                    "unit": "m",
+                    "condition": "有効"
+                  },
+                  {
+                    "value": 5.1,
+                    "type": "レベル４計画高水位等",
+                    "unit": "m",
+                    "condition": "有効"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
