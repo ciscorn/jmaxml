@@ -7,8 +7,8 @@ members = [
 resolver = "3"
 
 [workspace.package]
-authors = ["Taku Fukada <naninunenor@gmail.com>", "MIERUNE Inc. <info@mierune.co.jp>"]
+authors = ["Taku Fukada <naninunenor@gmail.com>"]
 version = "0.3.2"
 edition = "2024"
-repository = "https://github.com/MIERUNE/jmaxml"
+repository = "https://github.com/ciscorn/jmaxml"
 license = "MIT OR Apache-2.0"
