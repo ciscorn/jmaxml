@@ -8354,14 +8354,14 @@
 <Base>
 <jmx_eb:Humidity description="５０パーセント" refID="1" type="実効湿度" unit="%">50</jmx_eb:Humidity>
 <jmx_eb:Humidity description="５０パーセント" refID="2" type="実効湿度" unit="%">50</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 <HumidityPart>
 <Base>
 <jmx_eb:Humidity description="３５パーセント" refID="1" type="最小湿度" unit="%">35</jmx_eb:Humidity>
 <jmx_eb:Humidity description="３５パーセント" refID="2" type="最小湿度" unit="%">35</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 </Property>
@@ -8473,14 +8473,14 @@
 <Base>
 <jmx_eb:Humidity description="５０パーセント" refID="1" type="実効湿度" unit="%">50</jmx_eb:Humidity>
 <jmx_eb:Humidity description="５０パーセント" refID="2" type="実効湿度" unit="%">50</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 <HumidityPart>
 <Base>
 <jmx_eb:Humidity description="３５パーセント" refID="1" type="最小湿度" unit="%">35</jmx_eb:Humidity>
 <jmx_eb:Humidity description="３５パーセント" refID="2" type="最小湿度" unit="%">35</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 </Property>
@@ -8592,14 +8592,14 @@
 <Base>
 <jmx_eb:Humidity description="５０パーセント" refID="1" type="実効湿度" unit="%">50</jmx_eb:Humidity>
 <jmx_eb:Humidity description="５０パーセント" refID="2" type="実効湿度" unit="%">50</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 <HumidityPart>
 <Base>
 <jmx_eb:Humidity description="３５パーセント" refID="1" type="最小湿度" unit="%">35</jmx_eb:Humidity>
 <jmx_eb:Humidity description="３５パーセント" refID="2" type="最小湿度" unit="%">35</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 </Property>
@@ -8711,14 +8711,14 @@
 <Base>
 <jmx_eb:Humidity description="５０パーセント" refID="1" type="実効湿度" unit="%">50</jmx_eb:Humidity>
 <jmx_eb:Humidity description="５０パーセント" refID="2" type="実効湿度" unit="%">50</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 <HumidityPart>
 <Base>
 <jmx_eb:Humidity description="３５パーセント" refID="1" type="最小湿度" unit="%">35</jmx_eb:Humidity>
 <jmx_eb:Humidity description="３５パーセント" refID="2" type="最小湿度" unit="%">35</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 </Property>
@@ -8830,14 +8830,14 @@
 <Base>
 <jmx_eb:Humidity description="５０パーセント" refID="1" type="実効湿度" unit="%">50</jmx_eb:Humidity>
 <jmx_eb:Humidity description="５０パーセント" refID="2" type="実効湿度" unit="%">50</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 <HumidityPart>
 <Base>
 <jmx_eb:Humidity description="３５パーセント" refID="1" type="最小湿度" unit="%">35</jmx_eb:Humidity>
 <jmx_eb:Humidity description="３５パーセント" refID="2" type="最小湿度" unit="%">35</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 </Property>
@@ -8949,14 +8949,14 @@
 <Base>
 <jmx_eb:Humidity description="５０パーセント" refID="1" type="実効湿度" unit="%">50</jmx_eb:Humidity>
 <jmx_eb:Humidity description="５０パーセント" refID="2" type="実効湿度" unit="%">50</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 <HumidityPart>
 <Base>
 <jmx_eb:Humidity description="３５パーセント" refID="1" type="最小湿度" unit="%">35</jmx_eb:Humidity>
 <jmx_eb:Humidity description="３５パーセント" refID="2" type="最小湿度" unit="%">35</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 </Property>
@@ -9068,14 +9068,14 @@
 <Base>
 <jmx_eb:Humidity description="５０パーセント" refID="1" type="実効湿度" unit="%">50</jmx_eb:Humidity>
 <jmx_eb:Humidity description="５０パーセント" refID="2" type="実効湿度" unit="%">50</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 <HumidityPart>
 <Base>
 <jmx_eb:Humidity description="３５パーセント" refID="1" type="最小湿度" unit="%">35</jmx_eb:Humidity>
 <jmx_eb:Humidity description="３５パーセント" refID="2" type="最小湿度" unit="%">35</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 </Property>
@@ -9187,14 +9187,14 @@
 <Base>
 <jmx_eb:Humidity description="５０パーセント" refID="1" type="実効湿度" unit="%">50</jmx_eb:Humidity>
 <jmx_eb:Humidity description="５０パーセント" refID="2" type="実効湿度" unit="%">50</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 <HumidityPart>
 <Base>
 <jmx_eb:Humidity description="３５パーセント" refID="1" type="最小湿度" unit="%">35</jmx_eb:Humidity>
 <jmx_eb:Humidity description="３５パーセント" refID="2" type="最小湿度" unit="%">35</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 </Property>
@@ -9306,14 +9306,14 @@
 <Base>
 <jmx_eb:Humidity description="５０パーセント" refID="1" type="実効湿度" unit="%">50</jmx_eb:Humidity>
 <jmx_eb:Humidity description="５０パーセント" refID="2" type="実効湿度" unit="%">50</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 <HumidityPart>
 <Base>
 <jmx_eb:Humidity description="３５パーセント" refID="1" type="最小湿度" unit="%">35</jmx_eb:Humidity>
 <jmx_eb:Humidity description="３５パーセント" refID="2" type="最小湿度" unit="%">35</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 </Property>
@@ -9425,14 +9425,14 @@
 <Base>
 <jmx_eb:Humidity description="５０パーセント" refID="1" type="実効湿度" unit="%">50</jmx_eb:Humidity>
 <jmx_eb:Humidity description="５０パーセント" refID="2" type="実効湿度" unit="%">50</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 <HumidityPart>
 <Base>
 <jmx_eb:Humidity description="３５パーセント" refID="1" type="最小湿度" unit="%">35</jmx_eb:Humidity>
 <jmx_eb:Humidity description="３５パーセント" refID="2" type="最小湿度" unit="%">35</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 </Property>

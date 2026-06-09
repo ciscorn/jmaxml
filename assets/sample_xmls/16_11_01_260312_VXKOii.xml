@@ -2,22 +2,22 @@
 <Report xmlns="http://xml.kishou.go.jp/jmaxml1/" xmlns:jmx="http://xml.kishou.go.jp/jmaxml1/">
   <Control>
     <Title>指定河川洪水予報</Title>
-    <DateTime>2024-07-25T19:30:46Z</DateTime>
+    <DateTime>2024-07-25T18:30:46Z</DateTime>
     <Status>通常</Status>
     <EditorialOffice>山形地方気象台</EditorialOffice>
     <PublishingOffice>新庄河川事務所 山形地方気象台</PublishingOffice>
   </Control>
   <Head xmlns="http://xml.kishou.go.jp/jmaxml1/informationBasis1/">
     <Title>最上川中流レベル５氾濫特別警報</Title>
-    <ReportDateTime>2024-07-26T04:20:00+09:00</ReportDateTime>
-    <TargetDateTime>2024-07-26T04:20:00+09:00</TargetDateTime>
+    <ReportDateTime>2024-07-26T03:20:00+09:00</ReportDateTime>
+    <TargetDateTime>2024-07-26T03:20:00+09:00</TargetDateTime>
     <EventID>820211000103</EventID>
     <InfoType>発表</InfoType>
-    <Serial>4</Serial>
+    <Serial>3</Serial>
     <InfoKind>指定河川洪水予報</InfoKind>
     <InfoKindVersion>1.1_1</InfoKindVersion>
     <Headline>
-      <Text>【警戒レベル５相当情報［洪水］】〔継続〕《氾濫発生》最上川中流では、氾濫が発生　氾濫発生箇所：最上川戸沢村蔵岡地区（左岸）</Text>
+      <Text>【警戒レベル５相当情報［洪水］】〔警戒レベル４相当から５相当に切替〕《氾濫切迫》最上川中流では、氾濫が発生しているおそれ　氾濫のおそれがある区間：最上川古口基準観測所受け持ち区間</Text>
       <Information type="指定河川洪水予報（予報区域）">
         <Item>
           <Kind>
@@ -81,7 +81,7 @@
         <Kind>
           <Property>
             <Type>主文</Type>
-            <Text>【警戒レベル２】最上川の大石田基準観測所（北村山郡大石田町）では、当分の間、「氾濫注意水位」付近の水位が続く見込みです。引き続き、洪水に関する情報に注意してください。</Text>
+            <Text>【警戒レベル２】大石田基準観測所（北村山郡大石田町）受け持ち区間　最上川の大石田基準観測所（北村山郡大石田町）では、当分の間、「氾濫注意水位」付近の水位が続く見込みです。引き続き、洪水に関する情報に注意してください。</Text>
           </Property>
         </Kind>
         <Areas codeType="河川">
@@ -102,7 +102,7 @@
         <Kind>
           <Property>
             <Type>主文</Type>
-            <Text>【警戒レベル３相当】最上川の堀内基準観測所（最上郡舟形町）では、当分の間、「避難判断水位」付近の水位が続く見込みです。引き続き、市町村からの避難情報に十分注意するとともに、適切な防災行動をとってください。</Text>
+            <Text>【警戒レベル３相当】堀内基準観測所（最上郡舟形町）受け持ち区間　最上川の堀内基準観測所（最上郡舟形町）では、当分の間、「避難判断水位」付近の水位が続く見込みです。引き続き、市町村からの避難情報に十分注意するとともに、適切な防災行動をとってください。</Text>
           </Property>
         </Kind>
         <Areas codeType="河川">
@@ -123,7 +123,7 @@
         <Kind>
           <Property>
             <Type>主文</Type>
-            <Text>【警戒レベル５相当】災害が発生しています。最上川中流では、戸沢村蔵岡地区（左岸）付近において氾濫の発生を確認しました。直ちに、市町村からの避難情報を確認するとともに、各自安全確保を図るなど、適切な防災行動をとってください。</Text>
+            <Text>【警戒レベル５相当】古口基準観測所（最上郡戸沢村）受け持ち区間　災害が発生しているおそれがあります。最上川の古口基準観測所（最上郡戸沢村）では、「氾濫発生水位」に到達しました。最上川では既に氾濫が発生している可能性があり、最上郡戸沢村では浸水しているおそれがあります。直ちに、市町村からの避難情報を確認するとともに、各自安全確保を図るなど、適切な防災行動をとってください。</Text>
           </Property>
         </Kind>
         <Areas codeType="河川">
@@ -165,7 +165,7 @@
         <Kind>
           <Property>
             <Type>主文</Type>
-            <Text>【警戒レベル２】最上小国川の長者原基準観測所（最上郡舟形町）では、当分の間、「氾濫注意水位」付近の水位が続く見込みです。引き続き、洪水に関する情報に注意してください。</Text>
+            <Text>【警戒レベル２】長者原基準観測所（最上郡舟形町）受け持ち区間　最上小国川の長者原基準観測所（最上郡舟形町）では、当分の間、「氾濫注意水位」付近の水位が続く見込みです。引き続き、洪水に関する情報に注意してください。</Text>
           </Property>
         </Kind>
         <Areas codeType="河川">
@@ -184,29 +184,120 @@
       </Item>
       <Item>
         <Kind>
-          <Name>浸水想定地区（氾濫発生情報）</Name>
-          <Code>2</Code>
+          <Name>浸水想定地区</Name>
+          <Code>1</Code>
           <Status>対象地域</Status>
           <Property>
-            <Type>浸水想定地区（氾濫発生情報）</Type>
-            <Text>戸沢村蔵岡地区からの氾濫による浸水が想定される地区は以下のとおりです。※</Text>
+            <Type>浸水想定地区</Type>
+            <Text>氾濫による浸水が想定される地区※</Text>
           </Property>
         </Kind>
         <Areas>
-          <Area>
-            <Name>山形県最上郡戸沢村</Name>
+          <Area codeType="水位観測所">
+            <Name>大石田</Name>
+            <Code>82021100010300024</Code>
+            <Prefecture>山形県</Prefecture>
+            <PrefectureCode>06000</PrefectureCode>
+            <City>大石田町</City>
+            <CityCode>0634100</CityCode>
+            <SubCityList>来迎寺 上宿 下宿 坂ノ上 上ノ原 黒滝 今宿 新町 川端 二丁目 東町 愛宕町 本町 佐田町 四日町 横町 緑町 桂木町 井出 豊田 川前 大浦 駒籠 鷹巣 西畑 岩ヶ袋 海谷</SubCityList>
+          </Area>
+          <Area codeType="水位観測所">
+            <Name>大石田</Name>
+            <Code>82021100010300024</Code>
+            <Prefecture>山形県</Prefecture>
+            <PrefectureCode>06000</PrefectureCode>
+            <City>村山市</City>
+            <CityCode>0620800</CityCode>
+            <SubCityList>土生田</SubCityList>
+          </Area>
+          <Area codeType="水位観測所">
+            <Name>堀内</Name>
+            <Code>82021100010300001</Code>
+            <Prefecture>山形県</Prefecture>
+            <PrefectureCode>06000</PrefectureCode>
+            <City>大石田町</City>
+            <CityCode>0634100</CityCode>
+            <SubCityList>豊田 川前 大浦 駒籠 鷹巣 西畑</SubCityList>
+          </Area>
+          <Area codeType="水位観測所">
+            <Name>堀内</Name>
+            <Code>82021100010300001</Code>
+            <Prefecture>山形県</Prefecture>
+            <PrefectureCode>06000</PrefectureCode>
+            <City>尾花沢市</City>
+            <CityCode>0621200</CityCode>
+            <SubCityList>名木沢 毒沢</SubCityList>
+          </Area>
+          <Area codeType="水位観測所">
+            <Name>堀内</Name>
+            <Code>82021100010300001</Code>
+            <Prefecture>山形県</Prefecture>
+            <PrefectureCode>06000</PrefectureCode>
+            <City>舟形町</City>
+            <CityCode>0636300</CityCode>
+            <SubCityList>堀内 瀬脇 実栗屋 本堀内 太折 富田</SubCityList>
+          </Area>
+          <Area codeType="水位観測所">
+            <Name>堀内</Name>
+            <Code>82021100010300001</Code>
+            <Prefecture>山形県</Prefecture>
+            <PrefectureCode>06000</PrefectureCode>
+            <City>大蔵村</City>
+            <CityCode>0636500</CityCode>
+            <SubCityList>烏川 白須賀 比良稲沢 作の巻 清水１ 清水２ 清水３ 合海</SubCityList>
+          </Area>
+          <Area codeType="水位観測所">
+            <Name>堀内</Name>
+            <Code>82021100010300001</Code>
+            <Prefecture>山形県</Prefecture>
+            <PrefectureCode>06000</PrefectureCode>
+            <City>新庄市</City>
+            <CityCode>0620500</CityCode>
+            <SubCityList>畑 本合海</SubCityList>
+          </Area>
+          <Area codeType="水位観測所">
+            <Name>堀内</Name>
+            <Code>82021100010300001</Code>
             <Prefecture>山形県</Prefecture>
             <PrefectureCode>06000</PrefectureCode>
             <City>戸沢村</City>
             <CityCode>0636700</CityCode>
-            <SubCityList>蔵岡</SubCityList>
+            <SubCityList>金打坊 津谷 岩花 蔵岡 出舟 皿嶋 真柄</SubCityList>
+          </Area>
+          <Area codeType="水位観測所">
+            <Name>古口</Name>
+            <Code>82021100010300017</Code>
+            <Prefecture>山形県</Prefecture>
+            <PrefectureCode>06000</PrefectureCode>
+            <City>戸沢村</City>
+            <CityCode>0636700</CityCode>
+            <SubCityList>古口 上台 猪之鼻 岩花 蔵岡 出舟 皿嶋 真柄 津谷 高屋 土湯 草薙 柏沢</SubCityList>
+          </Area>
+          <Area codeType="水位観測所">
+            <Name>岩ヶ袋</Name>
+            <Code>82021100010300038</Code>
+            <Prefecture>山形県</Prefecture>
+            <PrefectureCode>06000</PrefectureCode>
+            <City>大石田町</City>
+            <CityCode>0634100</CityCode>
+            <SubCityList>岩ヶ袋 海谷 豊田 井出 桂木町 緑町 四日町 横町 佐田町 本町 愛宕町 二町目 川端 新町 東町</SubCityList>
+          </Area>
+          <Area codeType="水位観測所">
+            <Name>長者原</Name>
+            <Code>82021100010300004</Code>
+            <Prefecture>山形県</Prefecture>
+            <PrefectureCode>06000</PrefectureCode>
+            <City>舟形町</City>
+            <CityCode>0636300</CityCode>
+            <SubCityList>長者原 富田</SubCityList>
           </Area>
         </Areas>
       </Item>
     </Warning>
     <MeteorologicalInfos type="雨量情報">
       <MeteorologicalInfo>
-        <DateTime>2024-07-26T04:10:00+09:00</DateTime>
+        <DateTime>2024-07-26T03:10:00+09:00</DateTime>
         <Item>
           <Kind>
             <Name>雨量</Name>
@@ -221,14 +312,14 @@
       <TimeSeriesInfo>
         <TimeDefines>
           <TimeDefine timeId="1">
-            <DateTime>2024-07-24T04:10:00+09:00</DateTime>
+            <DateTime>2024-07-24T03:10:00+09:00</DateTime>
             <Duration>PT48H</Duration>
-            <Name>２４日４時１０分から２６日４時１０分までの流域平均雨量</Name>
+            <Name>２４日３時１０分から２６日３時１０分までの流域平均雨量</Name>
           </TimeDefine>
           <TimeDefine timeId="2">
-            <DateTime>2024-07-26T04:10:00+09:00</DateTime>
+            <DateTime>2024-07-26T03:10:00+09:00</DateTime>
             <Duration>PT3H</Duration>
-            <Name>２６日４時１０分から２６日７時１０分までの流域平均雨量の見込み</Name>
+            <Name>２６日３時１０分から２６日６時１０分までの流域平均雨量の見込み</Name>
           </TimeDefine>
         </TimeDefines>
         <Item>
@@ -250,14 +341,14 @@
       <TimeSeriesInfo>
         <TimeDefines>
           <TimeDefine timeId="1">
-            <DateTime>2024-07-25T05:00:00+09:00</DateTime>
+            <DateTime>2024-07-25T04:00:00+09:00</DateTime>
             <Duration>PT23H10M</Duration>
-            <Name>２５日５時００分から２６日４時１０分までの流域平均雨量</Name>
+            <Name>２５日４時００分から２６日３時１０分までの流域平均雨量</Name>
           </TimeDefine>
           <TimeDefine timeId="2">
-            <DateTime>2024-07-26T04:10:00+09:00</DateTime>
+            <DateTime>2024-07-26T03:10:00+09:00</DateTime>
             <Duration>PT3H</Duration>
-            <Name>２６日４時１０分から２６日７時１０分までの流域平均雨量の見込み</Name>
+            <Name>２６日３時１０分から２６日６時１０分までの流域平均雨量の見込み</Name>
           </TimeDefine>
         </TimeDefines>
         <Item>
@@ -279,14 +370,14 @@
       <TimeSeriesInfo>
         <TimeDefines>
           <TimeDefine timeId="1">
-            <DateTime>2024-07-24T04:10:00+09:00</DateTime>
+            <DateTime>2024-07-24T03:10:00+09:00</DateTime>
             <Duration>PT48H</Duration>
-            <Name>２４日４時１０分から２６日４時１０分までの流域平均雨量</Name>
+            <Name>２４日３時１０分から２６日３時１０分までの流域平均雨量</Name>
           </TimeDefine>
           <TimeDefine timeId="2">
-            <DateTime>2024-07-26T04:10:00+09:00</DateTime>
+            <DateTime>2024-07-26T03:10:00+09:00</DateTime>
             <Duration>PT3H</Duration>
-            <Name>２６日４時１０分から２６日７時１０分までの流域平均雨量の見込み</Name>
+            <Name>２６日３時１０分から２６日６時１０分までの流域平均雨量の見込み</Name>
           </TimeDefine>
         </TimeDefines>
         <Item>
@@ -310,31 +401,31 @@
       <TimeSeriesInfo>
         <TimeDefines>
           <TimeDefine timeId="1">
-            <DateTime>2024-07-26T04:10:00+09:00</DateTime>
+            <DateTime>2024-07-26T03:10:00+09:00</DateTime>
             <Name>現況</Name>
           </TimeDefine>
           <TimeDefine timeId="2">
-            <DateTime>2024-07-26T05:10:00+09:00</DateTime>
+            <DateTime>2024-07-26T04:10:00+09:00</DateTime>
             <Name>１時間後</Name>
           </TimeDefine>
           <TimeDefine timeId="3">
-            <DateTime>2024-07-26T06:10:00+09:00</DateTime>
+            <DateTime>2024-07-26T05:10:00+09:00</DateTime>
             <Name>２時間後</Name>
           </TimeDefine>
           <TimeDefine timeId="4">
-            <DateTime>2024-07-26T07:10:00+09:00</DateTime>
+            <DateTime>2024-07-26T06:10:00+09:00</DateTime>
             <Name>３時間後</Name>
           </TimeDefine>
           <TimeDefine timeId="5">
-            <DateTime>2024-07-26T08:10:00+09:00</DateTime>
+            <DateTime>2024-07-26T07:10:00+09:00</DateTime>
             <Name>４時間後</Name>
           </TimeDefine>
           <TimeDefine timeId="6">
-            <DateTime>2024-07-26T09:10:00+09:00</DateTime>
+            <DateTime>2024-07-26T08:10:00+09:00</DateTime>
             <Name>５時間後</Name>
           </TimeDefine>
           <TimeDefine timeId="7">
-            <DateTime>2024-07-26T10:10:00+09:00</DateTime>
+            <DateTime>2024-07-26T09:10:00+09:00</DateTime>
             <Name>６時間後</Name>
           </TimeDefine>
         </TimeDefines>

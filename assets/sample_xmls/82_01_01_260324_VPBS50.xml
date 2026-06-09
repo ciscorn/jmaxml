@@ -5,7 +5,7 @@
 <DateTime>2023-09-08T01:19:55Z</DateTime>
 <Status>通常</Status>
 <EditorialOffice>銚子地方気象台</EditorialOffice>
-<PublishingOffice>銚子地方気象台</PublishingOffice>
+<PublishingOffice>気象庁</PublishingOffice>
 </Control>
 <Head xmlns="http://xml.kishou.go.jp/jmaxml1/informationBasis1/">
 <Title>千葉県気象防災速報（線状降水帯発生）</Title>
@@ -17,7 +17,7 @@
 <InfoKind>気象解説情報</InfoKind>
 <InfoKindVersion>1.5_0</InfoKindVersion>
 <Headline>
-<Text>千葉県北西部、北東部、南部では、線状降水帯による非常に激しい雨が同じ場所で降り続いています。命に危険が及ぶ土砂災害や洪水による災害発生の危険度が急激に高まっています。</Text>
+<Text>千葉県北西部、北東部、南部では、線状降水帯による非常に激しい雨が同じ場所で降り続いています。命に危険が及ぶ災害発生の危険度が急激に高まっています。</Text>
 <Information type="情報タグ">
 <Item>
 <Kind>

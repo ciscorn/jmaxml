@@ -1,0 +1,3306 @@
+{
+  "control": {
+    "title": "全般海上警報（定時）（Ｒ０８）",
+    "dateTime": "2025-10-16T02:17:04Z",
+    "status": "通常",
+    "editorialOffice": "気象庁本庁",
+    "publishingOffices": [
+      "気象庁"
+    ]
+  },
+  "head": {
+    "title": "全般海上警報",
+    "reportDateTime": "2025-10-16T02:20:00Z",
+    "targetDateTime": "2025-10-16T02:20:00Z",
+    "validDateTime": "2025-10-17T00:00:00Z",
+    "eventID": "",
+    "infoType": "発表",
+    "serial": "",
+    "infoKind": "全般海上警報",
+    "infoKindVersion": "1.0_3",
+    "headline": {
+      "text": "",
+      "informations": [
+        {
+          "type": "全般海上警報",
+          "items": [
+            {
+              "kinds": [
+                {
+                  "name": "海上暴風警報",
+                  "code": "22"
+                }
+              ],
+              "areas": {
+                "codeType": "全般海上海域名",
+                "areas": [
+                  {
+                    "name": "低気圧",
+                    "circles": [
+                      {
+                        "type": "影響範囲",
+                        "basePoints": [
+                          {
+                            "value": "+36+135/",
+                            "type": "実況位置（度）",
+                            "description": "北緯３６度東経１３５度"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "影響範囲",
+                        "basePoints": [
+                          {
+                            "value": "+38+143/",
+                            "type": "１２時間後位置（度）",
+                            "description": "北緯３８度東経１４３度"
+                          },
+                          {
+                            "value": "+38+150/",
+                            "type": "２４時間後位置（度）",
+                            "description": "北緯３８度東経１５０度"
+                          }
+                        ],
+                        "axes": {
+                          "axes": [
+                            {
+                              "directions": [
+                                {
+                                  "value": "南東",
+                                  "type": "方向",
+                                  "unit": "８方位漢字"
+                                }
+                              ],
+                              "radiuses": [
+                                {
+                                  "value": 500.0,
+                                  "type": "半径",
+                                  "unit": "海里",
+                                  "description": "５００海里"
+                                }
+                              ]
+                            },
+                            {
+                              "directions": [
+                                {
+                                  "value": "北西",
+                                  "type": "方向",
+                                  "unit": "８方位漢字"
+                                }
+                              ],
+                              "radiuses": [
+                                {
+                                  "value": 300.0,
+                                  "type": "半径",
+                                  "unit": "海里",
+                                  "description": "３００海里"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "kinds": [
+                {
+                  "name": "海上強風警報",
+                  "code": "21"
+                }
+              ],
+              "areas": {
+                "codeType": "全般海上海域名",
+                "areas": [
+                  {
+                    "name": "低気圧",
+                    "circles": [
+                      {
+                        "type": "影響範囲",
+                        "basePoints": [
+                          {
+                            "value": "+49+169/",
+                            "type": "実況位置（度）",
+                            "description": "北緯４９度東経１６９度"
+                          }
+                        ],
+                        "axes": {
+                          "axes": [
+                            {
+                              "directions": [
+                                {
+                                  "value": "南西",
+                                  "type": "方向",
+                                  "unit": "８方位漢字"
+                                }
+                              ],
+                              "radiuses": [
+                                {
+                                  "value": 600.0,
+                                  "type": "半径",
+                                  "unit": "海里",
+                                  "description": "６００海里"
+                                }
+                              ]
+                            },
+                            {
+                              "directions": [
+                                {
+                                  "value": "北東",
+                                  "type": "方向",
+                                  "unit": "８方位漢字"
+                                }
+                              ],
+                              "radiuses": [
+                                {
+                                  "value": 200.0,
+                                  "type": "半径",
+                                  "unit": "海里",
+                                  "description": "２００海里"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "影響範囲",
+                        "basePoints": [
+                          {
+                            "value": "",
+                            "type": "２４時間後位置（度）"
+                          }
+                        ],
+                        "axes": {
+                          "axes": [
+                            {
+                              "directions": [
+                                {
+                                  "value": "南西",
+                                  "type": "方向",
+                                  "unit": "８方位漢字"
+                                }
+                              ],
+                              "radiuses": [
+                                {
+                                  "value": 600.0,
+                                  "type": "半径",
+                                  "unit": "海里",
+                                  "description": "６００海里"
+                                }
+                              ]
+                            },
+                            {
+                              "directions": [
+                                {
+                                  "value": "北東",
+                                  "type": "方向",
+                                  "unit": "８方位漢字"
+                                }
+                              ],
+                              "radiuses": [
+                                {
+                                  "value": 300.0,
+                                  "type": "半径",
+                                  "unit": "海里",
+                                  "description": "３００海里"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "kinds": [
+                {
+                  "name": "海上風警報",
+                  "code": "20"
+                }
+              ],
+              "areas": {
+                "codeType": "全般海上海域名",
+                "areas": [
+                  {
+                    "name": "熱帯低気圧",
+                    "coordinates": [
+                      {
+                        "value": "+13.7+136.5/",
+                        "type": "実況位置（度）",
+                        "description": "北緯１３．７度東経１３６．５度"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "kinds": [
+                {
+                  "name": "海上濃霧警報",
+                  "code": "11"
+                }
+              ],
+              "areas": {
+                "codeType": "全般海上海域名",
+                "areas": [
+                  {
+                    "name": "日本海",
+                    "code": "9010"
+                  }
+                ]
+              }
+            },
+            {
+              "kinds": [
+                {
+                  "name": "海上濃霧警報",
+                  "code": "11"
+                }
+              ],
+              "areas": {
+                "codeType": "全般海上海域名",
+                "areas": [
+                  {
+                    "name": "緯度経度領域",
+                    "polygons": [
+                      {
+                        "value": "+41+142/+47+152/+51+158/+57+163/+60+164/+60+176/+46+161/+41+153/+41+142/",
+                        "type": "位置（度）",
+                        "description": "北緯４１度東経１４２度、北緯４７度東経１５２度、北緯５１度東経１５８度、北緯５７度東経１６３度、北緯６０度東経１６４度、北緯６０度東経１７６度、北緯４６度東経１６１度、北緯４１度東経１５３度、北緯４１度東経１４２度"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "kinds": [
+                {
+                  "name": "海上着氷警報",
+                  "code": "10"
+                }
+              ],
+              "areas": {
+                "codeType": "全般海上海域名",
+                "areas": [
+                  {
+                    "name": "オホーツク海",
+                    "code": "9050"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "body": {
+    "type": "meteorology",
+    "notices": [
+      "警報は６時間毎に更新します。"
+    ],
+    "meteorologicalInfos": [
+      {
+        "type": "全般海上警報",
+        "meteorologicalInfos": [
+          {
+            "dateTime": {
+              "value": "2025-10-16T00:00:00Z"
+            },
+            "items": [
+              {
+                "kinds": [
+                  {
+                    "name": "海上暴風警報",
+                    "code": "22",
+                    "className": "じょう乱",
+                    "properties": [
+                      {
+                        "type": "風",
+                        "windPart": {
+                          "becomings": [
+                            {
+                              "timeModifier": "今後２４時間以内に",
+                              "windSpeeds": [
+                                {
+                                  "value": 55.0,
+                                  "type": "最大風速",
+                                  "unit": "ノット",
+                                  "description": "最大風速５５ノット"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "warningAreaParts": [
+                          {
+                            "type": "強風域",
+                            "windSpeeds": [
+                              {
+                                "value": 30.0,
+                                "type": "風速",
+                                "unit": "ノット",
+                                "condition": "以上",
+                                "description": "３０ノット以上"
+                              }
+                            ],
+                            "circle": {
+                              "axes": {
+                                "axes": [
+                                  {
+                                    "directions": [
+                                      {
+                                        "value": "南東",
+                                        "type": "方向",
+                                        "unit": "８方位漢字"
+                                      }
+                                    ],
+                                    "radiuses": [
+                                      {
+                                        "value": 500.0,
+                                        "type": "半径",
+                                        "unit": "海里",
+                                        "description": "５００海里"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "directions": [
+                                      {
+                                        "value": "北西",
+                                        "type": "方向",
+                                        "unit": "８方位漢字"
+                                      }
+                                    ],
+                                    "radiuses": [
+                                      {
+                                        "value": 300.0,
+                                        "type": "半径",
+                                        "unit": "海里",
+                                        "description": "３００海里"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "condition": "発達中",
+                    "dateTime": {
+                      "value": "2025-10-16T00:00:00Z",
+                      "type": "実況"
+                    },
+                    "properties": [
+                      {
+                        "type": "低気圧",
+                        "centerPart": {
+                          "coordinates": [
+                            {
+                              "value": "+36+135/",
+                              "type": "中心位置（度）",
+                              "description": "北緯３６度東経１３５度"
+                            }
+                          ],
+                          "location": "日本海",
+                          "directions": [
+                            {
+                              "value": "東北東",
+                              "type": "移動方向",
+                              "unit": "１６方位漢字",
+                              "description": "東北東"
+                            }
+                          ],
+                          "speeds": [
+                            {
+                              "value": 25.0,
+                              "type": "移動速度",
+                              "unit": "ノット",
+                              "description": "２５ノット"
+                            }
+                          ],
+                          "pressure": {
+                            "value": 1014.0,
+                            "type": "中心気圧",
+                            "unit": "hPa",
+                            "description": "中心気圧１０１４ヘクトパスカル"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "dateTime": {
+                      "value": "2025-10-16T12:00:00Z",
+                      "type": "予報　１２時間後"
+                    },
+                    "properties": [
+                      {
+                        "type": "低気圧",
+                        "centerPart": {
+                          "probabilityCircles": [
+                            {
+                              "type": "予報円",
+                              "basePoints": [
+                                {
+                                  "value": "+38+143/",
+                                  "type": "中心位置（度）",
+                                  "description": "北緯３８度東経１４３度"
+                                }
+                              ],
+                              "axes": {
+                                "axes": [
+                                  {
+                                    "directions": [
+                                      {
+                                        "value": "",
+                                        "type": "方向",
+                                        "unit": "８方位漢字",
+                                        "condition": "全域",
+                                        "description": "全域"
+                                      }
+                                    ],
+                                    "radiuses": [
+                                      {
+                                        "value": 50.0,
+                                        "type": "予報円半径",
+                                        "unit": "海里",
+                                        "description": "予報円半径５０海里"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "dateTime": {
+                      "value": "2025-10-17T00:00:00Z",
+                      "type": "予報　２４時間後"
+                    },
+                    "properties": [
+                      {
+                        "type": "低気圧",
+                        "centerPart": {
+                          "probabilityCircles": [
+                            {
+                              "type": "予報円",
+                              "basePoints": [
+                                {
+                                  "value": "+38+150/",
+                                  "type": "中心位置（度）",
+                                  "description": "北緯３８度東経１５０度"
+                                }
+                              ],
+                              "axes": {
+                                "axes": [
+                                  {
+                                    "directions": [
+                                      {
+                                        "value": "",
+                                        "type": "方向",
+                                        "unit": "８方位漢字",
+                                        "condition": "全域",
+                                        "description": "全域"
+                                      }
+                                    ],
+                                    "radiuses": [
+                                      {
+                                        "value": 80.0,
+                                        "type": "予報円半径",
+                                        "unit": "海里",
+                                        "description": "予報円半径８０海里"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "低気圧",
+                  "circles": [
+                    {
+                      "type": "影響範囲",
+                      "basePoints": [
+                        {
+                          "value": "+36+135/",
+                          "type": "実況位置（度）",
+                          "description": "北緯３６度東経１３５度"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "影響範囲",
+                      "basePoints": [
+                        {
+                          "value": "+38+143/",
+                          "type": "１２時間後位置（度）",
+                          "description": "北緯３８度東経１４３度"
+                        },
+                        {
+                          "value": "+38+150/",
+                          "type": "２４時間後位置（度）",
+                          "description": "北緯３８度東経１５０度"
+                        }
+                      ],
+                      "axes": {
+                        "axes": [
+                          {
+                            "directions": [
+                              {
+                                "value": "南東",
+                                "type": "方向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "radiuses": [
+                              {
+                                "value": 500.0,
+                                "type": "半径",
+                                "unit": "海里",
+                                "description": "５００海里"
+                              }
+                            ]
+                          },
+                          {
+                            "directions": [
+                              {
+                                "value": "北西",
+                                "type": "方向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "radiuses": [
+                              {
+                                "value": 300.0,
+                                "type": "半径",
+                                "unit": "海里",
+                                "description": "３００海里"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "全般海上警報",
+        "meteorologicalInfos": [
+          {
+            "dateTime": {
+              "value": "2025-10-16T00:00:00Z"
+            },
+            "items": [
+              {
+                "kinds": [
+                  {
+                    "name": "海上強風警報",
+                    "code": "21",
+                    "className": "じょう乱",
+                    "properties": [
+                      {
+                        "type": "風",
+                        "windPart": {
+                          "windSpeeds": [
+                            {
+                              "value": 40.0,
+                              "type": "最大風速",
+                              "unit": "ノット",
+                              "description": "最大風速４０ノット"
+                            }
+                          ]
+                        },
+                        "warningAreaParts": [
+                          {
+                            "type": "強風域",
+                            "windSpeeds": [
+                              {
+                                "value": 30.0,
+                                "type": "風速",
+                                "unit": "ノット",
+                                "condition": "以上",
+                                "description": "３０ノット以上"
+                              }
+                            ],
+                            "circle": {
+                              "axes": {
+                                "axes": [
+                                  {
+                                    "directions": [
+                                      {
+                                        "value": "南西",
+                                        "type": "方向",
+                                        "unit": "８方位漢字"
+                                      }
+                                    ],
+                                    "radiuses": [
+                                      {
+                                        "value": 600.0,
+                                        "type": "半径",
+                                        "unit": "海里",
+                                        "description": "６００海里"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "directions": [
+                                      {
+                                        "value": "北東",
+                                        "type": "方向",
+                                        "unit": "８方位漢字"
+                                      }
+                                    ],
+                                    "radiuses": [
+                                      {
+                                        "value": 200.0,
+                                        "type": "半径",
+                                        "unit": "海里",
+                                        "description": "２００海里"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "風",
+                        "windPart": {
+                          "becomings": [
+                            {
+                              "timeModifier": "今後２４時間以内は",
+                              "windSpeeds": [
+                                {
+                                  "value": 34.0,
+                                  "type": "最大風速",
+                                  "unit": "ノット",
+                                  "condition": "以上",
+                                  "description": "最大風速３４ノット以上"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "warningAreaParts": [
+                          {
+                            "type": "強風域",
+                            "windSpeeds": [
+                              {
+                                "value": 30.0,
+                                "type": "風速",
+                                "unit": "ノット",
+                                "condition": "以上",
+                                "description": "３０ノット以上"
+                              }
+                            ],
+                            "circle": {
+                              "axes": {
+                                "axes": [
+                                  {
+                                    "directions": [
+                                      {
+                                        "value": "南西",
+                                        "type": "方向",
+                                        "unit": "８方位漢字"
+                                      }
+                                    ],
+                                    "radiuses": [
+                                      {
+                                        "value": 600.0,
+                                        "type": "半径",
+                                        "unit": "海里",
+                                        "description": "６００海里"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "directions": [
+                                      {
+                                        "value": "北東",
+                                        "type": "方向",
+                                        "unit": "８方位漢字"
+                                      }
+                                    ],
+                                    "radiuses": [
+                                      {
+                                        "value": 300.0,
+                                        "type": "半径",
+                                        "unit": "海里",
+                                        "description": "３００海里"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "condition": "発達中",
+                    "dateTime": {
+                      "value": "2025-10-16T00:00:00Z",
+                      "type": "実況"
+                    },
+                    "properties": [
+                      {
+                        "type": "低気圧",
+                        "centerPart": {
+                          "coordinates": [
+                            {
+                              "value": "+49+169/",
+                              "type": "中心位置（度）",
+                              "description": "北緯４９度東経１６９度"
+                            }
+                          ],
+                          "location": "千島の東",
+                          "directions": [
+                            {
+                              "value": "東",
+                              "type": "移動方向",
+                              "unit": "１６方位漢字",
+                              "description": "東"
+                            }
+                          ],
+                          "speeds": [
+                            {
+                              "value": 15.0,
+                              "type": "移動速度",
+                              "unit": "ノット",
+                              "description": "１５ノット"
+                            }
+                          ],
+                          "pressure": {
+                            "value": 998.0,
+                            "type": "中心気圧",
+                            "unit": "hPa",
+                            "description": "中心気圧９９８ヘクトパスカル"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "低気圧",
+                  "circles": [
+                    {
+                      "type": "影響範囲",
+                      "basePoints": [
+                        {
+                          "value": "+49+169/",
+                          "type": "実況位置（度）",
+                          "description": "北緯４９度東経１６９度"
+                        }
+                      ],
+                      "axes": {
+                        "axes": [
+                          {
+                            "directions": [
+                              {
+                                "value": "南西",
+                                "type": "方向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "radiuses": [
+                              {
+                                "value": 600.0,
+                                "type": "半径",
+                                "unit": "海里",
+                                "description": "６００海里"
+                              }
+                            ]
+                          },
+                          {
+                            "directions": [
+                              {
+                                "value": "北東",
+                                "type": "方向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "radiuses": [
+                              {
+                                "value": 200.0,
+                                "type": "半径",
+                                "unit": "海里",
+                                "description": "２００海里"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "type": "影響範囲",
+                      "basePoints": [
+                        {
+                          "value": "",
+                          "type": "２４時間後位置（度）"
+                        }
+                      ],
+                      "axes": {
+                        "axes": [
+                          {
+                            "directions": [
+                              {
+                                "value": "南西",
+                                "type": "方向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "radiuses": [
+                              {
+                                "value": 600.0,
+                                "type": "半径",
+                                "unit": "海里",
+                                "description": "６００海里"
+                              }
+                            ]
+                          },
+                          {
+                            "directions": [
+                              {
+                                "value": "北東",
+                                "type": "方向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "radiuses": [
+                              {
+                                "value": 300.0,
+                                "type": "半径",
+                                "unit": "海里",
+                                "description": "３００海里"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "全般海上警報",
+        "meteorologicalInfos": [
+          {
+            "dateTime": {
+              "value": "2025-10-16T00:00:00Z"
+            },
+            "items": [
+              {
+                "kinds": [
+                  {
+                    "name": "海上風警報",
+                    "code": "20",
+                    "className": "熱帯じょう乱",
+                    "properties": [
+                      {
+                        "type": "呼称",
+                        "typhoonNamePart": {
+                          "name": "",
+                          "nameKana": "",
+                          "number": ""
+                        }
+                      },
+                      {
+                        "type": "風",
+                        "windPart": {
+                          "windSpeeds": [
+                            {
+                              "value": 30.0,
+                              "type": "最大風速",
+                              "unit": "ノット",
+                              "condition": "中心付近",
+                              "description": "中心付近の最大風速３０ノット"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "dateTime": {
+                      "value": "2025-10-16T00:00:00Z",
+                      "type": "実況"
+                    },
+                    "properties": [
+                      {
+                        "type": "熱帯低気圧",
+                        "centerPart": {
+                          "coordinates": [
+                            {
+                              "value": "+13.7+136.5/",
+                              "type": "中心位置（度）",
+                              "condition": "不確実",
+                              "description": "北緯１３．７度東経１３６．５度"
+                            }
+                          ],
+                          "location": "フィリピンの東",
+                          "directions": [
+                            {
+                              "value": "西北西",
+                              "type": "移動方向",
+                              "unit": "１６方位漢字",
+                              "description": "西北西"
+                            }
+                          ],
+                          "speeds": [
+                            {
+                              "value": 10.0,
+                              "type": "移動速度",
+                              "unit": "ノット",
+                              "description": "１０ノット"
+                            }
+                          ],
+                          "pressure": {
+                            "value": 1006.0,
+                            "type": "中心気圧",
+                            "unit": "hPa",
+                            "description": "中心気圧１００６ヘクトパスカル"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "熱帯低気圧",
+                  "coordinates": [
+                    {
+                      "value": "+13.7+136.5/",
+                      "type": "中心位置（度）",
+                      "description": "北緯１３．７度東経１３６．５度"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "全般海上警報",
+        "meteorologicalInfos": [
+          {
+            "dateTime": {
+              "value": "2025-10-16T00:00:00Z"
+            },
+            "items": [
+              {
+                "kinds": [
+                  {
+                    "name": "海上濃霧警報",
+                    "code": "11",
+                    "className": "領域"
+                  },
+                  {
+                    "properties": [
+                      {
+                        "type": "濃霧",
+                        "texts": [
+                          {
+                            "value": "所々濃い霧のため見通しが悪くなっている"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "日本海",
+                  "code": "9010"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "全般海上警報",
+        "meteorologicalInfos": [
+          {
+            "dateTime": {
+              "value": "2025-10-16T00:00:00Z"
+            },
+            "items": [
+              {
+                "kinds": [
+                  {
+                    "name": "海上濃霧警報",
+                    "code": "11",
+                    "className": "緯度経度領域"
+                  },
+                  {
+                    "properties": [
+                      {
+                        "type": "濃霧",
+                        "texts": [
+                          {
+                            "value": "所々濃い霧のため見通しが悪くなっている"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "緯度経度領域",
+                  "polygons": [
+                    {
+                      "value": "+41+142/+47+152/+51+158/+57+163/+60+164/+60+176/+46+161/+41+153/+41+142/",
+                      "type": "位置（度）",
+                      "description": "北緯４１度東経１４２度、北緯４７度東経１５２度、北緯５１度東経１５８度、北緯５７度東経１６３度、北緯６０度東経１６４度、北緯６０度東経１７６度、北緯４６度東経１６１度、北緯４１度東経１５３度、北緯４１度東経１４２度"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "全般海上警報",
+        "meteorologicalInfos": [
+          {
+            "dateTime": {
+              "value": "2025-10-16T00:00:00Z"
+            },
+            "items": [
+              {
+                "kinds": [
+                  {
+                    "name": "海上着氷警報",
+                    "code": "10",
+                    "className": "領域"
+                  },
+                  {
+                    "properties": [
+                      {
+                        "type": "着氷",
+                        "texts": [
+                          {
+                            "value": "弱い着氷となるおそれがある"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "オホーツク海",
+                  "code": "9050"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "概況",
+        "meteorologicalInfos": [
+          {
+            "dateTime": {
+              "value": "2025-10-16T00:00:00Z"
+            },
+            "items": [
+              {
+                "kinds": [
+                  {
+                    "className": "気圧系",
+                    "properties": [
+                      {
+                        "type": "低気圧",
+                        "centerPart": {
+                          "coordinates": [
+                            {
+                              "value": "+38+179/",
+                              "type": "中心位置（度）",
+                              "description": "北緯３８度東経１７９度"
+                            }
+                          ],
+                          "directions": [
+                            {
+                              "value": "東北東",
+                              "type": "移動方向",
+                              "unit": "１６方位漢字",
+                              "description": "東北東"
+                            }
+                          ],
+                          "speeds": [
+                            {
+                              "value": 35.0,
+                              "type": "移動速度",
+                              "unit": "ノット",
+                              "description": "３５ノット"
+                            }
+                          ],
+                          "pressure": {
+                            "value": 1010.0,
+                            "type": "中心気圧",
+                            "unit": "hPa",
+                            "description": "中心気圧１０１０ヘクトパスカル"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "低気圧",
+                  "coordinates": [
+                    {
+                      "value": "+38+179/",
+                      "type": "中心位置（度）",
+                      "description": "北緯３８度東経１７９度"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "概況",
+        "meteorologicalInfos": [
+          {
+            "dateTime": {
+              "value": "2025-10-16T00:00:00Z"
+            },
+            "items": [
+              {
+                "kinds": [
+                  {
+                    "className": "気圧系",
+                    "properties": [
+                      {
+                        "type": "高気圧",
+                        "centerPart": {
+                          "coordinates": [
+                            {
+                              "value": "+43+150/",
+                              "type": "中心位置（度）",
+                              "description": "北緯４３度東経１５０度"
+                            }
+                          ],
+                          "directions": [
+                            {
+                              "value": "東南東",
+                              "type": "移動方向",
+                              "unit": "１６方位漢字",
+                              "description": "東南東"
+                            }
+                          ],
+                          "speeds": [
+                            {
+                              "value": 20.0,
+                              "type": "移動速度",
+                              "unit": "ノット",
+                              "description": "２０ノット"
+                            }
+                          ],
+                          "pressure": {
+                            "value": 1028.0,
+                            "type": "中心気圧",
+                            "unit": "hPa",
+                            "description": "中心気圧１０２８ヘクトパスカル"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "高気圧",
+                  "coordinates": [
+                    {
+                      "value": "+43+150/",
+                      "type": "中心位置（度）",
+                      "description": "北緯４３度東経１５０度"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "概況",
+        "meteorologicalInfos": [
+          {
+            "dateTime": {
+              "value": "2025-10-16T00:00:00Z"
+            },
+            "items": [
+              {
+                "kinds": [
+                  {
+                    "className": "前線",
+                    "properties": [
+                      {
+                        "type": "温暖前線"
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "前線",
+                  "lines": [
+                    {
+                      "value": "+38+179/+38+180/+38-175/+37-170/",
+                      "type": "位置（度）",
+                      "description": "北緯３８度東経１７９度、北緯３８度東経１８０度、北緯３８度西経１７５度、北緯３７度西経１７０度"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "概況",
+        "meteorologicalInfos": [
+          {
+            "dateTime": {
+              "value": "2025-10-16T00:00:00Z"
+            },
+            "items": [
+              {
+                "kinds": [
+                  {
+                    "className": "前線",
+                    "properties": [
+                      {
+                        "type": "寒冷前線"
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "前線",
+                  "lines": [
+                    {
+                      "value": "+38+179/+36+176/+32+172/+30+168/",
+                      "type": "位置（度）",
+                      "description": "北緯３８度東経１７９度、北緯３６度東経１７６度、北緯３２度東経１７２度、北緯３０度東経１６８度"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "概況",
+        "meteorologicalInfos": [
+          {
+            "dateTime": {
+              "value": "2025-10-16T00:00:00Z"
+            },
+            "items": [
+              {
+                "kinds": [
+                  {
+                    "className": "前線",
+                    "properties": [
+                      {
+                        "type": "停滞前線"
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "前線",
+                  "lines": [
+                    {
+                      "value": "+30+168/+28+163/+27+157/",
+                      "type": "位置（度）",
+                      "description": "北緯３０度東経１６８度、北緯２８度東経１６３度、北緯２７度東経１５７度"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "概況",
+        "meteorologicalInfos": [
+          {
+            "dateTime": {
+              "value": "2025-10-16T00:00:00Z"
+            },
+            "items": [
+              {
+                "kinds": [
+                  {
+                    "className": "前線",
+                    "properties": [
+                      {
+                        "type": "停滞前線"
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "前線",
+                  "lines": [
+                    {
+                      "value": "+29+120/+31+125/+35+130/+36+133/+36+135/+36+136/+35+138/+34+140/",
+                      "type": "位置（度）",
+                      "description": "北緯２９度東経１２０度、北緯３１度東経１２５度、北緯３５度東経１３０度、北緯３６度東経１３３度、北緯３６度東経１３５度、北緯３６度東経１３６度、北緯３５度東経１３８度、北緯３４度東経１４０度"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "全般海上予報",
+        "meteorologicalInfos": [
+          {
+            "dateTime": {
+              "value": "2025-10-16T00:00:00Z"
+            },
+            "duration": "PT24H",
+            "items": [
+              {
+                "kinds": [
+                  {
+                    "properties": [
+                      {
+                        "type": "風",
+                        "windPart": {
+                          "sentence": {
+                            "value": "北東  ２５ノット（１３メートル）"
+                          },
+                          "base": {
+                            "windDirections": [
+                              {
+                                "value": "北東",
+                                "type": "風向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "windSpeeds": [
+                              {
+                                "value": 25.0,
+                                "type": "風速",
+                                "unit": "ノット",
+                                "description": "２５ノット"
+                              },
+                              {
+                                "value": 13.0,
+                                "type": "風速",
+                                "unit": "m/s",
+                                "description": "１３メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "properties": [
+                      {
+                        "type": "波",
+                        "waveHeightPart": {
+                          "sentence": {
+                            "value": "５メートル  やや高いうねりを伴う"
+                          },
+                          "base": {
+                            "waveHeights": [
+                              {
+                                "value": 5.0,
+                                "type": "波高",
+                                "unit": "m",
+                                "condition": "やや高いうねりを伴う",
+                                "description": "５メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "日本海",
+                  "code": "9010"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "properties": [
+                      {
+                        "type": "風",
+                        "windPart": {
+                          "sentence": {
+                            "value": "北東  ２５ノット（１３メートル）"
+                          },
+                          "base": {
+                            "windDirections": [
+                              {
+                                "value": "北東",
+                                "type": "風向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "windSpeeds": [
+                              {
+                                "value": 25.0,
+                                "type": "風速",
+                                "unit": "ノット",
+                                "description": "２５ノット"
+                              },
+                              {
+                                "value": 13.0,
+                                "type": "風速",
+                                "unit": "m/s",
+                                "description": "１３メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "properties": [
+                      {
+                        "type": "波",
+                        "waveHeightPart": {
+                          "sentence": {
+                            "value": "２メートル"
+                          },
+                          "base": {
+                            "waveHeights": [
+                              {
+                                "value": 2.0,
+                                "type": "波高",
+                                "unit": "m",
+                                "description": "２メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "ボッ海",
+                  "code": "9020"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "properties": [
+                      {
+                        "type": "風",
+                        "windPart": {
+                          "sentence": {
+                            "value": "北東  ２５ノット（１３メートル）"
+                          },
+                          "base": {
+                            "windDirections": [
+                              {
+                                "value": "北東",
+                                "type": "風向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "windSpeeds": [
+                              {
+                                "value": 25.0,
+                                "type": "風速",
+                                "unit": "ノット",
+                                "description": "２５ノット"
+                              },
+                              {
+                                "value": 13.0,
+                                "type": "風速",
+                                "unit": "m/s",
+                                "description": "１３メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "properties": [
+                      {
+                        "type": "波",
+                        "waveHeightPart": {
+                          "sentence": {
+                            "value": "２メートル"
+                          },
+                          "base": {
+                            "waveHeights": [
+                              {
+                                "value": 2.0,
+                                "type": "波高",
+                                "unit": "m",
+                                "description": "２メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "黄海",
+                  "code": "9030"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "properties": [
+                      {
+                        "type": "風",
+                        "windPart": {
+                          "sentence": {
+                            "value": "北東  ２５ノット（１３メートル）"
+                          },
+                          "base": {
+                            "windDirections": [
+                              {
+                                "value": "北東",
+                                "type": "風向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "windSpeeds": [
+                              {
+                                "value": 25.0,
+                                "type": "風速",
+                                "unit": "ノット",
+                                "description": "２５ノット"
+                              },
+                              {
+                                "value": 13.0,
+                                "type": "風速",
+                                "unit": "m/s",
+                                "description": "１３メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "properties": [
+                      {
+                        "type": "波",
+                        "waveHeightPart": {
+                          "sentence": {
+                            "value": "１メートル"
+                          },
+                          "base": {
+                            "waveHeights": [
+                              {
+                                "value": 1.0,
+                                "type": "波高",
+                                "unit": "m",
+                                "description": "１メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "東シナ海",
+                  "code": "9040"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "properties": [
+                      {
+                        "type": "風",
+                        "windPart": {
+                          "sentence": {
+                            "value": "北東  ２５ノット（１３メートル）"
+                          },
+                          "base": {
+                            "windDirections": [
+                              {
+                                "value": "北東",
+                                "type": "風向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "windSpeeds": [
+                              {
+                                "value": 25.0,
+                                "type": "風速",
+                                "unit": "ノット",
+                                "description": "２５ノット"
+                              },
+                              {
+                                "value": 13.0,
+                                "type": "風速",
+                                "unit": "m/s",
+                                "description": "１３メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "properties": [
+                      {
+                        "type": "波",
+                        "waveHeightPart": {
+                          "sentence": {
+                            "value": "３メートル"
+                          },
+                          "base": {
+                            "waveHeights": [
+                              {
+                                "value": 3.0,
+                                "type": "波高",
+                                "unit": "m",
+                                "description": "３メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "オホーツク海",
+                  "code": "9050"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "properties": [
+                      {
+                        "type": "風",
+                        "windPart": {
+                          "sentence": {
+                            "value": "北東  ２５ノット（１３メートル）"
+                          },
+                          "base": {
+                            "windDirections": [
+                              {
+                                "value": "北東",
+                                "type": "風向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "windSpeeds": [
+                              {
+                                "value": 25.0,
+                                "type": "風速",
+                                "unit": "ノット",
+                                "description": "２５ノット"
+                              },
+                              {
+                                "value": 13.0,
+                                "type": "風速",
+                                "unit": "m/s",
+                                "description": "１３メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "properties": [
+                      {
+                        "type": "波",
+                        "waveHeightPart": {
+                          "sentence": {
+                            "value": "４メートル"
+                          },
+                          "base": {
+                            "waveHeights": [
+                              {
+                                "value": 4.0,
+                                "type": "波高",
+                                "unit": "m",
+                                "description": "４メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "ベーリング海",
+                  "code": "9060"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "properties": [
+                      {
+                        "type": "風",
+                        "windPart": {
+                          "sentence": {
+                            "value": "北東  ２５ノット（１３メートル）"
+                          },
+                          "base": {
+                            "windDirections": [
+                              {
+                                "value": "北東",
+                                "type": "風向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "windSpeeds": [
+                              {
+                                "value": 25.0,
+                                "type": "風速",
+                                "unit": "ノット",
+                                "description": "２５ノット"
+                              },
+                              {
+                                "value": 13.0,
+                                "type": "風速",
+                                "unit": "m/s",
+                                "description": "１３メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "properties": [
+                      {
+                        "type": "波",
+                        "waveHeightPart": {
+                          "sentence": {
+                            "value": "２メートル"
+                          },
+                          "base": {
+                            "waveHeights": [
+                              {
+                                "value": 2.0,
+                                "type": "波高",
+                                "unit": "m",
+                                "description": "２メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "南シナ海",
+                  "code": "9070"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "properties": [
+                      {
+                        "type": "風",
+                        "windPart": {
+                          "sentence": {
+                            "value": "北東  ２５ノット（１３メートル）"
+                          },
+                          "base": {
+                            "windDirections": [
+                              {
+                                "value": "北東",
+                                "type": "風向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "windSpeeds": [
+                              {
+                                "value": 25.0,
+                                "type": "風速",
+                                "unit": "ノット",
+                                "description": "２５ノット"
+                              },
+                              {
+                                "value": 13.0,
+                                "type": "風速",
+                                "unit": "m/s",
+                                "description": "１３メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "properties": [
+                      {
+                        "type": "波",
+                        "waveHeightPart": {
+                          "sentence": {
+                            "value": "５メートル  高いうねりを伴う"
+                          },
+                          "base": {
+                            "waveHeights": [
+                              {
+                                "value": 5.0,
+                                "type": "波高",
+                                "unit": "m",
+                                "condition": "高いうねりを伴う",
+                                "description": "５メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "日本の東",
+                  "code": "9080"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "properties": [
+                      {
+                        "type": "風",
+                        "windPart": {
+                          "sentence": {
+                            "value": "北東  ２５ノット（１３メートル）"
+                          },
+                          "base": {
+                            "windDirections": [
+                              {
+                                "value": "北東",
+                                "type": "風向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "windSpeeds": [
+                              {
+                                "value": 25.0,
+                                "type": "風速",
+                                "unit": "ノット",
+                                "description": "２５ノット"
+                              },
+                              {
+                                "value": 13.0,
+                                "type": "風速",
+                                "unit": "m/s",
+                                "description": "１３メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "properties": [
+                      {
+                        "type": "波",
+                        "waveHeightPart": {
+                          "sentence": {
+                            "value": "４メートル"
+                          },
+                          "base": {
+                            "waveHeights": [
+                              {
+                                "value": 4.0,
+                                "type": "波高",
+                                "unit": "m",
+                                "description": "４メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "日本のはるか東",
+                  "code": "9090"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "properties": [
+                      {
+                        "type": "風",
+                        "windPart": {
+                          "sentence": {
+                            "value": "北東  ２５ノット（１３メートル）"
+                          },
+                          "base": {
+                            "windDirections": [
+                              {
+                                "value": "北東",
+                                "type": "風向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "windSpeeds": [
+                              {
+                                "value": 25.0,
+                                "type": "風速",
+                                "unit": "ノット",
+                                "description": "２５ノット"
+                              },
+                              {
+                                "value": 13.0,
+                                "type": "風速",
+                                "unit": "m/s",
+                                "description": "１３メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "properties": [
+                      {
+                        "type": "波",
+                        "waveHeightPart": {
+                          "sentence": {
+                            "value": "２メートル"
+                          },
+                          "base": {
+                            "waveHeights": [
+                              {
+                                "value": 2.0,
+                                "type": "波高",
+                                "unit": "m",
+                                "description": "２メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "日本の南",
+                  "code": "9100"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "properties": [
+                      {
+                        "type": "風",
+                        "windPart": {
+                          "sentence": {
+                            "value": "北東  ２５ノット（１３メートル）"
+                          },
+                          "base": {
+                            "windDirections": [
+                              {
+                                "value": "北東",
+                                "type": "風向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "windSpeeds": [
+                              {
+                                "value": 25.0,
+                                "type": "風速",
+                                "unit": "ノット",
+                                "description": "２５ノット"
+                              },
+                              {
+                                "value": 13.0,
+                                "type": "風速",
+                                "unit": "m/s",
+                                "description": "１３メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "properties": [
+                      {
+                        "type": "波",
+                        "waveHeightPart": {
+                          "sentence": {
+                            "value": "２メートル"
+                          },
+                          "base": {
+                            "waveHeights": [
+                              {
+                                "value": 2.0,
+                                "type": "波高",
+                                "unit": "m",
+                                "description": "２メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "沖縄の南",
+                  "code": "9120"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "properties": [
+                      {
+                        "type": "風",
+                        "windPart": {
+                          "sentence": {
+                            "value": "北東  ２５ノット（１３メートル）"
+                          },
+                          "base": {
+                            "windDirections": [
+                              {
+                                "value": "北東",
+                                "type": "風向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "windSpeeds": [
+                              {
+                                "value": 25.0,
+                                "type": "風速",
+                                "unit": "ノット",
+                                "description": "２５ノット"
+                              },
+                              {
+                                "value": 13.0,
+                                "type": "風速",
+                                "unit": "m/s",
+                                "description": "１３メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "properties": [
+                      {
+                        "type": "波",
+                        "waveHeightPart": {
+                          "sentence": {
+                            "value": "１メートル"
+                          },
+                          "base": {
+                            "waveHeights": [
+                              {
+                                "value": 1.0,
+                                "type": "波高",
+                                "unit": "m",
+                                "description": "１メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "トンキン湾",
+                  "code": "9150"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "properties": [
+                      {
+                        "type": "風",
+                        "windPart": {
+                          "sentence": {
+                            "value": "北東  ２５ノット（１３メートル）"
+                          },
+                          "base": {
+                            "windDirections": [
+                              {
+                                "value": "北東",
+                                "type": "風向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "windSpeeds": [
+                              {
+                                "value": 25.0,
+                                "type": "風速",
+                                "unit": "ノット",
+                                "description": "２５ノット"
+                              },
+                              {
+                                "value": 13.0,
+                                "type": "風速",
+                                "unit": "m/s",
+                                "description": "１３メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "properties": [
+                      {
+                        "type": "波",
+                        "waveHeightPart": {
+                          "sentence": {
+                            "value": "３メートル"
+                          },
+                          "base": {
+                            "waveHeights": [
+                              {
+                                "value": 3.0,
+                                "type": "波高",
+                                "unit": "m",
+                                "description": "３メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "千島近海",
+                  "code": "9160"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "properties": [
+                      {
+                        "type": "風",
+                        "windPart": {
+                          "sentence": {
+                            "value": "北東  ２５ノット（１３メートル）"
+                          },
+                          "base": {
+                            "windDirections": [
+                              {
+                                "value": "北東",
+                                "type": "風向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "windSpeeds": [
+                              {
+                                "value": 25.0,
+                                "type": "風速",
+                                "unit": "ノット",
+                                "description": "２５ノット"
+                              },
+                              {
+                                "value": 13.0,
+                                "type": "風速",
+                                "unit": "m/s",
+                                "description": "１３メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "properties": [
+                      {
+                        "type": "波",
+                        "waveHeightPart": {
+                          "sentence": {
+                            "value": "５メートル"
+                          },
+                          "base": {
+                            "waveHeights": [
+                              {
+                                "value": 5.0,
+                                "type": "波高",
+                                "unit": "m",
+                                "description": "５メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "千島の東",
+                  "code": "9170"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "properties": [
+                      {
+                        "type": "風",
+                        "windPart": {
+                          "sentence": {
+                            "value": "北東  ２５ノット（１３メートル）"
+                          },
+                          "base": {
+                            "windDirections": [
+                              {
+                                "value": "北東",
+                                "type": "風向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "windSpeeds": [
+                              {
+                                "value": 25.0,
+                                "type": "風速",
+                                "unit": "ノット",
+                                "description": "２５ノット"
+                              },
+                              {
+                                "value": 13.0,
+                                "type": "風速",
+                                "unit": "m/s",
+                                "description": "１３メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "properties": [
+                      {
+                        "type": "波",
+                        "waveHeightPart": {
+                          "sentence": {
+                            "value": "６メートル"
+                          },
+                          "base": {
+                            "waveHeights": [
+                              {
+                                "value": 6.0,
+                                "type": "波高",
+                                "unit": "m",
+                                "description": "６メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "アリューシャン近海",
+                  "code": "9190"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "properties": [
+                      {
+                        "type": "風",
+                        "windPart": {
+                          "sentence": {
+                            "value": "北東  ２５ノット（１３メートル）"
+                          },
+                          "base": {
+                            "windDirections": [
+                              {
+                                "value": "北東",
+                                "type": "風向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "windSpeeds": [
+                              {
+                                "value": 25.0,
+                                "type": "風速",
+                                "unit": "ノット",
+                                "description": "２５ノット"
+                              },
+                              {
+                                "value": 13.0,
+                                "type": "風速",
+                                "unit": "m/s",
+                                "description": "１３メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "properties": [
+                      {
+                        "type": "波",
+                        "waveHeightPart": {
+                          "sentence": {
+                            "value": "６メートル"
+                          },
+                          "base": {
+                            "waveHeights": [
+                              {
+                                "value": 6.0,
+                                "type": "波高",
+                                "unit": "m",
+                                "description": "６メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "アリューシャンの南",
+                  "code": "9200"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "properties": [
+                      {
+                        "type": "風",
+                        "windPart": {
+                          "sentence": {
+                            "value": "北東  ２５ノット（１３メートル）"
+                          },
+                          "base": {
+                            "windDirections": [
+                              {
+                                "value": "北東",
+                                "type": "風向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "windSpeeds": [
+                              {
+                                "value": 25.0,
+                                "type": "風速",
+                                "unit": "ノット",
+                                "description": "２５ノット"
+                              },
+                              {
+                                "value": 13.0,
+                                "type": "風速",
+                                "unit": "m/s",
+                                "description": "１３メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "properties": [
+                      {
+                        "type": "波",
+                        "waveHeightPart": {
+                          "sentence": {
+                            "value": "３メートル"
+                          },
+                          "base": {
+                            "waveHeights": [
+                              {
+                                "value": 3.0,
+                                "type": "波高",
+                                "unit": "m",
+                                "description": "３メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "カムチャツカの東",
+                  "code": "9210"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "properties": [
+                      {
+                        "type": "風",
+                        "windPart": {
+                          "sentence": {
+                            "value": "北東  ２５ノット（１３メートル）"
+                          },
+                          "base": {
+                            "windDirections": [
+                              {
+                                "value": "北東",
+                                "type": "風向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "windSpeeds": [
+                              {
+                                "value": 25.0,
+                                "type": "風速",
+                                "unit": "ノット",
+                                "description": "２５ノット"
+                              },
+                              {
+                                "value": 13.0,
+                                "type": "風速",
+                                "unit": "m/s",
+                                "description": "１３メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "properties": [
+                      {
+                        "type": "波",
+                        "waveHeightPart": {
+                          "sentence": {
+                            "value": "２メートル"
+                          },
+                          "base": {
+                            "waveHeights": [
+                              {
+                                "value": 2.0,
+                                "type": "波高",
+                                "unit": "m",
+                                "description": "２メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "フィリピンの東",
+                  "code": "9220"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "properties": [
+                      {
+                        "type": "風",
+                        "windPart": {
+                          "sentence": {
+                            "value": "北東  ２５ノット（１３メートル）"
+                          },
+                          "base": {
+                            "windDirections": [
+                              {
+                                "value": "北東",
+                                "type": "風向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "windSpeeds": [
+                              {
+                                "value": 25.0,
+                                "type": "風速",
+                                "unit": "ノット",
+                                "description": "２５ノット"
+                              },
+                              {
+                                "value": 13.0,
+                                "type": "風速",
+                                "unit": "m/s",
+                                "description": "１３メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "properties": [
+                      {
+                        "type": "波",
+                        "waveHeightPart": {
+                          "sentence": {
+                            "value": "１メートル"
+                          },
+                          "base": {
+                            "waveHeights": [
+                              {
+                                "value": 1.0,
+                                "type": "波高",
+                                "unit": "m",
+                                "description": "１メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "ミンダナオ島の東",
+                  "code": "9230"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "properties": [
+                      {
+                        "type": "風",
+                        "windPart": {
+                          "sentence": {
+                            "value": "北東  ２５ノット（１３メートル）"
+                          },
+                          "base": {
+                            "windDirections": [
+                              {
+                                "value": "北東",
+                                "type": "風向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "windSpeeds": [
+                              {
+                                "value": 25.0,
+                                "type": "風速",
+                                "unit": "ノット",
+                                "description": "２５ノット"
+                              },
+                              {
+                                "value": 13.0,
+                                "type": "風速",
+                                "unit": "m/s",
+                                "description": "１３メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "properties": [
+                      {
+                        "type": "波",
+                        "waveHeightPart": {
+                          "sentence": {
+                            "value": "１メートル"
+                          },
+                          "base": {
+                            "waveHeights": [
+                              {
+                                "value": 1.0,
+                                "type": "波高",
+                                "unit": "m",
+                                "description": "１メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "セレベス海",
+                  "code": "9240"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "properties": [
+                      {
+                        "type": "風",
+                        "windPart": {
+                          "sentence": {
+                            "value": "北東  ２５ノット（１３メートル）"
+                          },
+                          "base": {
+                            "windDirections": [
+                              {
+                                "value": "北東",
+                                "type": "風向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "windSpeeds": [
+                              {
+                                "value": 25.0,
+                                "type": "風速",
+                                "unit": "ノット",
+                                "description": "２５ノット"
+                              },
+                              {
+                                "value": 13.0,
+                                "type": "風速",
+                                "unit": "m/s",
+                                "description": "１３メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "properties": [
+                      {
+                        "type": "波",
+                        "waveHeightPart": {
+                          "sentence": {
+                            "value": "１メートル"
+                          },
+                          "base": {
+                            "waveHeights": [
+                              {
+                                "value": 1.0,
+                                "type": "波高",
+                                "unit": "m",
+                                "description": "１メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "スル海",
+                  "code": "9250"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "properties": [
+                      {
+                        "type": "風",
+                        "windPart": {
+                          "sentence": {
+                            "value": "北東  ２５ノット（１３メートル）"
+                          },
+                          "base": {
+                            "windDirections": [
+                              {
+                                "value": "北東",
+                                "type": "風向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "windSpeeds": [
+                              {
+                                "value": 25.0,
+                                "type": "風速",
+                                "unit": "ノット",
+                                "description": "２５ノット"
+                              },
+                              {
+                                "value": 13.0,
+                                "type": "風速",
+                                "unit": "m/s",
+                                "description": "１３メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "properties": [
+                      {
+                        "type": "波",
+                        "waveHeightPart": {
+                          "sentence": {
+                            "value": "２メートル"
+                          },
+                          "base": {
+                            "waveHeights": [
+                              {
+                                "value": 2.0,
+                                "type": "波高",
+                                "unit": "m",
+                                "description": "２メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "マーシャル諸島",
+                  "code": "9260"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "properties": [
+                      {
+                        "type": "風",
+                        "windPart": {
+                          "sentence": {
+                            "value": "北東  ２５ノット（１３メートル）"
+                          },
+                          "base": {
+                            "windDirections": [
+                              {
+                                "value": "北東",
+                                "type": "風向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "windSpeeds": [
+                              {
+                                "value": 25.0,
+                                "type": "風速",
+                                "unit": "ノット",
+                                "description": "２５ノット"
+                              },
+                              {
+                                "value": 13.0,
+                                "type": "風速",
+                                "unit": "m/s",
+                                "description": "１３メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "properties": [
+                      {
+                        "type": "波",
+                        "waveHeightPart": {
+                          "sentence": {
+                            "value": "２メートル"
+                          },
+                          "base": {
+                            "waveHeights": [
+                              {
+                                "value": 2.0,
+                                "type": "波高",
+                                "unit": "m",
+                                "description": "２メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "トラック諸島",
+                  "code": "9270"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "properties": [
+                      {
+                        "type": "風",
+                        "windPart": {
+                          "sentence": {
+                            "value": "北東  ２５ノット（１３メートル）"
+                          },
+                          "base": {
+                            "windDirections": [
+                              {
+                                "value": "北東",
+                                "type": "風向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "windSpeeds": [
+                              {
+                                "value": 25.0,
+                                "type": "風速",
+                                "unit": "ノット",
+                                "description": "２５ノット"
+                              },
+                              {
+                                "value": 13.0,
+                                "type": "風速",
+                                "unit": "m/s",
+                                "description": "１３メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "properties": [
+                      {
+                        "type": "波",
+                        "waveHeightPart": {
+                          "sentence": {
+                            "value": "４メートル"
+                          },
+                          "base": {
+                            "waveHeights": [
+                              {
+                                "value": 4.0,
+                                "type": "波高",
+                                "unit": "m",
+                                "description": "４メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "ミッドウェー諸島",
+                  "code": "9280"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "properties": [
+                      {
+                        "type": "風",
+                        "windPart": {
+                          "sentence": {
+                            "value": "北東  ２５ノット（１３メートル）"
+                          },
+                          "base": {
+                            "windDirections": [
+                              {
+                                "value": "北東",
+                                "type": "風向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "windSpeeds": [
+                              {
+                                "value": 25.0,
+                                "type": "風速",
+                                "unit": "ノット",
+                                "description": "２５ノット"
+                              },
+                              {
+                                "value": 13.0,
+                                "type": "風速",
+                                "unit": "m/s",
+                                "description": "１３メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "properties": [
+                      {
+                        "type": "波",
+                        "waveHeightPart": {
+                          "sentence": {
+                            "value": "３メートル"
+                          },
+                          "base": {
+                            "waveHeights": [
+                              {
+                                "value": 3.0,
+                                "type": "波高",
+                                "unit": "m",
+                                "description": "３メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "ウェーク島",
+                  "code": "9290"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "properties": [
+                      {
+                        "type": "風",
+                        "windPart": {
+                          "sentence": {
+                            "value": "北東  ２５ノット（１３メートル）"
+                          },
+                          "base": {
+                            "windDirections": [
+                              {
+                                "value": "北東",
+                                "type": "風向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "windSpeeds": [
+                              {
+                                "value": 25.0,
+                                "type": "風速",
+                                "unit": "ノット",
+                                "description": "２５ノット"
+                              },
+                              {
+                                "value": 13.0,
+                                "type": "風速",
+                                "unit": "m/s",
+                                "description": "１３メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "properties": [
+                      {
+                        "type": "波",
+                        "waveHeightPart": {
+                          "sentence": {
+                            "value": "２メートル"
+                          },
+                          "base": {
+                            "waveHeights": [
+                              {
+                                "value": 2.0,
+                                "type": "波高",
+                                "unit": "m",
+                                "description": "２メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "マリアナ諸島",
+                  "code": "9300"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "properties": [
+                      {
+                        "type": "風",
+                        "windPart": {
+                          "sentence": {
+                            "value": "北東  ２５ノット（１３メートル）"
+                          },
+                          "base": {
+                            "windDirections": [
+                              {
+                                "value": "北東",
+                                "type": "風向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "windSpeeds": [
+                              {
+                                "value": 25.0,
+                                "type": "風速",
+                                "unit": "ノット",
+                                "description": "２５ノット"
+                              },
+                              {
+                                "value": 13.0,
+                                "type": "風速",
+                                "unit": "m/s",
+                                "description": "１３メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "properties": [
+                      {
+                        "type": "波",
+                        "waveHeightPart": {
+                          "sentence": {
+                            "value": "２メートル"
+                          },
+                          "base": {
+                            "waveHeights": [
+                              {
+                                "value": 2.0,
+                                "type": "波高",
+                                "unit": "m",
+                                "description": "２メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "カロリン諸島",
+                  "code": "9310"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "properties": [
+                      {
+                        "type": "風",
+                        "windPart": {
+                          "sentence": {
+                            "value": "北東  ２５ノット（１３メートル）"
+                          },
+                          "base": {
+                            "windDirections": [
+                              {
+                                "value": "北東",
+                                "type": "風向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "windSpeeds": [
+                              {
+                                "value": 25.0,
+                                "type": "風速",
+                                "unit": "ノット",
+                                "description": "２５ノット"
+                              },
+                              {
+                                "value": 13.0,
+                                "type": "風速",
+                                "unit": "m/s",
+                                "description": "１３メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "properties": [
+                      {
+                        "type": "波",
+                        "waveHeightPart": {
+                          "sentence": {
+                            "value": "２メートル"
+                          },
+                          "base": {
+                            "waveHeights": [
+                              {
+                                "value": 2.0,
+                                "type": "波高",
+                                "unit": "m",
+                                "description": "２メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "南鳥島",
+                  "code": "9320"
+                }
+              },
+              {
+                "kinds": [
+                  {
+                    "properties": [
+                      {
+                        "type": "風",
+                        "windPart": {
+                          "sentence": {
+                            "value": "北東  ２５ノット（１３メートル）"
+                          },
+                          "base": {
+                            "windDirections": [
+                              {
+                                "value": "北東",
+                                "type": "風向",
+                                "unit": "８方位漢字"
+                              }
+                            ],
+                            "windSpeeds": [
+                              {
+                                "value": 25.0,
+                                "type": "風速",
+                                "unit": "ノット",
+                                "description": "２５ノット"
+                              },
+                              {
+                                "value": 13.0,
+                                "type": "風速",
+                                "unit": "m/s",
+                                "description": "１３メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "properties": [
+                      {
+                        "type": "波",
+                        "waveHeightPart": {
+                          "sentence": {
+                            "value": "２メートル"
+                          },
+                          "base": {
+                            "waveHeights": [
+                              {
+                                "value": 2.0,
+                                "type": "波高",
+                                "unit": "m",
+                                "description": "２メートル"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "area": {
+                  "name": "小笠原諸島",
+                  "code": "9330"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -2,15 +2,15 @@
 <Report xmlns="http://xml.kishou.go.jp/jmaxml1/" xmlns:jmx="http://xml.kishou.go.jp/jmaxml1/" xmlns:jmx_add="http://xml.kishou.go.jp/jmaxml1/addition1/">
 <Control>
 <Title>気象警報・注意報時系列情報（Ｒ０６）</Title>
-<DateTime>2023-06-22T02:00:00Z</DateTime>
+<DateTime>2023-06-21T20:00:00Z</DateTime>
 <Status>通常</Status>
 <EditorialOffice>稚内地方気象台</EditorialOffice>
 <PublishingOffice>稚内地方気象台</PublishingOffice>
 </Control>
 <Head xmlns="http://xml.kishou.go.jp/jmaxml1/informationBasis1/">
 <Title>宗谷地方警戒・注意事項時系列情報</Title>
-<ReportDateTime>2023-06-22T11:00:00+09:00</ReportDateTime>
-<TargetDateTime>2023-06-22T12:00:00+09:00</TargetDateTime>
+<ReportDateTime>2023-06-22T05:00:00+09:00</ReportDateTime>
+<TargetDateTime>2023-06-22T06:00:00+09:00</TargetDateTime>
 <EventID/>
 <InfoType>発表</InfoType>
 <Serial/>
@@ -25,61 +25,71 @@
 <TimeSeriesInfo>
 <TimeDefines>
 <TimeDefine timeId="1">
+<DateTime>2023-06-22T06:00:00+09:00</DateTime>
+<Duration>PT3H</Duration>
+<Name>２２日朝</Name>
+</TimeDefine>
+<TimeDefine timeId="2">
+<DateTime>2023-06-22T09:00:00+09:00</DateTime>
+<Duration>PT3H</Duration>
+<Name>２２日昼前</Name>
+</TimeDefine>
+<TimeDefine timeId="3">
 <DateTime>2023-06-22T12:00:00+09:00</DateTime>
 <Duration>PT3H</Duration>
 <Name>２２日昼過ぎ</Name>
 </TimeDefine>
-<TimeDefine timeId="2">
+<TimeDefine timeId="4">
 <DateTime>2023-06-22T15:00:00+09:00</DateTime>
 <Duration>PT3H</Duration>
 <Name>２２日夕方</Name>
 </TimeDefine>
-<TimeDefine timeId="3">
+<TimeDefine timeId="5">
 <DateTime>2023-06-22T18:00:00+09:00</DateTime>
 <Duration>PT3H</Duration>
 <Name>２２日夜のはじめ頃</Name>
 </TimeDefine>
-<TimeDefine timeId="4">
+<TimeDefine timeId="6">
 <DateTime>2023-06-22T21:00:00+09:00</DateTime>
 <Duration>PT3H</Duration>
 <Name>２２日夜遅く</Name>
 </TimeDefine>
-<TimeDefine timeId="5">
+<TimeDefine timeId="7">
 <DateTime>2023-06-23T00:00:00+09:00</DateTime>
 <Duration>PT3H</Duration>
 <Name>２３日未明</Name>
 </TimeDefine>
-<TimeDefine timeId="6">
+<TimeDefine timeId="8">
 <DateTime>2023-06-23T03:00:00+09:00</DateTime>
 <Duration>PT3H</Duration>
 <Name>２３日明け方</Name>
 </TimeDefine>
-<TimeDefine timeId="7">
+<TimeDefine timeId="9">
 <DateTime>2023-06-23T06:00:00+09:00</DateTime>
 <Duration>PT3H</Duration>
 <Name>２３日朝</Name>
 </TimeDefine>
-<TimeDefine timeId="8">
+<TimeDefine timeId="10">
 <DateTime>2023-06-23T09:00:00+09:00</DateTime>
 <Duration>PT3H</Duration>
 <Name>２３日昼前</Name>
 </TimeDefine>
-<TimeDefine timeId="9">
+<TimeDefine timeId="11">
 <DateTime>2023-06-23T12:00:00+09:00</DateTime>
 <Duration>PT3H</Duration>
 <Name>２３日昼過ぎ</Name>
 </TimeDefine>
-<TimeDefine timeId="10">
+<TimeDefine timeId="12">
 <DateTime>2023-06-23T15:00:00+09:00</DateTime>
 <Duration>PT3H</Duration>
 <Name>２３日夕方</Name>
 </TimeDefine>
-<TimeDefine timeId="11">
+<TimeDefine timeId="13">
 <DateTime>2023-06-23T18:00:00+09:00</DateTime>
 <Duration>PT3H</Duration>
 <Name>２３日夜のはじめ頃</Name>
 </TimeDefine>
-<TimeDefine timeId="12">
+<TimeDefine timeId="14">
 <DateTime>2023-06-23T21:00:00+09:00</DateTime>
 <Duration>PT3H</Duration>
 <Name>２３日夜遅く</Name>
@@ -88,7 +98,7 @@
 <Item>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>大雨浸水危険度</Type>
 <SignificancyPart>
@@ -141,13 +151,21 @@
 <Name>警戒レベル２未満</Name>
 <Code>11</Code>
 </Significancy>
+<Significancy refID="13" type="大雨浸水危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
+<Significancy refID="14" type="大雨浸水危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雨</Type>
 <PrecipitationPart>
@@ -164,13 +182,15 @@
 <jmx_eb:Precipitation description="１０ミリ" refID="10" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
 <jmx_eb:Precipitation description="１０ミリ" refID="11" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
 <jmx_eb:Precipitation description="１０ミリ" refID="12" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
+<jmx_eb:Precipitation description="１０ミリ" refID="13" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
+<jmx_eb:Precipitation description="１０ミリ" refID="14" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
 </Base>
 </PrecipitationPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>土砂災害危険度</Type>
 <SignificancyPart>
@@ -223,13 +243,21 @@
 <Name>警戒レベル２未満</Name>
 <Code>11</Code>
 </Significancy>
+<Significancy refID="13" type="土砂災害危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
+<Significancy refID="14" type="土砂災害危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>風危険度</Type>
 <SignificancyPart>
@@ -284,6 +312,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 <Local>
 <AreaName>宗谷海峡</AreaName>
@@ -335,6 +371,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 </Base>
 </SignificancyPart>
@@ -342,7 +386,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>風</Type>
 <WindDirectionPart>
@@ -361,6 +405,8 @@
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="10" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="11" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="12" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="13" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="14" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 </Local>
 <Local>
 <AreaName>宗谷海峡</AreaName>
@@ -376,6 +422,8 @@
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="10" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="11" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="12" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="13" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="14" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 </Local>
 </Base>
 </WindDirectionPart>
@@ -395,6 +443,8 @@
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="10" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="11" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="12" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="13" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="14" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 </Local>
 <Local>
 <AreaName>宗谷海峡</AreaName>
@@ -410,6 +460,8 @@
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="10" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="11" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="12" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="13" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="14" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 </Local>
 </Base>
 </WindSpeedPart>
@@ -417,7 +469,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雪危険度</Type>
 <SignificancyPart>
@@ -470,13 +522,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雪</Type>
 <SnowfallDepthPart>
@@ -493,13 +553,15 @@
 <jmx_eb:SnowfallDepth description="０センチメートル" refID="10" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
 <jmx_eb:SnowfallDepth description="０センチメートル" refID="11" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
 <jmx_eb:SnowfallDepth description="０センチメートル" refID="12" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
+<jmx_eb:SnowfallDepth description="０センチメートル" refID="13" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
+<jmx_eb:SnowfallDepth description="０センチメートル" refID="14" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
 </Base>
 </SnowfallDepthPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>波危険度</Type>
 <SignificancyPart>
@@ -552,13 +614,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="波危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="波危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>波</Type>
 <WaveHeightPart>
@@ -575,13 +645,15 @@
 <jmx_eb:WaveHeight description="３メートル" refID="10" type="波高" unit="m">3</jmx_eb:WaveHeight>
 <jmx_eb:WaveHeight description="３メートル" refID="11" type="波高" unit="m">3</jmx_eb:WaveHeight>
 <jmx_eb:WaveHeight description="３メートル" refID="12" type="波高" unit="m">3</jmx_eb:WaveHeight>
+<jmx_eb:WaveHeight description="３メートル" refID="13" type="波高" unit="m">3</jmx_eb:WaveHeight>
+<jmx_eb:WaveHeight description="３メートル" refID="14" type="波高" unit="m">3</jmx_eb:WaveHeight>
 </Base>
 </WaveHeightPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>高潮危険度</Type>
 <SignificancyPart>
@@ -636,6 +708,14 @@
 <Name>値なし</Name>
 <Code>00</Code>
 </Significancy>
+<Significancy refID="13" type="高潮危険度">
+<Name>値なし</Name>
+<Code>00</Code>
+</Significancy>
+<Significancy refID="14" type="高潮危険度">
+<Name>値なし</Name>
+<Code>00</Code>
+</Significancy>
 </Local>
 <Local>
 <AreaName>オホーツク海側</AreaName>
@@ -687,6 +767,14 @@
 <Name>値なし</Name>
 <Code>00</Code>
 </Significancy>
+<Significancy refID="13" type="高潮危険度">
+<Name>値なし</Name>
+<Code>00</Code>
+</Significancy>
+<Significancy refID="14" type="高潮危険度">
+<Name>値なし</Name>
+<Code>00</Code>
+</Significancy>
 </Local>
 </Base>
 </SignificancyPart>
@@ -694,47 +782,51 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>高潮</Type>
 <TidalLevelPart>
 <Base>
 <Local>
 <AreaName>日本海側</AreaName>
-<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="1" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="2" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="3" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="4" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="5" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="6" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="7" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="8" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="9" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="10" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="11" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="12" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="1" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="2" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="3" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="4" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="5" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="6" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="7" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="8" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="9" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="10" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="11" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="12" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="13" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="14" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
 </Local>
 <Local>
 <AreaName>オホーツク海側</AreaName>
-<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="1" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="2" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="3" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="4" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="5" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="6" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="7" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="8" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="9" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="10" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="11" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="12" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel></Local>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="1" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="2" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="3" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="4" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="5" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="6" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="7" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="8" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="9" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="10" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="11" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="12" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="13" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="14" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel></Local>
 </Base>
 </TidalLevelPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雷危険度</Type>
 <SignificancyPart>
@@ -787,13 +879,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="雷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="雷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>融雪危険度</Type>
 <SignificancyPart>
@@ -846,13 +946,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="融雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="融雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>濃霧危険度</Type>
 <SignificancyPart>
@@ -907,6 +1015,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 <Local>
 <AreaName>宗谷海峡</AreaName>
@@ -958,6 +1074,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 </Base>
 </SignificancyPart>
@@ -965,7 +1089,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>着氷危険度</Type>
 <SignificancyPart>
@@ -1018,13 +1142,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="着氷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="着氷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>着雪危険度</Type>
 <SignificancyPart>
@@ -1074,6 +1206,14 @@
 <Code>01</Code>
 </Significancy>
 <Significancy refID="12" type="着雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="13" type="着雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="着雪危険度">
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
@@ -1089,7 +1229,7 @@
 <Item>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>大雨浸水危険度</Type>
 <SignificancyPart>
@@ -1142,13 +1282,21 @@
 <Name>警戒レベル２未満</Name>
 <Code>11</Code>
 </Significancy>
+<Significancy refID="13" type="大雨浸水危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
+<Significancy refID="14" type="大雨浸水危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雨</Type>
 <PrecipitationPart>
@@ -1165,13 +1313,15 @@
 <jmx_eb:Precipitation description="１０ミリ" refID="10" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
 <jmx_eb:Precipitation description="１０ミリ" refID="11" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
 <jmx_eb:Precipitation description="１０ミリ" refID="12" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
+<jmx_eb:Precipitation description="１０ミリ" refID="13" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
+<jmx_eb:Precipitation description="１０ミリ" refID="14" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
 </Base>
 </PrecipitationPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>土砂災害危険度</Type>
 <SignificancyPart>
@@ -1224,13 +1374,21 @@
 <Name>警戒レベル２未満</Name>
 <Code>11</Code>
 </Significancy>
+<Significancy refID="13" type="土砂災害危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
+<Significancy refID="14" type="土砂災害危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>風危険度</Type>
 <SignificancyPart>
@@ -1285,6 +1443,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 <Local>
 <AreaName>オホーツク海</AreaName>
@@ -1336,6 +1502,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 </Base>
 </SignificancyPart>
@@ -1343,7 +1517,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>風</Type>
 <WindDirectionPart>
@@ -1362,6 +1536,8 @@
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="10" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="11" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="12" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="13" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="14" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 </Local>
 <Local>
 <AreaName>オホーツク海</AreaName>
@@ -1377,6 +1553,8 @@
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="10" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="11" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="12" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="13" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="14" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 </Local>
 </Base>
 </WindDirectionPart>
@@ -1396,6 +1574,8 @@
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="10" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="11" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="12" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="13" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="14" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 </Local>
 <Local>
 <AreaName>オホーツク海</AreaName>
@@ -1411,6 +1591,8 @@
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="10" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="11" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="12" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="13" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="14" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 </Local>
 </Base>
 </WindSpeedPart>
@@ -1418,7 +1600,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雪危険度</Type>
 <SignificancyPart>
@@ -1471,13 +1653,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雪</Type>
 <SnowfallDepthPart>
@@ -1494,13 +1684,15 @@
 <jmx_eb:SnowfallDepth description="０センチメートル" refID="10" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
 <jmx_eb:SnowfallDepth description="０センチメートル" refID="11" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
 <jmx_eb:SnowfallDepth description="０センチメートル" refID="12" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
+<jmx_eb:SnowfallDepth description="０センチメートル" refID="13" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
+<jmx_eb:SnowfallDepth description="０センチメートル" refID="14" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
 </Base>
 </SnowfallDepthPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>波危険度</Type>
 <SignificancyPart>
@@ -1553,13 +1745,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="波危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="波危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>波</Type>
 <WaveHeightPart>
@@ -1576,13 +1776,15 @@
 <jmx_eb:WaveHeight description="３メートル" refID="10" type="波高" unit="m">3</jmx_eb:WaveHeight>
 <jmx_eb:WaveHeight description="３メートル" refID="11" type="波高" unit="m">3</jmx_eb:WaveHeight>
 <jmx_eb:WaveHeight description="３メートル" refID="12" type="波高" unit="m">3</jmx_eb:WaveHeight>
+<jmx_eb:WaveHeight description="３メートル" refID="13" type="波高" unit="m">3</jmx_eb:WaveHeight>
+<jmx_eb:WaveHeight description="３メートル" refID="14" type="波高" unit="m">3</jmx_eb:WaveHeight>
 </Base>
 </WaveHeightPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>高潮危険度</Type>
 <SignificancyPart>
@@ -1635,36 +1837,46 @@
 <Name>値なし</Name>
 <Code>00</Code>
 </Significancy>
+<Significancy refID="13" type="高潮危険度">
+<Name>値なし</Name>
+<Code>00</Code>
+</Significancy>
+<Significancy refID="14" type="高潮危険度">
+<Name>値なし</Name>
+<Code>00</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>高潮</Type>
 <TidalLevelPart>
 <Base>
-<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="1" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="2" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="3" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="4" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="5" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="6" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="7" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="8" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="9" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="10" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="11" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="12" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="1" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="2" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="3" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="4" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="5" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="6" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="7" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="8" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="9" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="10" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="11" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="12" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="13" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="14" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
 </Base>
 </TidalLevelPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雷危険度</Type>
 <SignificancyPart>
@@ -1717,13 +1929,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="雷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="雷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>融雪危険度</Type>
 <SignificancyPart>
@@ -1776,13 +1996,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="融雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="融雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>濃霧危険度</Type>
 <SignificancyPart>
@@ -1837,6 +2065,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 <Local>
 <AreaName>オホーツク海</AreaName>
@@ -1888,6 +2124,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 </Base>
 </SignificancyPart>
@@ -1895,7 +2139,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>着氷危険度</Type>
 <SignificancyPart>
@@ -1948,13 +2192,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="着氷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="着氷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>着雪危険度</Type>
 <SignificancyPart>
@@ -2004,6 +2256,14 @@
 <Code>01</Code>
 </Significancy>
 <Significancy refID="12" type="着雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="13" type="着雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="着雪危険度">
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
@@ -2019,7 +2279,7 @@
 <Item>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>大雨浸水危険度</Type>
 <SignificancyPart>
@@ -2072,13 +2332,21 @@
 <Name>警戒レベル２未満</Name>
 <Code>11</Code>
 </Significancy>
+<Significancy refID="13" type="大雨浸水危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
+<Significancy refID="14" type="大雨浸水危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雨</Type>
 <PrecipitationPart>
@@ -2095,13 +2363,15 @@
 <jmx_eb:Precipitation description="１０ミリ" refID="10" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
 <jmx_eb:Precipitation description="１０ミリ" refID="11" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
 <jmx_eb:Precipitation description="１０ミリ" refID="12" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
+<jmx_eb:Precipitation description="１０ミリ" refID="13" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
+<jmx_eb:Precipitation description="１０ミリ" refID="14" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
 </Base>
 </PrecipitationPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>土砂災害危険度</Type>
 <SignificancyPart>
@@ -2154,13 +2424,21 @@
 <Name>警戒レベル２未満</Name>
 <Code>11</Code>
 </Significancy>
+<Significancy refID="13" type="土砂災害危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
+<Significancy refID="14" type="土砂災害危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>風危険度</Type>
 <SignificancyPart>
@@ -2215,6 +2493,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 <Local>
 <AreaName>海上</AreaName>
@@ -2266,6 +2552,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 </Base>
 </SignificancyPart>
@@ -2273,7 +2567,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>風</Type>
 <WindDirectionPart>
@@ -2292,6 +2586,8 @@
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="10" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="11" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="12" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="13" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="14" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 </Local>
 <Local>
 <AreaName>海上</AreaName>
@@ -2307,6 +2603,8 @@
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="10" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="11" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="12" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="13" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="14" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 </Local>
 </Base>
 </WindDirectionPart>
@@ -2326,6 +2624,8 @@
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="10" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="11" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="12" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="13" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="14" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 </Local>
 <Local>
 <AreaName>海上</AreaName>
@@ -2341,6 +2641,8 @@
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="10" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="11" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="12" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="13" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="14" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 </Local>
 </Base>
 </WindSpeedPart>
@@ -2348,7 +2650,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雪危険度</Type>
 <SignificancyPart>
@@ -2401,13 +2703,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雪</Type>
 <SnowfallDepthPart>
@@ -2424,13 +2734,15 @@
 <jmx_eb:SnowfallDepth description="０センチメートル" refID="10" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
 <jmx_eb:SnowfallDepth description="０センチメートル" refID="11" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
 <jmx_eb:SnowfallDepth description="０センチメートル" refID="12" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
+<jmx_eb:SnowfallDepth description="０センチメートル" refID="13" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
+<jmx_eb:SnowfallDepth description="０センチメートル" refID="14" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
 </Base>
 </SnowfallDepthPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>波危険度</Type>
 <SignificancyPart>
@@ -2483,13 +2795,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="波危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="波危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>波</Type>
 <WaveHeightPart>
@@ -2506,13 +2826,15 @@
 <jmx_eb:WaveHeight description="３メートル" refID="10" type="波高" unit="m">3</jmx_eb:WaveHeight>
 <jmx_eb:WaveHeight description="３メートル" refID="11" type="波高" unit="m">3</jmx_eb:WaveHeight>
 <jmx_eb:WaveHeight description="３メートル" refID="12" type="波高" unit="m">3</jmx_eb:WaveHeight>
+<jmx_eb:WaveHeight description="３メートル" refID="13" type="波高" unit="m">3</jmx_eb:WaveHeight>
+<jmx_eb:WaveHeight description="３メートル" refID="14" type="波高" unit="m">3</jmx_eb:WaveHeight>
 </Base>
 </WaveHeightPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>高潮危険度</Type>
 <SignificancyPart>
@@ -2565,36 +2887,46 @@
 <Name>値なし</Name>
 <Code>00</Code>
 </Significancy>
+<Significancy refID="13" type="高潮危険度">
+<Name>値なし</Name>
+<Code>00</Code>
+</Significancy>
+<Significancy refID="14" type="高潮危険度">
+<Name>値なし</Name>
+<Code>00</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>高潮</Type>
 <TidalLevelPart>
 <Base>
-<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="1" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="2" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="3" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="4" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="5" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="6" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="7" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="8" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="9" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="10" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="11" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="12" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="1" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="2" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="3" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="4" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="5" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="6" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="7" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="8" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="9" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="10" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="11" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="12" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="13" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="14" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
 </Base>
 </TidalLevelPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雷危険度</Type>
 <SignificancyPart>
@@ -2647,13 +2979,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="雷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="雷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>融雪危険度</Type>
 <SignificancyPart>
@@ -2706,13 +3046,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="融雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="融雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>濃霧危険度</Type>
 <SignificancyPart>
@@ -2767,6 +3115,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 <Local>
 <AreaName>海上</AreaName>
@@ -2818,6 +3174,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 </Base>
 </SignificancyPart>
@@ -2825,7 +3189,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>着氷危険度</Type>
 <SignificancyPart>
@@ -2878,13 +3242,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="着氷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="着氷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>着雪危険度</Type>
 <SignificancyPart>
@@ -2934,6 +3306,14 @@
 <Code>01</Code>
 </Significancy>
 <Significancy refID="12" type="着雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="13" type="着雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="着雪危険度">
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
@@ -2949,7 +3329,7 @@
 <Item>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>大雨浸水危険度</Type>
 <SignificancyPart>
@@ -3002,13 +3382,21 @@
 <Name>警戒レベル２未満</Name>
 <Code>11</Code>
 </Significancy>
+<Significancy refID="13" type="大雨浸水危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
+<Significancy refID="14" type="大雨浸水危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雨</Type>
 <PrecipitationPart>
@@ -3025,13 +3413,15 @@
 <jmx_eb:Precipitation description="１０ミリ" refID="10" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
 <jmx_eb:Precipitation description="１０ミリ" refID="11" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
 <jmx_eb:Precipitation description="１０ミリ" refID="12" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
+<jmx_eb:Precipitation description="１０ミリ" refID="13" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
+<jmx_eb:Precipitation description="１０ミリ" refID="14" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
 </Base>
 </PrecipitationPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>土砂災害危険度</Type>
 <SignificancyPart>
@@ -3084,13 +3474,21 @@
 <Name>警戒レベル２未満</Name>
 <Code>11</Code>
 </Significancy>
+<Significancy refID="13" type="土砂災害危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
+<Significancy refID="14" type="土砂災害危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>風危険度</Type>
 <SignificancyPart>
@@ -3143,13 +3541,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>風</Type>
 <WindDirectionPart>
@@ -3166,6 +3572,8 @@
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="10" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="11" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="12" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="13" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="14" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 </Base>
 </WindDirectionPart>
 <WindSpeedPart>
@@ -3182,13 +3590,15 @@
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="10" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="11" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="12" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="13" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="14" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 </Base>
 </WindSpeedPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雪危険度</Type>
 <SignificancyPart>
@@ -3241,13 +3651,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雪</Type>
 <SnowfallDepthPart>
@@ -3264,13 +3682,15 @@
 <jmx_eb:SnowfallDepth description="０センチメートル" refID="10" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
 <jmx_eb:SnowfallDepth description="０センチメートル" refID="11" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
 <jmx_eb:SnowfallDepth description="０センチメートル" refID="12" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
+<jmx_eb:SnowfallDepth description="０センチメートル" refID="13" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
+<jmx_eb:SnowfallDepth description="０センチメートル" refID="14" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
 </Base>
 </SnowfallDepthPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雷危険度</Type>
 <SignificancyPart>
@@ -3323,13 +3743,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="雷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="雷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>融雪危険度</Type>
 <SignificancyPart>
@@ -3382,13 +3810,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="融雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="融雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>濃霧危険度</Type>
 <SignificancyPart>
@@ -3441,13 +3877,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>着氷危険度</Type>
 <SignificancyPart>
@@ -3500,13 +3944,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="着氷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="着氷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>着雪危険度</Type>
 <SignificancyPart>
@@ -3556,6 +4008,14 @@
 <Code>01</Code>
 </Significancy>
 <Significancy refID="12" type="着雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="13" type="着雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="着雪危険度">
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
@@ -3571,7 +4031,7 @@
 <Item>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>大雨浸水危険度</Type>
 <SignificancyPart>
@@ -3624,13 +4084,21 @@
 <Name>警戒レベル２未満</Name>
 <Code>11</Code>
 </Significancy>
+<Significancy refID="13" type="大雨浸水危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
+<Significancy refID="14" type="大雨浸水危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雨</Type>
 <PrecipitationPart>
@@ -3647,13 +4115,15 @@
 <jmx_eb:Precipitation description="１０ミリ" refID="10" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
 <jmx_eb:Precipitation description="１０ミリ" refID="11" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
 <jmx_eb:Precipitation description="１０ミリ" refID="12" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
+<jmx_eb:Precipitation description="１０ミリ" refID="13" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
+<jmx_eb:Precipitation description="１０ミリ" refID="14" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
 </Base>
 </PrecipitationPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>土砂災害危険度</Type>
 <SignificancyPart>
@@ -3706,13 +4176,21 @@
 <Name>警戒レベル２未満</Name>
 <Code>11</Code>
 </Significancy>
+<Significancy refID="13" type="土砂災害危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
+<Significancy refID="14" type="土砂災害危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>風危険度</Type>
 <SignificancyPart>
@@ -3767,6 +4245,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 <Local>
 <AreaName>海上</AreaName>
@@ -3818,6 +4304,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 </Base>
 </SignificancyPart>
@@ -3825,7 +4319,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>風</Type>
 <WindDirectionPart>
@@ -3844,6 +4338,8 @@
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="10" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="11" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="12" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="13" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="14" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 </Local>
 <Local>
 <AreaName>海上</AreaName>
@@ -3859,6 +4355,8 @@
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="10" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="11" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="12" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="13" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="14" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 </Local>
 </Base>
 </WindDirectionPart>
@@ -3878,6 +4376,8 @@
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="10" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="11" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="12" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="13" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="14" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 </Local>
 <Local>
 <AreaName>海上</AreaName>
@@ -3893,6 +4393,8 @@
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="10" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="11" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="12" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="13" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="14" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 </Local>
 </Base>
 </WindSpeedPart>
@@ -3900,7 +4402,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雪危険度</Type>
 <SignificancyPart>
@@ -3953,13 +4455,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雪</Type>
 <SnowfallDepthPart>
@@ -3976,13 +4486,15 @@
 <jmx_eb:SnowfallDepth description="０センチメートル" refID="10" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
 <jmx_eb:SnowfallDepth description="０センチメートル" refID="11" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
 <jmx_eb:SnowfallDepth description="０センチメートル" refID="12" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
+<jmx_eb:SnowfallDepth description="０センチメートル" refID="13" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
+<jmx_eb:SnowfallDepth description="０センチメートル" refID="14" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
 </Base>
 </SnowfallDepthPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>波危険度</Type>
 <SignificancyPart>
@@ -4035,13 +4547,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="波危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="波危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>波</Type>
 <WaveHeightPart>
@@ -4058,13 +4578,15 @@
 <jmx_eb:WaveHeight description="３メートル" refID="10" type="波高" unit="m">3</jmx_eb:WaveHeight>
 <jmx_eb:WaveHeight description="３メートル" refID="11" type="波高" unit="m">3</jmx_eb:WaveHeight>
 <jmx_eb:WaveHeight description="３メートル" refID="12" type="波高" unit="m">3</jmx_eb:WaveHeight>
+<jmx_eb:WaveHeight description="３メートル" refID="13" type="波高" unit="m">3</jmx_eb:WaveHeight>
+<jmx_eb:WaveHeight description="３メートル" refID="14" type="波高" unit="m">3</jmx_eb:WaveHeight>
 </Base>
 </WaveHeightPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>高潮危険度</Type>
 <SignificancyPart>
@@ -4117,36 +4639,46 @@
 <Name>値なし</Name>
 <Code>00</Code>
 </Significancy>
+<Significancy refID="13" type="高潮危険度">
+<Name>値なし</Name>
+<Code>00</Code>
+</Significancy>
+<Significancy refID="14" type="高潮危険度">
+<Name>値なし</Name>
+<Code>00</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>高潮</Type>
 <TidalLevelPart>
 <Base>
-<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="1" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="2" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="3" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="4" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="5" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="6" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="7" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="8" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="9" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="10" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="11" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="12" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="1" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="2" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="3" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="4" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="5" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="6" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="7" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="8" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="9" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="10" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="11" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="12" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="13" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="14" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
 </Base>
 </TidalLevelPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雷危険度</Type>
 <SignificancyPart>
@@ -4199,13 +4731,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="雷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="雷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>融雪危険度</Type>
 <SignificancyPart>
@@ -4258,13 +4798,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="融雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="融雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>濃霧危険度</Type>
 <SignificancyPart>
@@ -4319,6 +4867,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 <Local>
 <AreaName>海上</AreaName>
@@ -4370,6 +4926,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 </Base>
 </SignificancyPart>
@@ -4377,7 +4941,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>着氷危険度</Type>
 <SignificancyPart>
@@ -4430,13 +4994,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="着氷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="着氷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>着雪危険度</Type>
 <SignificancyPart>
@@ -4486,6 +5058,14 @@
 <Code>01</Code>
 </Significancy>
 <Significancy refID="12" type="着雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="13" type="着雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="着雪危険度">
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
@@ -4501,7 +5081,7 @@
 <Item>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>大雨浸水危険度</Type>
 <SignificancyPart>
@@ -4554,13 +5134,21 @@
 <Name>警戒レベル２未満</Name>
 <Code>11</Code>
 </Significancy>
+<Significancy refID="13" type="大雨浸水危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
+<Significancy refID="14" type="大雨浸水危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雨</Type>
 <PrecipitationPart>
@@ -4577,13 +5165,15 @@
 <jmx_eb:Precipitation description="１０ミリ" refID="10" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
 <jmx_eb:Precipitation description="１０ミリ" refID="11" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
 <jmx_eb:Precipitation description="１０ミリ" refID="12" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
+<jmx_eb:Precipitation description="１０ミリ" refID="13" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
+<jmx_eb:Precipitation description="１０ミリ" refID="14" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
 </Base>
 </PrecipitationPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>土砂災害危険度</Type>
 <SignificancyPart>
@@ -4636,13 +5226,21 @@
 <Name>警戒レベル２未満</Name>
 <Code>11</Code>
 </Significancy>
+<Significancy refID="13" type="土砂災害危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
+<Significancy refID="14" type="土砂災害危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>風危険度</Type>
 <SignificancyPart>
@@ -4697,6 +5295,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 <Local>
 <AreaName>日本海</AreaName>
@@ -4748,6 +5354,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 </Base>
 </SignificancyPart>
@@ -4755,7 +5369,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>風</Type>
 <WindDirectionPart>
@@ -4774,6 +5388,8 @@
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="10" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="11" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="12" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="13" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="14" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 </Local>
 <Local>
 <AreaName>日本海</AreaName>
@@ -4789,6 +5405,8 @@
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="10" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="11" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="12" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="13" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="14" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 </Local>
 </Base>
 </WindDirectionPart>
@@ -4808,6 +5426,8 @@
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="10" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="11" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="12" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="13" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="14" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 </Local>
 <Local>
 <AreaName>日本海</AreaName>
@@ -4823,6 +5443,8 @@
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="10" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="11" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="12" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="13" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="14" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 </Local>
 </Base>
 </WindSpeedPart>
@@ -4830,7 +5452,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雪危険度</Type>
 <SignificancyPart>
@@ -4883,13 +5505,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雪</Type>
 <SnowfallDepthPart>
@@ -4906,13 +5536,15 @@
 <jmx_eb:SnowfallDepth description="０センチメートル" refID="10" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
 <jmx_eb:SnowfallDepth description="０センチメートル" refID="11" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
 <jmx_eb:SnowfallDepth description="０センチメートル" refID="12" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
+<jmx_eb:SnowfallDepth description="０センチメートル" refID="13" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
+<jmx_eb:SnowfallDepth description="０センチメートル" refID="14" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
 </Base>
 </SnowfallDepthPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>波危険度</Type>
 <SignificancyPart>
@@ -4965,13 +5597,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="波危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="波危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>波</Type>
 <WaveHeightPart>
@@ -4988,13 +5628,15 @@
 <jmx_eb:WaveHeight description="３メートル" refID="10" type="波高" unit="m">3</jmx_eb:WaveHeight>
 <jmx_eb:WaveHeight description="３メートル" refID="11" type="波高" unit="m">3</jmx_eb:WaveHeight>
 <jmx_eb:WaveHeight description="３メートル" refID="12" type="波高" unit="m">3</jmx_eb:WaveHeight>
+<jmx_eb:WaveHeight description="３メートル" refID="13" type="波高" unit="m">3</jmx_eb:WaveHeight>
+<jmx_eb:WaveHeight description="３メートル" refID="14" type="波高" unit="m">3</jmx_eb:WaveHeight>
 </Base>
 </WaveHeightPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>高潮危険度</Type>
 <SignificancyPart>
@@ -5047,36 +5689,46 @@
 <Name>値なし</Name>
 <Code>00</Code>
 </Significancy>
+<Significancy refID="13" type="高潮危険度">
+<Name>値なし</Name>
+<Code>00</Code>
+</Significancy>
+<Significancy refID="14" type="高潮危険度">
+<Name>値なし</Name>
+<Code>00</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>高潮</Type>
 <TidalLevelPart>
 <Base>
-<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="1" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="2" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="3" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="4" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="5" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="6" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="7" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="8" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="9" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="10" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="11" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="12" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="1" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="2" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="3" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="4" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="5" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="6" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="7" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="8" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="9" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="10" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="11" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="12" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="13" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="14" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
 </Base>
 </TidalLevelPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雷危険度</Type>
 <SignificancyPart>
@@ -5129,13 +5781,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="雷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="雷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>融雪危険度</Type>
 <SignificancyPart>
@@ -5188,13 +5848,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="融雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="融雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>濃霧危険度</Type>
 <SignificancyPart>
@@ -5249,6 +5917,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 <Local>
 <AreaName>日本海</AreaName>
@@ -5300,6 +5976,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 </Base>
 </SignificancyPart>
@@ -5307,7 +5991,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>着氷危険度</Type>
 <SignificancyPart>
@@ -5360,13 +6044,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="着氷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="着氷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>着雪危険度</Type>
 <SignificancyPart>
@@ -5416,6 +6108,14 @@
 <Code>01</Code>
 </Significancy>
 <Significancy refID="12" type="着雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="13" type="着雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="着雪危険度">
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
@@ -5431,7 +6131,7 @@
 <Item>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>大雨浸水危険度</Type>
 <SignificancyPart>
@@ -5484,13 +6184,21 @@
 <Name>警戒レベル２未満</Name>
 <Code>11</Code>
 </Significancy>
+<Significancy refID="13" type="大雨浸水危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
+<Significancy refID="14" type="大雨浸水危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雨</Type>
 <PrecipitationPart>
@@ -5507,13 +6215,15 @@
 <jmx_eb:Precipitation description="１０ミリ" refID="10" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
 <jmx_eb:Precipitation description="１０ミリ" refID="11" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
 <jmx_eb:Precipitation description="１０ミリ" refID="12" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
+<jmx_eb:Precipitation description="１０ミリ" refID="13" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
+<jmx_eb:Precipitation description="１０ミリ" refID="14" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
 </Base>
 </PrecipitationPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>土砂災害危険度</Type>
 <SignificancyPart>
@@ -5566,13 +6276,21 @@
 <Name>警戒レベル２未満</Name>
 <Code>11</Code>
 </Significancy>
+<Significancy refID="13" type="土砂災害危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
+<Significancy refID="14" type="土砂災害危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>風危険度</Type>
 <SignificancyPart>
@@ -5627,6 +6345,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 <Local>
 <AreaName>海上</AreaName>
@@ -5678,6 +6404,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 </Base>
 </SignificancyPart>
@@ -5685,7 +6419,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>風</Type>
 <WindDirectionPart>
@@ -5704,6 +6438,8 @@
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="10" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="11" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="12" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="13" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="14" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 </Local>
 <Local>
 <AreaName>海上</AreaName>
@@ -5719,6 +6455,8 @@
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="10" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="11" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="12" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="13" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="14" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 </Local>
 </Base>
 </WindDirectionPart>
@@ -5738,6 +6476,8 @@
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="10" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="11" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="12" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="13" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="14" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 </Local>
 <Local>
 <AreaName>海上</AreaName>
@@ -5753,6 +6493,8 @@
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="10" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="11" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="12" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="13" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="14" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 </Local>
 </Base>
 </WindSpeedPart>
@@ -5760,7 +6502,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雪危険度</Type>
 <SignificancyPart>
@@ -5813,13 +6555,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雪</Type>
 <SnowfallDepthPart>
@@ -5836,13 +6586,15 @@
 <jmx_eb:SnowfallDepth description="０センチメートル" refID="10" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
 <jmx_eb:SnowfallDepth description="０センチメートル" refID="11" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
 <jmx_eb:SnowfallDepth description="０センチメートル" refID="12" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
+<jmx_eb:SnowfallDepth description="０センチメートル" refID="13" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
+<jmx_eb:SnowfallDepth description="０センチメートル" refID="14" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
 </Base>
 </SnowfallDepthPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>波危険度</Type>
 <SignificancyPart>
@@ -5895,13 +6647,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="波危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="波危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>波</Type>
 <WaveHeightPart>
@@ -5918,13 +6678,15 @@
 <jmx_eb:WaveHeight description="３メートル" refID="10" type="波高" unit="m">3</jmx_eb:WaveHeight>
 <jmx_eb:WaveHeight description="３メートル" refID="11" type="波高" unit="m">3</jmx_eb:WaveHeight>
 <jmx_eb:WaveHeight description="３メートル" refID="12" type="波高" unit="m">3</jmx_eb:WaveHeight>
+<jmx_eb:WaveHeight description="３メートル" refID="13" type="波高" unit="m">3</jmx_eb:WaveHeight>
+<jmx_eb:WaveHeight description="３メートル" refID="14" type="波高" unit="m">3</jmx_eb:WaveHeight>
 </Base>
 </WaveHeightPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>高潮危険度</Type>
 <SignificancyPart>
@@ -5977,36 +6739,46 @@
 <Name>値なし</Name>
 <Code>00</Code>
 </Significancy>
+<Significancy refID="13" type="高潮危険度">
+<Name>値なし</Name>
+<Code>00</Code>
+</Significancy>
+<Significancy refID="14" type="高潮危険度">
+<Name>値なし</Name>
+<Code>00</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>高潮</Type>
 <TidalLevelPart>
 <Base>
-<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="1" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="2" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="3" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="4" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="5" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="6" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="7" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="8" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="9" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="10" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="11" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="12" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="1" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="2" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="3" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="4" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="5" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="6" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="7" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="8" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="9" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="10" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="11" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="12" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="13" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="14" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
 </Base>
 </TidalLevelPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雷危険度</Type>
 <SignificancyPart>
@@ -6059,13 +6831,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="雷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="雷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>融雪危険度</Type>
 <SignificancyPart>
@@ -6118,13 +6898,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="融雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="融雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>濃霧危険度</Type>
 <SignificancyPart>
@@ -6179,6 +6967,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 <Local>
 <AreaName>海上</AreaName>
@@ -6230,6 +7026,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 </Base>
 </SignificancyPart>
@@ -6237,7 +7041,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>着氷危険度</Type>
 <SignificancyPart>
@@ -6290,13 +7094,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="着氷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="着氷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>着雪危険度</Type>
 <SignificancyPart>
@@ -6346,6 +7158,14 @@
 <Code>01</Code>
 </Significancy>
 <Significancy refID="12" type="着雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="13" type="着雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="着雪危険度">
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
@@ -6361,7 +7181,7 @@
 <Item>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>大雨浸水危険度</Type>
 <SignificancyPart>
@@ -6414,13 +7234,21 @@
 <Name>警戒レベル２未満</Name>
 <Code>11</Code>
 </Significancy>
+<Significancy refID="13" type="大雨浸水危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
+<Significancy refID="14" type="大雨浸水危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雨</Type>
 <PrecipitationPart>
@@ -6437,13 +7265,15 @@
 <jmx_eb:Precipitation description="１０ミリ" refID="10" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
 <jmx_eb:Precipitation description="１０ミリ" refID="11" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
 <jmx_eb:Precipitation description="１０ミリ" refID="12" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
+<jmx_eb:Precipitation description="１０ミリ" refID="13" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
+<jmx_eb:Precipitation description="１０ミリ" refID="14" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
 </Base>
 </PrecipitationPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>土砂災害危険度</Type>
 <SignificancyPart>
@@ -6496,13 +7326,21 @@
 <Name>警戒レベル２未満</Name>
 <Code>11</Code>
 </Significancy>
+<Significancy refID="13" type="土砂災害危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
+<Significancy refID="14" type="土砂災害危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>風危険度</Type>
 <SignificancyPart>
@@ -6557,6 +7395,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 <Local>
 <AreaName>海上</AreaName>
@@ -6608,6 +7454,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 </Base>
 </SignificancyPart>
@@ -6615,7 +7469,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>風</Type>
 <WindDirectionPart>
@@ -6634,6 +7488,8 @@
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="10" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="11" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="12" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="13" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="14" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 </Local>
 <Local>
 <AreaName>海上</AreaName>
@@ -6649,6 +7505,8 @@
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="10" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="11" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="12" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="13" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="14" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 </Local>
 </Base>
 </WindDirectionPart>
@@ -6668,6 +7526,8 @@
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="10" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="11" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="12" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="13" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="14" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 </Local>
 <Local>
 <AreaName>海上</AreaName>
@@ -6683,6 +7543,8 @@
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="10" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="11" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="12" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="13" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="14" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 </Local>
 </Base>
 </WindSpeedPart>
@@ -6690,7 +7552,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雪危険度</Type>
 <SignificancyPart>
@@ -6743,13 +7605,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雪</Type>
 <SnowfallDepthPart>
@@ -6766,13 +7636,15 @@
 <jmx_eb:SnowfallDepth description="０センチメートル" refID="10" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
 <jmx_eb:SnowfallDepth description="０センチメートル" refID="11" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
 <jmx_eb:SnowfallDepth description="０センチメートル" refID="12" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
+<jmx_eb:SnowfallDepth description="０センチメートル" refID="13" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
+<jmx_eb:SnowfallDepth description="０センチメートル" refID="14" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
 </Base>
 </SnowfallDepthPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>波危険度</Type>
 <SignificancyPart>
@@ -6825,13 +7697,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="波危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="波危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>波</Type>
 <WaveHeightPart>
@@ -6848,13 +7728,15 @@
 <jmx_eb:WaveHeight description="３メートル" refID="10" type="波高" unit="m">3</jmx_eb:WaveHeight>
 <jmx_eb:WaveHeight description="３メートル" refID="11" type="波高" unit="m">3</jmx_eb:WaveHeight>
 <jmx_eb:WaveHeight description="３メートル" refID="12" type="波高" unit="m">3</jmx_eb:WaveHeight>
+<jmx_eb:WaveHeight description="３メートル" refID="13" type="波高" unit="m">3</jmx_eb:WaveHeight>
+<jmx_eb:WaveHeight description="３メートル" refID="14" type="波高" unit="m">3</jmx_eb:WaveHeight>
 </Base>
 </WaveHeightPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>高潮危険度</Type>
 <SignificancyPart>
@@ -6907,36 +7789,46 @@
 <Name>値なし</Name>
 <Code>00</Code>
 </Significancy>
+<Significancy refID="13" type="高潮危険度">
+<Name>値なし</Name>
+<Code>00</Code>
+</Significancy>
+<Significancy refID="14" type="高潮危険度">
+<Name>値なし</Name>
+<Code>00</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>高潮</Type>
 <TidalLevelPart>
 <Base>
-<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="1" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="2" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="3" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="4" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="5" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="6" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="7" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="8" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="9" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="10" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="11" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="12" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="1" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="2" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="3" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="4" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="5" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="6" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="7" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="8" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="9" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="10" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="11" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="12" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="13" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="14" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
 </Base>
 </TidalLevelPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雷危険度</Type>
 <SignificancyPart>
@@ -6989,13 +7881,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="雷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="雷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>融雪危険度</Type>
 <SignificancyPart>
@@ -7048,13 +7948,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="融雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="融雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>濃霧危険度</Type>
 <SignificancyPart>
@@ -7109,6 +8017,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 <Local>
 <AreaName>海上</AreaName>
@@ -7160,6 +8076,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 </Base>
 </SignificancyPart>
@@ -7167,7 +8091,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>着氷危険度</Type>
 <SignificancyPart>
@@ -7220,13 +8144,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="着氷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="着氷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>着雪危険度</Type>
 <SignificancyPart>
@@ -7276,6 +8208,14 @@
 <Code>01</Code>
 </Significancy>
 <Significancy refID="12" type="着雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="13" type="着雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="着雪危険度">
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
@@ -7291,7 +8231,7 @@
 <Item>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>大雨浸水危険度</Type>
 <SignificancyPart>
@@ -7344,13 +8284,21 @@
 <Name>警戒レベル２未満</Name>
 <Code>11</Code>
 </Significancy>
+<Significancy refID="13" type="大雨浸水危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
+<Significancy refID="14" type="大雨浸水危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雨</Type>
 <PrecipitationPart>
@@ -7367,13 +8315,15 @@
 <jmx_eb:Precipitation description="１０ミリ" refID="10" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
 <jmx_eb:Precipitation description="１０ミリ" refID="11" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
 <jmx_eb:Precipitation description="１０ミリ" refID="12" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
+<jmx_eb:Precipitation description="１０ミリ" refID="13" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
+<jmx_eb:Precipitation description="１０ミリ" refID="14" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
 </Base>
 </PrecipitationPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>土砂災害危険度</Type>
 <SignificancyPart>
@@ -7426,13 +8376,21 @@
 <Name>警戒レベル２未満</Name>
 <Code>11</Code>
 </Significancy>
+<Significancy refID="13" type="土砂災害危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
+<Significancy refID="14" type="土砂災害危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>風危険度</Type>
 <SignificancyPart>
@@ -7487,6 +8445,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 <Local>
 <AreaName>海上</AreaName>
@@ -7538,6 +8504,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 </Base>
 </SignificancyPart>
@@ -7545,7 +8519,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>風</Type>
 <WindDirectionPart>
@@ -7564,6 +8538,8 @@
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="10" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="11" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="12" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="13" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="14" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 </Local>
 <Local>
 <AreaName>海上</AreaName>
@@ -7579,6 +8555,8 @@
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="10" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="11" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="12" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="13" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="14" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 </Local>
 </Base>
 </WindDirectionPart>
@@ -7598,6 +8576,8 @@
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="10" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="11" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="12" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="13" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="14" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 </Local>
 <Local>
 <AreaName>海上</AreaName>
@@ -7613,6 +8593,8 @@
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="10" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="11" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="12" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="13" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="14" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 </Local>
 </Base>
 </WindSpeedPart>
@@ -7620,7 +8602,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雪危険度</Type>
 <SignificancyPart>
@@ -7673,13 +8655,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雪</Type>
 <SnowfallDepthPart>
@@ -7696,13 +8686,15 @@
 <jmx_eb:SnowfallDepth description="０センチメートル" refID="10" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
 <jmx_eb:SnowfallDepth description="０センチメートル" refID="11" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
 <jmx_eb:SnowfallDepth description="０センチメートル" refID="12" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
+<jmx_eb:SnowfallDepth description="０センチメートル" refID="13" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
+<jmx_eb:SnowfallDepth description="０センチメートル" refID="14" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
 </Base>
 </SnowfallDepthPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>波危険度</Type>
 <SignificancyPart>
@@ -7755,13 +8747,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="波危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="波危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>波</Type>
 <WaveHeightPart>
@@ -7778,13 +8778,15 @@
 <jmx_eb:WaveHeight description="３メートル" refID="10" type="波高" unit="m">3</jmx_eb:WaveHeight>
 <jmx_eb:WaveHeight description="３メートル" refID="11" type="波高" unit="m">3</jmx_eb:WaveHeight>
 <jmx_eb:WaveHeight description="３メートル" refID="12" type="波高" unit="m">3</jmx_eb:WaveHeight>
+<jmx_eb:WaveHeight description="３メートル" refID="13" type="波高" unit="m">3</jmx_eb:WaveHeight>
+<jmx_eb:WaveHeight description="３メートル" refID="14" type="波高" unit="m">3</jmx_eb:WaveHeight>
 </Base>
 </WaveHeightPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>高潮危険度</Type>
 <SignificancyPart>
@@ -7837,36 +8839,46 @@
 <Name>値なし</Name>
 <Code>00</Code>
 </Significancy>
+<Significancy refID="13" type="高潮危険度">
+<Name>値なし</Name>
+<Code>00</Code>
+</Significancy>
+<Significancy refID="14" type="高潮危険度">
+<Name>値なし</Name>
+<Code>00</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>高潮</Type>
 <TidalLevelPart>
 <Base>
-<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="1" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="2" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="3" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="4" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="5" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="6" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="7" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="8" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="9" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="10" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="11" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="12" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="1" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="2" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="3" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="4" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="5" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="6" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="7" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="8" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="9" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="10" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="11" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="12" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="13" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="14" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
 </Base>
 </TidalLevelPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雷危険度</Type>
 <SignificancyPart>
@@ -7919,13 +8931,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="雷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="雷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>融雪危険度</Type>
 <SignificancyPart>
@@ -7978,13 +8998,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="融雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="融雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>濃霧危険度</Type>
 <SignificancyPart>
@@ -8039,6 +9067,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 <Local>
 <AreaName>海上</AreaName>
@@ -8090,6 +9126,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 </Base>
 </SignificancyPart>
@@ -8097,7 +9141,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>着氷危険度</Type>
 <SignificancyPart>
@@ -8150,13 +9194,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="着氷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="着氷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>着雪危険度</Type>
 <SignificancyPart>
@@ -8206,6 +9258,14 @@
 <Code>01</Code>
 </Significancy>
 <Significancy refID="12" type="着雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="13" type="着雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="着雪危険度">
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
@@ -8221,7 +9281,7 @@
 <Item>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>大雨浸水危険度</Type>
 <SignificancyPart>
@@ -8274,13 +9334,21 @@
 <Name>警戒レベル２未満</Name>
 <Code>11</Code>
 </Significancy>
+<Significancy refID="13" type="大雨浸水危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
+<Significancy refID="14" type="大雨浸水危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雨</Type>
 <PrecipitationPart>
@@ -8297,13 +9365,15 @@
 <jmx_eb:Precipitation description="１０ミリ" refID="10" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
 <jmx_eb:Precipitation description="１０ミリ" refID="11" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
 <jmx_eb:Precipitation description="１０ミリ" refID="12" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
+<jmx_eb:Precipitation description="１０ミリ" refID="13" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
+<jmx_eb:Precipitation description="１０ミリ" refID="14" type="１時間最大雨量" unit="mm">10</jmx_eb:Precipitation>
 </Base>
 </PrecipitationPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>土砂災害危険度</Type>
 <SignificancyPart>
@@ -8356,13 +9426,21 @@
 <Name>警戒レベル２未満</Name>
 <Code>11</Code>
 </Significancy>
+<Significancy refID="13" type="土砂災害危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
+<Significancy refID="14" type="土砂災害危険度">
+<Name>警戒レベル２未満</Name>
+<Code>11</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>風危険度</Type>
 <SignificancyPart>
@@ -8417,6 +9495,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 <Local>
 <AreaName>日本海</AreaName>
@@ -8468,6 +9554,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="風危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 </Base>
 </SignificancyPart>
@@ -8475,7 +9569,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>風</Type>
 <WindDirectionPart>
@@ -8494,6 +9588,8 @@
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="10" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="11" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="12" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="13" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="14" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 </Local>
 <Local>
 <AreaName>日本海</AreaName>
@@ -8509,6 +9605,8 @@
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="10" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="11" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 <jmx_eb:WindDirection condition="風雪" description="北西の風" refID="12" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="13" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
+<jmx_eb:WindDirection condition="風雪" description="北西の風" refID="14" type="風向" unit="８方位漢字">北西</jmx_eb:WindDirection>
 </Local>
 </Base>
 </WindDirectionPart>
@@ -8528,6 +9626,8 @@
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="10" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="11" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="12" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="13" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="14" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 </Local>
 <Local>
 <AreaName>日本海</AreaName>
@@ -8543,6 +9643,8 @@
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="10" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="11" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 <jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="12" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="13" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
+<jmx_eb:WindSpeed condition="風雪" description="１５メートル" refID="14" type="最大風速" unit="m/s">15</jmx_eb:WindSpeed>
 </Local>
 </Base>
 </WindSpeedPart>
@@ -8550,7 +9652,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雪危険度</Type>
 <SignificancyPart>
@@ -8603,13 +9705,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雪</Type>
 <SnowfallDepthPart>
@@ -8626,13 +9736,15 @@
 <jmx_eb:SnowfallDepth description="０センチメートル" refID="10" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
 <jmx_eb:SnowfallDepth description="０センチメートル" refID="11" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
 <jmx_eb:SnowfallDepth description="０センチメートル" refID="12" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
+<jmx_eb:SnowfallDepth description="０センチメートル" refID="13" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
+<jmx_eb:SnowfallDepth description="０センチメートル" refID="14" type="６時間最大降雪量" unit="cm">0</jmx_eb:SnowfallDepth>
 </Base>
 </SnowfallDepthPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>波危険度</Type>
 <SignificancyPart>
@@ -8685,13 +9797,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="波危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="波危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>波</Type>
 <WaveHeightPart>
@@ -8708,13 +9828,15 @@
 <jmx_eb:WaveHeight description="３メートル" refID="10" type="波高" unit="m">3</jmx_eb:WaveHeight>
 <jmx_eb:WaveHeight description="３メートル" refID="11" type="波高" unit="m">3</jmx_eb:WaveHeight>
 <jmx_eb:WaveHeight description="３メートル" refID="12" type="波高" unit="m">3</jmx_eb:WaveHeight>
+<jmx_eb:WaveHeight description="３メートル" refID="13" type="波高" unit="m">3</jmx_eb:WaveHeight>
+<jmx_eb:WaveHeight description="３メートル" refID="14" type="波高" unit="m">3</jmx_eb:WaveHeight>
 </Base>
 </WaveHeightPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>高潮危険度</Type>
 <SignificancyPart>
@@ -8767,36 +9889,46 @@
 <Name>値なし</Name>
 <Code>00</Code>
 </Significancy>
+<Significancy refID="13" type="高潮危険度">
+<Name>値なし</Name>
+<Code>00</Code>
+</Significancy>
+<Significancy refID="14" type="高潮危険度">
+<Name>値なし</Name>
+<Code>00</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>高潮</Type>
 <TidalLevelPart>
 <Base>
-<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="1" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="2" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="3" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="4" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="5" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="6" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="7" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="8" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="9" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="10" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="11" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
-<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="12" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="1" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="2" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="3" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="4" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="5" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="6" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="7" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="8" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="9" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="10" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．７メートルの高さ" refID="11" type="潮位" unit="m">0.7</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　１．１メートルの高さ" refID="12" type="潮位" unit="m">1.1</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　０．２メートルの高さ" refID="13" type="潮位" unit="m">0.2</jmx_eb:TidalLevel>
+<jmx_eb:TidalLevel description="標高　マイナス０．３メートルの高さ" refID="14" type="潮位" unit="m">-0.3</jmx_eb:TidalLevel>
 </Base>
 </TidalLevelPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雷危険度</Type>
 <SignificancyPart>
@@ -8849,13 +9981,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="雷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="雷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>融雪危険度</Type>
 <SignificancyPart>
@@ -8908,13 +10048,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="融雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="融雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>濃霧危険度</Type>
 <SignificancyPart>
@@ -8969,6 +10117,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 <Local>
 <AreaName>日本海</AreaName>
@@ -9020,6 +10176,14 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="濃霧危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Local>
 </Base>
 </SignificancyPart>
@@ -9027,7 +10191,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>着氷危険度</Type>
 <SignificancyPart>
@@ -9080,13 +10244,21 @@
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
+<Significancy refID="13" type="着氷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="着氷危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
 </Base>
 </SignificancyPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>着雪危険度</Type>
 <SignificancyPart>
@@ -9136,6 +10308,14 @@
 <Code>01</Code>
 </Significancy>
 <Significancy refID="12" type="着雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="13" type="着雪危険度">
+<Name>注意報級未満</Name>
+<Code>01</Code>
+</Significancy>
+<Significancy refID="14" type="着雪危険度">
 <Name>注意報級未満</Name>
 <Code>01</Code>
 </Significancy>
@@ -9152,9 +10332,9 @@
 <TimeSeriesInfo>
 <TimeDefines>
 <TimeDefine timeId="1">
-<DateTime>2023-06-22T12:00:00+09:00</DateTime>
+<DateTime>2023-06-22T06:00:00+09:00</DateTime>
 <Duration>PT24H</Duration>
-<Name>２３日１２時まで</Name>
+<Name>２３日０６時まで</Name>
 </TimeDefine>
 <TimeDefine timeId="2">
 <DateTime>2023-06-23T00:00:00+09:00</DateTime>
@@ -9165,7 +10345,7 @@
 <Item>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雨</Type>
 <PrecipitationPart>
@@ -9178,7 +10358,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雪</Type>
 <SnowfallDepthPart>
@@ -9197,7 +10377,7 @@
 <Item>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雨</Type>
 <PrecipitationPart>
@@ -9210,7 +10390,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雪</Type>
 <SnowfallDepthPart>
@@ -9229,7 +10409,7 @@
 <Item>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雨</Type>
 <PrecipitationPart>
@@ -9242,7 +10422,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雪</Type>
 <SnowfallDepthPart>
@@ -9261,7 +10441,7 @@
 <Item>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雨</Type>
 <PrecipitationPart>
@@ -9274,7 +10454,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雪</Type>
 <SnowfallDepthPart>
@@ -9293,7 +10473,7 @@
 <Item>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雨</Type>
 <PrecipitationPart>
@@ -9306,7 +10486,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雪</Type>
 <SnowfallDepthPart>
@@ -9325,7 +10505,7 @@
 <Item>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雨</Type>
 <PrecipitationPart>
@@ -9338,7 +10518,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雪</Type>
 <SnowfallDepthPart>
@@ -9357,7 +10537,7 @@
 <Item>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雨</Type>
 <PrecipitationPart>
@@ -9370,7 +10550,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雪</Type>
 <SnowfallDepthPart>
@@ -9389,7 +10569,7 @@
 <Item>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雨</Type>
 <PrecipitationPart>
@@ -9402,7 +10582,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雪</Type>
 <SnowfallDepthPart>
@@ -9421,7 +10601,7 @@
 <Item>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雨</Type>
 <PrecipitationPart>
@@ -9434,7 +10614,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雪</Type>
 <SnowfallDepthPart>
@@ -9453,7 +10633,7 @@
 <Item>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雨</Type>
 <PrecipitationPart>
@@ -9466,7 +10646,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>雪</Type>
 <SnowfallDepthPart>
@@ -9486,8 +10666,8 @@
 <TimeSeriesInfo>
 <TimeDefines>
 <TimeDefine timeId="1">
-<DateTime>2023-06-22T12:00:00+09:00</DateTime>
-<Duration>PT12H</Duration>
+<DateTime>2023-06-22T06:00:00+09:00</DateTime>
+<Duration>PT18H</Duration>
 <Name>２２日</Name>
 </TimeDefine>
 <TimeDefine timeId="2">
@@ -9504,7 +10684,7 @@
 <Item>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>乾燥危険度</Type>
 <SignificancyPart>
@@ -9527,28 +10707,28 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>乾燥</Type>
 <HumidityPart>
 <Base>
 <jmx_eb:Humidity description="５０パーセント" refID="1" type="実効湿度" unit="%">50</jmx_eb:Humidity>
 <jmx_eb:Humidity description="５０パーセント" refID="2" type="実効湿度" unit="%">50</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 <HumidityPart>
 <Base>
 <jmx_eb:Humidity description="３５パーセント" refID="1" type="最小湿度" unit="%">35</jmx_eb:Humidity>
 <jmx_eb:Humidity description="３５パーセント" refID="2" type="最小湿度" unit="%">35</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>なだれ危険度</Type>
 <SignificancyPart>
@@ -9571,7 +10751,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>低温危険度</Type>
 <SignificancyPart>
@@ -9594,7 +10774,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>霜危険度</Type>
 <SignificancyPart>
@@ -9623,7 +10803,7 @@
 <Item>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>乾燥危険度</Type>
 <SignificancyPart>
@@ -9646,28 +10826,28 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>乾燥</Type>
 <HumidityPart>
 <Base>
 <jmx_eb:Humidity description="５０パーセント" refID="1" type="実効湿度" unit="%">50</jmx_eb:Humidity>
 <jmx_eb:Humidity description="５０パーセント" refID="2" type="実効湿度" unit="%">50</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 <HumidityPart>
 <Base>
 <jmx_eb:Humidity description="３５パーセント" refID="1" type="最小湿度" unit="%">35</jmx_eb:Humidity>
 <jmx_eb:Humidity description="３５パーセント" refID="2" type="最小湿度" unit="%">35</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>なだれ危険度</Type>
 <SignificancyPart>
@@ -9690,7 +10870,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>低温危険度</Type>
 <SignificancyPart>
@@ -9713,7 +10893,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>霜危険度</Type>
 <SignificancyPart>
@@ -9742,7 +10922,7 @@
 <Item>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>乾燥危険度</Type>
 <SignificancyPart>
@@ -9765,28 +10945,28 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>乾燥</Type>
 <HumidityPart>
 <Base>
 <jmx_eb:Humidity description="５０パーセント" refID="1" type="実効湿度" unit="%">50</jmx_eb:Humidity>
 <jmx_eb:Humidity description="５０パーセント" refID="2" type="実効湿度" unit="%">50</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 <HumidityPart>
 <Base>
 <jmx_eb:Humidity description="３５パーセント" refID="1" type="最小湿度" unit="%">35</jmx_eb:Humidity>
 <jmx_eb:Humidity description="３５パーセント" refID="2" type="最小湿度" unit="%">35</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>なだれ危険度</Type>
 <SignificancyPart>
@@ -9809,7 +10989,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>低温危険度</Type>
 <SignificancyPart>
@@ -9832,7 +11012,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>霜危険度</Type>
 <SignificancyPart>
@@ -9861,7 +11041,7 @@
 <Item>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>乾燥危険度</Type>
 <SignificancyPart>
@@ -9884,28 +11064,28 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>乾燥</Type>
 <HumidityPart>
 <Base>
 <jmx_eb:Humidity description="５０パーセント" refID="1" type="実効湿度" unit="%">50</jmx_eb:Humidity>
 <jmx_eb:Humidity description="５０パーセント" refID="2" type="実効湿度" unit="%">50</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 <HumidityPart>
 <Base>
 <jmx_eb:Humidity description="３５パーセント" refID="1" type="最小湿度" unit="%">35</jmx_eb:Humidity>
 <jmx_eb:Humidity description="３５パーセント" refID="2" type="最小湿度" unit="%">35</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>なだれ危険度</Type>
 <SignificancyPart>
@@ -9928,7 +11108,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>低温危険度</Type>
 <SignificancyPart>
@@ -9951,7 +11131,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>霜危険度</Type>
 <SignificancyPart>
@@ -9980,7 +11160,7 @@
 <Item>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>乾燥危険度</Type>
 <SignificancyPart>
@@ -10003,28 +11183,28 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>乾燥</Type>
 <HumidityPart>
 <Base>
 <jmx_eb:Humidity description="５０パーセント" refID="1" type="実効湿度" unit="%">50</jmx_eb:Humidity>
 <jmx_eb:Humidity description="５０パーセント" refID="2" type="実効湿度" unit="%">50</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 <HumidityPart>
 <Base>
 <jmx_eb:Humidity description="３５パーセント" refID="1" type="最小湿度" unit="%">35</jmx_eb:Humidity>
 <jmx_eb:Humidity description="３５パーセント" refID="2" type="最小湿度" unit="%">35</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>なだれ危険度</Type>
 <SignificancyPart>
@@ -10047,7 +11227,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>低温危険度</Type>
 <SignificancyPart>
@@ -10070,7 +11250,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>霜危険度</Type>
 <SignificancyPart>
@@ -10099,7 +11279,7 @@
 <Item>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>乾燥危険度</Type>
 <SignificancyPart>
@@ -10122,28 +11302,28 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>乾燥</Type>
 <HumidityPart>
 <Base>
 <jmx_eb:Humidity description="５０パーセント" refID="1" type="実効湿度" unit="%">50</jmx_eb:Humidity>
 <jmx_eb:Humidity description="５０パーセント" refID="2" type="実効湿度" unit="%">50</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 <HumidityPart>
 <Base>
 <jmx_eb:Humidity description="３５パーセント" refID="1" type="最小湿度" unit="%">35</jmx_eb:Humidity>
 <jmx_eb:Humidity description="３５パーセント" refID="2" type="最小湿度" unit="%">35</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>なだれ危険度</Type>
 <SignificancyPart>
@@ -10166,7 +11346,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>低温危険度</Type>
 <SignificancyPart>
@@ -10189,7 +11369,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>霜危険度</Type>
 <SignificancyPart>
@@ -10218,7 +11398,7 @@
 <Item>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>乾燥危険度</Type>
 <SignificancyPart>
@@ -10241,28 +11421,28 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>乾燥</Type>
 <HumidityPart>
 <Base>
 <jmx_eb:Humidity description="５０パーセント" refID="1" type="実効湿度" unit="%">50</jmx_eb:Humidity>
 <jmx_eb:Humidity description="５０パーセント" refID="2" type="実効湿度" unit="%">50</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 <HumidityPart>
 <Base>
 <jmx_eb:Humidity description="３５パーセント" refID="1" type="最小湿度" unit="%">35</jmx_eb:Humidity>
 <jmx_eb:Humidity description="３５パーセント" refID="2" type="最小湿度" unit="%">35</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>なだれ危険度</Type>
 <SignificancyPart>
@@ -10285,7 +11465,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>低温危険度</Type>
 <SignificancyPart>
@@ -10308,7 +11488,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>霜危険度</Type>
 <SignificancyPart>
@@ -10337,7 +11517,7 @@
 <Item>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>乾燥危険度</Type>
 <SignificancyPart>
@@ -10360,28 +11540,28 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>乾燥</Type>
 <HumidityPart>
 <Base>
 <jmx_eb:Humidity description="５０パーセント" refID="1" type="実効湿度" unit="%">50</jmx_eb:Humidity>
 <jmx_eb:Humidity description="５０パーセント" refID="2" type="実効湿度" unit="%">50</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 <HumidityPart>
 <Base>
 <jmx_eb:Humidity description="３５パーセント" refID="1" type="最小湿度" unit="%">35</jmx_eb:Humidity>
 <jmx_eb:Humidity description="３５パーセント" refID="2" type="最小湿度" unit="%">35</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>なだれ危険度</Type>
 <SignificancyPart>
@@ -10404,7 +11584,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>低温危険度</Type>
 <SignificancyPart>
@@ -10427,7 +11607,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>霜危険度</Type>
 <SignificancyPart>
@@ -10456,7 +11636,7 @@
 <Item>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>乾燥危険度</Type>
 <SignificancyPart>
@@ -10479,28 +11659,28 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>乾燥</Type>
 <HumidityPart>
 <Base>
 <jmx_eb:Humidity description="５０パーセント" refID="1" type="実効湿度" unit="%">50</jmx_eb:Humidity>
 <jmx_eb:Humidity description="５０パーセント" refID="2" type="実効湿度" unit="%">50</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 <HumidityPart>
 <Base>
 <jmx_eb:Humidity description="３５パーセント" refID="1" type="最小湿度" unit="%">35</jmx_eb:Humidity>
 <jmx_eb:Humidity description="３５パーセント" refID="2" type="最小湿度" unit="%">35</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>なだれ危険度</Type>
 <SignificancyPart>
@@ -10523,7 +11703,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>低温危険度</Type>
 <SignificancyPart>
@@ -10546,7 +11726,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>霜危険度</Type>
 <SignificancyPart>
@@ -10575,7 +11755,7 @@
 <Item>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>乾燥危険度</Type>
 <SignificancyPart>
@@ -10598,28 +11778,28 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>乾燥</Type>
 <HumidityPart>
 <Base>
 <jmx_eb:Humidity description="５０パーセント" refID="1" type="実効湿度" unit="%">50</jmx_eb:Humidity>
 <jmx_eb:Humidity description="５０パーセント" refID="2" type="実効湿度" unit="%">50</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="実効湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 <HumidityPart>
 <Base>
 <jmx_eb:Humidity description="３５パーセント" refID="1" type="最小湿度" unit="%">35</jmx_eb:Humidity>
 <jmx_eb:Humidity description="３５パーセント" refID="2" type="最小湿度" unit="%">35</jmx_eb:Humidity>
-<jmx_eb:Humidity description="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
+<jmx_eb:Humidity condition="値なし" refID="3" type="最小湿度" unit="%"></jmx_eb:Humidity>
 </Base>
 </HumidityPart>
 </Property>
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>なだれ危険度</Type>
 <SignificancyPart>
@@ -10642,7 +11822,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>低温危険度</Type>
 <SignificancyPart>
@@ -10665,7 +11845,7 @@
 </Kind>
 <Kind>
 <Status>発表</Status>
-<DateTime type="発表時刻">2023-06-22T11:00:00+09:00</DateTime>
+<DateTime type="発表時刻">2023-06-22T05:00:00+09:00</DateTime>
 <Property>
 <Type>霜危険度</Type>
 <SignificancyPart>

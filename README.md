@@ -35,8 +35,3 @@ make test
 ```
 
 実行には [uv](https://docs.astral.sh/uv/) が必要です。
-
-## Author
-
-- Taku Fukada ([@ciscorn](https://github.com/ciscorn)) - Original author
-- and [all contributors](https://github.com/ciscorn/jmaxml/graphs/contributors)!
