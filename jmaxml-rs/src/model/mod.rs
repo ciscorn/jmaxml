@@ -7,8 +7,8 @@ use serde::{Deserialize, Serialize};
 use crate::{Result, parser::parse_report};
 pub use generated::*;
 
-pub type DateTime = chrono::DateTime<chrono::Utc>;
-pub type Duration = iso8601_duration::Duration;
+pub type DateTime = jiff::Timestamp;
+pub type Duration = jiff::Span;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]
