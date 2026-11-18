@@ -8,7 +8,7 @@ use crate::{Result, parser::parse_report};
 pub use generated::*;
 
 pub type DateTime = jiff::Timestamp;
-pub type Duration = jiff::Span;
+pub type Span = jiff::Span;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]
