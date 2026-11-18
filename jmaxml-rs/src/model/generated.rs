@@ -2,7 +2,7 @@
 
 use serde::{Deserialize, Deserializer, Serialize};
 
-use super::{DateTime, Duration, NullableDateTime, StringList};
+use super::{DateTime, NullableDateTime, Span, StringList};
 
 fn trim_string<'de, D>(deserializer: D) -> Result<String, D::Error>
 where
@@ -2392,7 +2392,7 @@ pub struct IbHead {
         rename = "targetDuration",
         skip_serializing_if = "Option::is_none"
     )]
-    pub target_duration: Option<Duration>,
+    pub target_duration: Option<Span>,
     /// 失効時刻
     ///
     /// 本情報の失効時刻がある場合、これを示す。
@@ -2880,7 +2880,7 @@ pub struct MeteBaseCriteria {
         rename = "duration",
         skip_serializing_if = "Option::is_none"
     )]
-    pub duration: Option<Duration>,
+    pub duration: Option<Span>,
     /// 注意事項・付加事項
     ///
     /// 注意事項・付加事項を示す（注意警戒事項を示す）
@@ -4412,7 +4412,7 @@ pub struct MeteCriteriaPeriod {
         rename = "duration",
         skip_serializing_if = "Option::is_none"
     )]
-    pub duration: Option<Duration>,
+    pub duration: Option<Span>,
     /// 注意事項・付加事項
     ///
     /// 注意事項・付加事項を示す（注意警戒事項を示す）
@@ -4634,7 +4634,7 @@ pub struct MeteEventDatePart {
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct MeteEventDuration {
     #[serde(alias = "$text", rename = "value")]
-    pub value: Duration,
+    pub value: Span,
     /// クラスの種別名
     ///
     /// 事象が示すクラス・レベルの種別を示す。
@@ -5351,7 +5351,7 @@ pub struct MeteLocalCriteria {
         rename = "duration",
         skip_serializing_if = "Option::is_none"
     )]
-    pub duration: Option<Duration>,
+    pub duration: Option<Span>,
     /// 注意事項・付加事項
     ///
     /// 注意事項・付加事項を示す（注意警戒事項を示す）
@@ -6345,7 +6345,7 @@ pub struct MeteMeteorologicalInfo {
         rename = "duration",
         skip_serializing_if = "Option::is_none"
     )]
-    pub duration: Option<Duration>,
+    pub duration: Option<Span>,
     /// 予報・観測時間の内容
     ///
     /// 予報期間、観測時間を文章で示す
@@ -9347,7 +9347,7 @@ pub struct MeteTimeDefine {
         rename = "duration",
         skip_serializing_if = "Option::is_none"
     )]
-    pub duration: Option<Duration>,
+    pub duration: Option<Span>,
     /// 予報・観測時間の内容
     ///
     /// 予報期間、観測時間を文章で示す
@@ -11965,7 +11965,7 @@ pub struct SeisTsunamiItem {
         rename = "duration",
         skip_serializing_if = "Option::is_none"
     )]
-    pub duration: Option<Duration>,
+    pub duration: Option<Span>,
     /// 津波観測点
     ///
     /// 津波観測点の要素を示す
